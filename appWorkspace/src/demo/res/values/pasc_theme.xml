@@ -1,0 +1,6 @@
+<resources>
+    <color name="pasc_bg_configurable_page">#78a69c</color>
+    <color name="pasc_main_page_search_hint">#e74619</color>
+    <color name="pasc_dialog_cancel_text">#20e719</color>
+    <color name="pasc_dialog_confirm_text">#d14f0a</color>
+</resources>

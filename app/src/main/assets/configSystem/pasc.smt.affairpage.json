@@ -1,0 +1,592 @@
+[
+  {
+    "id": "bannerContainer",
+    "type": "container-oneColumn",
+    "load": "getBanner",
+    "loadType": "-1",
+    "items": [
+      {
+        "id": "banner",
+        "ratio": 2.3,
+        "shelterVisible": false,
+        "imgDefaultRes": "res://affair_bg_header",
+        "type": "component-banner",
+        "dataSource": [],
+        "onClickEventId": "affair_banner",
+        "onClickEventParams": {
+          "eventLabel": "banner"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[-6,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://affair_bg_line",
+        "imgWidthRatio": 1125,
+        "imgHeightRatio": 27,
+        "imgRatioRef": 1
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "padding": "[0,0,0,0]",
+      "margin": "[-35,48,0,48]"
+    },
+    "items": [
+      {
+        "type": "component-searchTextBg",
+        "title": "搜索办事，如“公司登记”",
+        "evenId": "",
+        "searchType": "1,3",
+        "rootBg": "res://pasc_affair_search_bg"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "header": {
+      "type": "component-cardHeader",
+      "title": "个人办事",
+      "titleBold": true,
+      "iconVisible": false,
+      "partitionVisible": false,
+      "arrowIconVisible": false,
+      "onClickEventId": "home_more_service",
+      "onClickParams": {
+        "eventLabel": "个人办事"
+      }
+    },
+    "style": {
+      "padding": "[15,0,16,0]",
+      "bgColor": "#ffffff"
+    }
+  },
+  {
+    "type": "container-fourColumn",
+    "style": {
+      "vGap": 16,
+      "hGap": 4,
+      "padding": "[0,0,10,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "style": {
+          "padding": "[5,0,5,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://affair_ic_bszn",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "办事指南",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[5,0,5,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://affair_ic_yyqh",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "预约取号",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[5,0,5,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://affair_ic_jdcx",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "进度查询",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[5,0,5,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://affair_ic_ays",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "AI预审",
+        "onClick": "event://NotValid"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "header": {
+      "type": "component-cardHeader",
+      "title": "企业办事",
+      "titleBold": true,
+      "iconVisible": false,
+      "partitionVisible": true,
+      "arrowIconVisible": false,
+      "onClickEventId": "home_more_service",
+      "onClickParams": {
+        "eventLabel": "特色服务"
+      }
+    },
+    "style": {
+      "padding": "[0,0,16,0]",
+      "bgColor": "#ffffff"
+    }
+  },
+  {
+    "type": "container-fourColumn",
+    "style": {
+      "vGap": 16,
+      "hGap": 4,
+      "padding": "[0,0,0,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "style": {
+          "padding": "[0,0,0,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://affair_ic_qykb",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "企业开办",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[0,0,0,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://affair_ic_msjx",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "免申即享",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[0,0,0,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://affaif_ic_xmsb",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "项目申报",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[0,0,0,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://affair_ic_dwcb",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "单位参保",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[0,0,0,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://affair_ic_zypxbt",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "职业培训补贴",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[0,0,0,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://affair_ic_ldygba",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "劳动用工备案",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[0,0,0,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://affair_ic_gscfxx",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "工商处罚信息",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[0,0,0,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://home_ic_all",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "全部",
+        "onClick": "event://NotValid"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-mCardHeader",
+        "style": {
+          "padding": "[15,0,0,0]"
+        },
+        "title": "主题事项",
+        "titleBold": true,
+        "iconVisible": false,
+        "arrowIconVisible": true,
+        "moreVisible": true,
+        "more": "更多",
+        "descVisible": true,
+        "partitionVisible": true,
+        "onClick": "event://SimpleClick?eventId=allService&serviceTab=jtcx",
+        "titleFontSize": "18",
+        "onClickEventId": "首页-交通出行-更多",
+        "onClickEventParams": {
+          "eventLabel": "更多"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "padding": "[16,12,12,12]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-BgTwoTextView",
+        "title": "户政",
+        "titleColor": "#ffffff",
+        "titleFontSize": 15,
+        "titleBold": false,
+        "style": {
+          "margin": "[3,3,3,3]"
+        },
+        "desc": "户籍户口服务",
+        "descColor": "#ffffff",
+        "descFontSize": 13,
+        "descBold": false,
+        "imgHeight": 64,
+        "descVisible": false,
+        "titleVisible": false,
+        "imgUrl": "res://affair_bg_hz",
+        "onClick": "https://zwfw.bjshy.com.cn/shunyi-jimu/431/?uiparams=%7B%22isHide%22:true%7D#/",
+        "onClickEventId": "0201办事-全周期办事",
+        "onClickEventParams": {
+          "eventLabel": "新生儿"
+        }
+      },
+      {
+        "type": "component-BgTwoTextView",
+        "title": "医疗",
+        "titleColor": "#ffffff",
+        "titleFontSize": 15,
+        "titleBold": false,
+        "imgVisible": true,
+        "desc": "医疗健康服务",
+        "descColor": "#ffffff",
+        "descFontSize": 13,
+        "descBold": false,
+        "imgHeight": 64,
+        "descVisible": false,
+        "titleVisible": false,
+        "imgUrl": "res://affair_bg_yl",
+        "style": {
+          "margin": "[3,3,3,3]"
+        },
+        "onClick": "https://zwfw.bjshy.com.cn/shunyi-jimu/433/?uiparams=%7B%22isHide%22:true%7D#/",
+        "onClickEventId": "0201办事-全周期办事",
+        "onClickEventParams": {
+          "eventLabel": "入学"
+        }
+      },
+      {
+        "type": "component-BgTwoTextView",
+        "title": "购房",
+        "titleColor": "#ffffff",
+        "titleFontSize": 15,
+        "titleBold": false,
+        "desc": "公积金及贷款服务",
+        "descColor": "#ffffff",
+        "descFontSize": 13,
+        "descBold": false,
+        "imgVisible": true,
+        "imgHeight": 64,
+        "descVisible": false,
+        "titleVisible": false,
+        "imgUrl": "res://affair_bg_gf",
+        "style": {
+          "margin": "[3,3,3,3]"
+        },
+        "onClick": "https://zwfw.bjshy.com.cn/shunyi-jimu/439/?uiparams=%7B%22isHide%22:true%7D#/",
+        "onClickEventId": "0201办事-全周期办事",
+        "onClickEventParams": {
+          "eventLabel": "考试"
+        }
+      },
+      {
+        "type": "component-BgTwoTextView",
+        "title": "社保",
+        "titleColor": "#ffffff",
+        "titleFontSize": 15,
+        "imgHeight": 64,
+        "titleBold": false,
+        "imgVisible": true,
+        "desc": "社会保障服务",
+        "descColor": "#ffffff",
+        "descFontSize": 13,
+        "descBold": false,
+        "descVisible": false,
+        "titleVisible": false,
+        "imgUrl": "res://affair_bg_sb",
+        "style": {
+          "margin": "[3,3,3,3]"
+        },
+        "onClick": "https://zwfw.bjshy.com.cn/shunyi-jimu/435/?uiparams=%7B%22isHide%22:true%7D#/",
+        "onClickEventId": "0201办事-全周期办事",
+        "onClickEventParams": {
+          "eventLabel": "找工作"
+        }
+      },
+      {
+        "type": "component-BgTwoTextView",
+        "title": "入学",
+        "titleColor": "#ffffff",
+        "titleFontSize": 15,
+        "titleBold": false,
+        "desc": "小孩入学服务",
+        "descColor": "#ffffff",
+        "descFontSize": 13,
+        "descBold": false,
+        "imgVisible": true,
+        "imgHeight": 64,
+        "descVisible": false,
+        "titleVisible": false,
+        "imgUrl": "res://affair_bg_rx",
+        "style": {
+          "margin": "[3,3,3,3]"
+        },
+        "onClick": "https://zwfw.bjshy.com.cn/shunyi-jimu/439/?uiparams=%7B%22isHide%22:true%7D#/",
+        "onClickEventId": "0201办事-全周期办事",
+        "onClickEventParams": {
+          "eventLabel": "考试"
+        }
+      },
+      {
+        "type": "component-BgTwoTextView",
+        "title": "缴费",
+        "titleColor": "#ffffff",
+        "titleFontSize": 15,
+        "imgHeight": 64,
+        "titleBold": false,
+        "imgVisible": true,
+        "desc": "生活缴费服务",
+        "descColor": "#ffffff",
+        "descFontSize": 13,
+        "descBold": false,
+        "descVisible": false,
+        "titleVisible": false,
+        "imgUrl": "res://affair_bg_jf",
+        "style": {
+          "margin": "[3,3,3,3]"
+        },
+        "onClick": "https://zwfw.bjshy.com.cn/shunyi-jimu/435/?uiparams=%7B%22isHide%22:true%7D#/",
+        "onClickEventId": "0201办事-全周期办事",
+        "onClickEventParams": {
+          "eventLabel": "找工作"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "loadType": "-1",
+    "header": {
+      "type": "component-cardHeader",
+      "title": "政民互动",
+      "titleBold": true,
+      "iconVisible": false,
+      "partitionVisible": true,
+      "arrowIconVisible": false,
+      "onClickEventId": "home_more_service",
+      "onClickParams": {
+        "eventLabel": "深圳印象"
+      }
+    }
+  },
+  {
+    "type": "container-threeColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[15,0,18,0]"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://affair_ic_mssl",
+        "style": {
+          "bgUrl": "res://affair_bg_zmhd"
+        },
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "民生受理"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://affair_ic_hlwjd",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "互联网监督"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://affair_ic_jdgk",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "监督公开"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "loadType": "-1",
+    "header": {
+      "type": "component-cardHeader",
+      "title": "部门办事",
+      "titleBold": true,
+      "iconVisible": false,
+      "partitionVisible": true,
+      "arrowIconVisible": false,
+      "onClickEventId": "home_more_service",
+      "onClickParams": {
+        "eventLabel": "部门办事"
+      }
+    }
+  },
+  {
+    "type": "container-oneColumn",
+    "columnCount": 2,
+    "items": [
+      {
+        "type": "component-imgSpTextView",
+        "iconUrl": "res://affair_ic_gaj",
+        "title": "公安局",
+        "onClick": "http://www.my.gov.cn/mlmy/index.html"
+      },
+      {
+        "type": "component-imgSpTextView",
+        "iconUrl": "res://affair_ic_rsj",
+        "title": "人社局",
+        "onClick": "http://www.my.gov.cn/mlmy/index.html"
+      },
+      {
+        "type": "component-imgSpTextView",
+        "iconUrl": "res://affair_ic_ylbzj",
+        "title": "医疗保障局",
+        "onClick": "http://www.my.gov.cn/mlmy/index.html"
+      },
+      {
+        "type": "component-imgSpTextView",
+        "iconUrl": "res://affair_ic_zfgjjglzx",
+        "title": "住房公积金管理中心",
+        "onClick": "http://www.my.gov.cn/mlmy/index.html"
+      },
+      {
+        "type": "component-imgSpTextView",
+        "iconUrl": "res://affair_ic_mzj",
+        "title": "民政局",
+        "onClick": "http://www.my.gov.cn/mlmy/index.html"
+      },
+      {
+        "type": "component-imgSpTextView",
+        "iconUrl": "res://affair_ic_zfcxjsj",
+        "title": "住房和城乡建设局",
+        "onClick": "http://www.my.gov.cn/mlmy/index.html"
+      },
+      {
+        "type": "component-imgSpTextView",
+        "iconUrl": "res://affair_ic_zrzyj",
+        "title": "自然资源局",
+        "onClick": "http://www.my.gov.cn/mlmy/index.html"
+      },
+      {
+        "type": "component-imgSpTextView",
+        "iconUrl": "res://affair_ic_yczmj",
+        "title": "烟草专卖局",
+        "onClick": "http://www.my.gov.cn/mlmy/index.html"
+      },
+      {
+        "type": "component-imgSpTextView",
+        "iconUrl": "res://affair_ic_slj",
+        "title": "水利局",
+        "onClick": "http://www.my.gov.cn/mlmy/index.html"
+      }
+    ]
+  },
+  {
+    "type": "component-singleText",
+    "style": {
+      "padding": "[12,8,12,8]",
+      "bgImgUrl": "res://bg_single_text"
+    },
+    "title": "查看更多",
+    "gravity": "center",
+    "titleColor": "#1890FF",
+    "titleFontSize": 15,
+    "onClick": "https://app.flmy.mianyang.cn/app/feature/jimu/76/",
+    "onClickEventId": "个人版生活页-活动资讯-更多资讯"
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-horizontalDivider",
+        "height": 30,
+        "color": "#f7f7f7"
+      }
+    ]
+  }
+]

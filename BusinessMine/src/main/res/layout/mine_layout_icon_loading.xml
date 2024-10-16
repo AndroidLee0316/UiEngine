@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/common_dialog_loading_relativelayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="150dp"
+    android:padding="20dp"
+    android:background="@drawable/mine_common_dialog_loading_bg"
+    >
+  <FrameLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:id="@+id/container">
+  <ProgressBar
+      android:id="@+id/common_dialog_loading_progressbar"
+      android:layout_width="40dp"
+      android:layout_height="40dp"
+      android:layout_centerHorizontal="true"
+      android:layout_gravity="center"
+      style="?android:attr/progressBarStyleSmall"
+      android:visibility="invisible"
+      />
+    <ImageView
+        android:id="@+id/common_dialog_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/mine_cache_succeed"
+        android:visibility="invisible"/>
+  </FrameLayout>
+  <TextView
+      android:id="@+id/common_dialog_loading_textview"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/container"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="10dp"
+      android:gravity="center_horizontal"
+      android:singleLine="true"
+      android:textColor="@color/white_ffffff"
+      android:textSize="@dimen/text_size_17"
+      tools:text="teeessssssss"
+      />
+
+
+</RelativeLayout>

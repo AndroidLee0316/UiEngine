@@ -1,0 +1,249 @@
+[
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "id": "personal_header",
+        "type": "component-personalHeader",
+        "pageHeight": 190,
+        "bgUrl": "res://mine_bg_personal_center",
+        "loginDesc": "欢迎登录市民通基线版",
+        "nameColor": "#FFFFFF",
+        "loginDescColor": "#FFFFFF",
+        "authBtn": {
+          "desc": "立即实名认证",
+          "desc2": "已实名认证",
+          "drawableRight": "res://ic_personal_go_certification",
+          "bgUrl": "res://mine_bg_auth_btn_no",
+          "textColor": "#FFFFFF"
+        },
+        "creditBtn": {
+          "desc": "个人信用",
+          "drawableRight": "res://ic_personal_go_certification",
+          "bgUrl": "res://mine_bg_auth_btn_no",
+          "textColor": "#FFFFFF",
+          "isHidden": true
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-mineCardHeader",
+        "title": "我的卡包",
+        "showArrow": true,
+        "isNeedLogin": true,
+        "textStyle": "bold",
+        "showBottomDivider": true,
+        "arrowUrl": "res://mine_ic_right_arrow",
+        "arrowWidth":12,
+        "arrowHeight":12,
+        "desc": "全部证照",
+        "onClick": "event://GoToMyCard",
+        "onClickEventId": "wd",
+        "onClickEventParams": {
+          "服务名称": "我的卡包"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "container-myCard",
+        "id": "personal_my_card",
+        "pageWidth": 300,
+        "pageHeight": 130,
+        "hGap": 3,
+        "scrollMarginLeft": 9,
+        "scrollMarginRight": 9,
+        "scrollMarginBottom": 12,
+        "hasIndicator": false,
+        "itemRatio": 2.307,
+        "tag": "base"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-horizontalDivider",
+        "pageHeight": 6,
+        "bgColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-mineCardHeader",
+        "divider": false,
+        "title": "我的服务",
+        "textStyle": "bold",
+        "arrowUrl": "res://mine_ic_user_head_arrow",
+        "arrowWidth":12,
+        "arrowHeight":12,
+        "showArrow": false,
+        "showBottomDivider": false,
+        "iconUrl": "res://ic_main_page_title_my_affairs",
+        "desc": ""
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "items": [
+      {
+        "type": "component-leftIconRightTwoText",
+        "iconUrl": "res://mine_ic_my_work",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "title": "我的办事",
+        "isNeedLogin": true,
+        "showRightDivider": true,
+        "desc": "线上办事",
+        "onClick": "event://GoToMyAffair",
+        "onClickEventId": "wd",
+        "onClickEventParams": {
+          "服务名称": "我的办事"
+        }
+      },
+      {
+        "type": "component-leftIconRightTwoText",
+        "iconUrl": "res://mine_ic_my_register",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "title": "我的预约",
+        "isNeedLogin": true,
+        "showRightDivider": true,
+        "desc": "挂号、线下办事",
+        "onClick": "event://GoToMyRegister",
+        "onClickEventId": "wd",
+        "onClickEventParams": {
+          "服务名称": "我的预约"
+        }
+      },
+      {
+        "type": "component-leftIconRightTwoText",
+        "iconUrl": "res://mine_ic_my_pay",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "title": "我的缴费",
+        "isNeedLogin": true,
+        "showRightDivider": true,
+        "desc": "生活缴费记录",
+        "onClick": "event://GoToMyPay",
+        "onClickEventId": "wd",
+        "onClickEventParams": {
+          "服务名称": "我的缴费"
+        }
+      },
+      {
+        "type": "component-leftIconRightTwoText",
+        "iconUrl": "res://mine_ic_my_follow",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "title": "我的收藏",
+        "isNeedLogin": true,
+        "showRightDivider": false,
+        "desc": "收藏/关注新闻事项",
+        "onClick": "event://GoToMyFollow",
+        "onClickEventId": "wd",
+        "onClickEventParams": {
+          "服务名称": "我的收藏"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-horizontalDivider",
+        "pageHeight": 6,
+        "bgColor": "#ffffff"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-settingItem",
+        "title": "推荐市民通基线版",
+        "desc": "",
+        "arrowUrl": "res://mine_ic_item_arrow_right",
+        "arrowWidth":12,
+        "arrowHeight":12,
+        "iconUrl": "",
+        "iconWidth": 22,
+        "iconHeight": 22,
+        "showBottomDivider": true,
+        "isNeedLogin": true,
+        "onClick": "https://smt-stg.pingan.com.cn/changshu/app/feature/recommend/#/qrcode",
+        "onClickEventId": "mine_share",
+        "onClickEventParams": {
+          "服务名称": "推荐市民通基线版"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-settingItem",
+        "title": "去好评",
+        "desc": "",
+        "arrowUrl": "res://mine_ic_item_arrow_right",
+        "arrowWidth":12,
+        "arrowHeight":12,
+        "iconUrl": "",
+        "iconWidth": 22,
+        "iconHeight": 22,
+        "showBottomDivider": true,
+        "onClick": "event://GoToPraise",
+        "onClickEventId": "wd",
+        "onClickEventParams": {
+          "服务名称": "去好评"
+        }
+      }
+    ]
+  },
+  {
+  "type": "container-oneColumn",
+  "items": [
+    {
+      "type": "component-settingItem",
+      "title": "分享(测试使用)",
+      "desc": "",
+      "arrowUrl": "res://mine_ic_item_arrow_right",
+      "arrowWidth":12,
+      "arrowHeight":12,
+      "iconUrl": "",
+      "iconWidth": 22,
+      "iconHeight": 22,
+      "showBottomDivider": false,
+      "onClick": "event://GoToShare",
+      "onClickEventId": "wd",
+      "onClickEventParams": {
+        "服务名称": "分享"
+      }
+    }
+  ]
+}, {
+  "type": "container-oneColumn",
+  "items": [
+    {
+      "type": "component-horizontalDivider",
+      "pageHeight": 6,
+      "bgColor": "#ffffff"
+    }
+  ]
+}
+]

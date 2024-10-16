@@ -1,0 +1,20 @@
+{
+  "type": "component-horizontalScroll",
+  "hGap": 6,
+  "scrollMarginLeft": 15,
+  "scrollMarginRight": 15,
+  "items": [
+    {
+      "type": "component-card",
+      "style": {
+        "width": -2
+      }
+    },
+    {
+      "type": "component-card",
+      "style": {
+        "width": -2
+      }
+    }
+  ]
+}

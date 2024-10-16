@@ -1,0 +1,16 @@
+{
+  "settingConfig": {
+    "profile": true,
+    "security": true,
+    "feedback": false,
+    "clearCache": true,
+    "about": true
+  },
+  "profileConfig": {
+    "portrait": false,
+    "username": true,
+    "mobile": true,
+    "certificateType": true,
+    "address": true
+  }
+}

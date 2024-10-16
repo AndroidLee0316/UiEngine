@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_ffffff"
+    android:orientation="vertical">
+    <com.pingan.cs.widget.CommonTitleView
+        android:id="@+id/common_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.pingan.cs.widget.CommonTitleView>
+    <ImageView
+        android:layout_width="@dimen/dp_73.0"
+        android:layout_height="@dimen/dp_73.0"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_36.0"
+        android:src="@drawable/ic_launcher"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/wisdom_city"
+    android:layout_marginTop="@dimen/dp_10"
+    android:layout_gravity="center_horizontal"
+    android:textSize="@dimen/text_size_24"
+    android:textColor="@color/red_EC4A52"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_search_work"
+        android:layout_marginTop="@dimen/dp_30.0"
+        android:textSize="@dimen/text_size_17"
+        android:layout_marginLeft="@dimen/dp_15.0"
+        android:textColor="@color/gray_5b5959"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dp_15.0"
+        android:layout_marginTop="@dimen/dp_10.0"
+        android:layout_marginRight="@dimen/dp_15.0"
+        android:layout_height="@dimen/dp_52.0"
+        android:background="@drawable/bg_work_search">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_search_work_hint"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_15.0"
+            android:textColor="@color/gray_A29D9D"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_15.0"
+            android:src="@mipmap/ic_search"/>
+    </RelativeLayout>
+</LinearLayout>

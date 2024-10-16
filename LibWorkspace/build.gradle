@@ -1,0 +1,51 @@
+apply plugin: 'com.android.library'
+// 发布maven配置
+apply plugin: 'maven'
+uploadArchives{
+    repositories.mavenDeployer{
+        pom.groupId = "com.zxs.lib"// 唯一标识（通常为模块包名，也可以任意）
+        pom.artifactId = "workspace" // 项目名称（通常为类库模块名称，也可以任意）
+        pom.version = "1.0.0" // 版本号
+        // 配置本地仓库路径，项目根目录下的repository目录中
+        repository(url: uri('E:/zxsCode/maven'))
+    }
+}
+
+
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName(), targetModuleName: project.getName()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api LIB_NET
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47'
+    api LIB_BASE
+
+    annotationProcessor "com.github.Raizlabs.DBFlow:dbflow-processor:4.2.4"
+}

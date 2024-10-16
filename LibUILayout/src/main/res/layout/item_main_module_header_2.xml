@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="ResourceName"
+    >
+
+  <View
+      android:id="@+id/partitionView"
+      android:layout_width="match_parent"
+      android:layout_height="8dp"
+      android:layout_marginBottom="16dp"
+      android:background="#f2f6f9"
+      app:layout_constraintBottom_toTopOf="@+id/titleView"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+  <android.support.constraint.Guideline
+      android:id="@+id/leftGuideline"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      app:layout_constraintGuide_begin="15dp"
+      />
+
+  <android.support.constraint.Guideline
+      android:id="@+id/rightGuideline"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      app:layout_constraintGuide_end="15dp"
+      />
+
+  <ImageView
+      android:id="@+id/iconView"
+      android:layout_width="16dp"
+      android:layout_height="16dp"
+      android:layout_marginRight="8dp"
+      android:src="@drawable/ic_flower"
+      app:layout_constraintBottom_toBottomOf="@+id/titleView"
+      app:layout_constraintHorizontal_chainStyle="spread_inside"
+      app:layout_constraintLeft_toRightOf="@+id/leftGuideline"
+      app:layout_constraintRight_toLeftOf="@+id/titleView"
+      app:layout_constraintTop_toTopOf="@+id/titleView"
+      />
+
+  <TextView
+      android:id="@+id/titleView"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:text="标题"
+      android:textColor="#333333"
+      android:textSize="17dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toRightOf="@+id/iconView"
+      app:layout_constraintRight_toLeftOf="@+id/descView"
+      app:layout_constraintTop_toBottomOf="@+id/partitionView"
+      />
+
+  <TextView
+      android:id="@+id/descView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="8dp"
+      android:text="已入驻8家部门单位"
+      android:textColor="#999999"
+      android:textSize="13dp"
+      app:layout_constraintBottom_toBottomOf="@+id/titleView"
+      app:layout_constraintLeft_toRightOf="@+id/titleView"
+      app:layout_constraintRight_toLeftOf="@+id/arrowIconView"
+      app:layout_constraintTop_toTopOf="@+id/titleView"
+      />
+
+  <ImageView
+      android:id="@+id/arrowIconView"
+      android:layout_width="12dp"
+      android:layout_height="12dp"
+      android:layout_marginLeft="4dp"
+      android:src="@drawable/ic_card_header_arrow"
+      app:layout_constraintBottom_toBottomOf="@+id/titleView"
+      app:layout_constraintLeft_toRightOf="@+id/descView"
+      app:layout_constraintRight_toLeftOf="@+id/rightGuideline"
+      app:layout_constraintTop_toTopOf="@+id/titleView"
+      />
+
+
+</android.support.constraint.ConstraintLayout>
+

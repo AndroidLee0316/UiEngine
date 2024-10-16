@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/fl_card_all_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="130dp">
+
+    <ImageView
+        android:id="@+id/iv_my_card_bg"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/workspace_card_pkg_jb" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="17dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_my_card_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            tools:text="江北高新科技有限公司" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="社会信用代码："
+                android:textColor="#99FFFFFF"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/tv_my_card_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#99FFFFFF"
+                android:textSize="13dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                tools:text="23434********891" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_4"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="法定代表人："
+                android:textColor="#99FFFFFF"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/tv_my_card_dept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#99FFFFFF"
+                android:layout_marginRight="60dp"
+                android:textSize="13dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                tools:text="杨*明" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.flyco.roundview.RoundTextView
+        android:id="@+id/tv_my_card_unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="19dp"
+        android:gravity="center_vertical"
+        tools:text="审核中"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
+
+</FrameLayout>

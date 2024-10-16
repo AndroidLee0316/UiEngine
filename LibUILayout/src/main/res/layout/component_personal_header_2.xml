@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/all_content_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <com.pasc.lib.widget.tangram.RoundedImageView
+      android:id="@+id/imageView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"
+      app:layout_constraintBottom_toTopOf="@+id/dataView"
+      app:layout_constraintLeft_toLeftOf="@+id/dataView"
+      >
+  </com.pasc.lib.widget.tangram.RoundedImageView>
+
+  <com.pasc.lib.widget.tangram.SingleTextView
+      android:id="@+id/personNameView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="16dp"
+      app:layout_constraintBottom_toTopOf="@+id/authView"
+      app:layout_constraintLeft_toRightOf="@+id/imageView"
+      app:layout_constraintTop_toTopOf="@+id/imageView"
+      >
+  </com.pasc.lib.widget.tangram.SingleTextView>
+
+  <com.pasc.lib.widget.tangram.TwoIconTextView
+      android:id="@+id/authView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="16dp"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView"
+      app:layout_constraintLeft_toRightOf="@+id/imageView"
+      app:layout_constraintTop_toBottomOf="@+id/personNameView"
+      >
+  </com.pasc.lib.widget.tangram.TwoIconTextView>
+
+  <android.support.constraint.ConstraintLayout
+      android:id="@+id/dataView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/bg_data"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      >
+
+    <FrameLayout
+        android:id="@+id/scoreLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/dividerView"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+      <com.pasc.lib.widget.tangram.IconTwoTextView
+          android:id="@+id/scoreView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          >
+      </com.pasc.lib.widget.tangram.IconTwoTextView>
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/dividerView"
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="#ececec"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/scoreLayout"
+        app:layout_constraintRight_toLeftOf="@+id/stepNumLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <FrameLayout
+        android:id="@+id/stepNumLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/dividerView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+      <com.pasc.lib.widget.tangram.IconTwoTextView
+          android:id="@+id/stepNumView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          >
+      </com.pasc.lib.widget.tangram.IconTwoTextView>
+
+    </FrameLayout>
+
+
+  </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

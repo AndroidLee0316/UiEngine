@@ -1,0 +1,42 @@
+<resources>
+    <string name="main_search_server">查询服务</string>
+    <string name="main_good_monring">早上好</string>
+    <string name="main_welcome_online_lobby">欢迎来到网上大厅</string>
+    <string name="main_search_hint">请输入办事业务关键词</string>
+    <string name="calce">取消</string>
+    <string name="wisdom_city">智慧常熟</string>
+    <string name="main_search_work">查询办事进度</string>
+    <string name="main_search_work_hint">请输入办件编号</string>
+    <string name="main_search_hit">行政审批事项</string>
+    <string name="main_search_no_result">未搜索到相关内容哦</string>
+    <string name="affair_letter_conten">信件内容</string>
+    <string name="affair_letter_hint">请输入信件内容</string>
+    <string name="commit">提交</string>
+    <string name="affair_police">常熟市公安交管部门推出多项“放管服”便民</string>
+    <string name="affair_title">政务</string>
+    <string name="affair_go_lobbys">点击进入</string>
+    <string name="affair_header_title_lobby">网上大厅 轻松e行</string>
+    <string name="affair_header_hint">事项办理，手机轻松搞定</string>
+
+    <string name="affair_traffic">交通</string>
+    <string name="affair_traffic_describle">运输经营许可证</string>
+    <string name="affair_reside">住建</string>
+    <string name="affair_reside_describle">房屋租赁登记</string>
+    <string name="affair_person_society">人社</string>
+    <string name="affair_person_society_describle">养老保险退休审批</string>
+    <string name="affair_public_security">公安</string>
+    <string name="affair_public_security_describle">户口登记注销迁移</string>
+    <string name="affair_citizen_voice">政民互动</string>
+    <string name="affair_online_consult">在线咨询</string>
+    <string name="affair_online_consult_describle">有事问政府</string>
+    <string name="affair_suggest">建言献策</string>
+    <string name="affair_suggest_desrcible">我给政府提意见</string>
+    <string name="affair_complaint">投诉诉求</string>
+    <string name="affair_complaint_describle">有意见早投诉</string>
+    <string name="affair_popular_will">民意征集</string>
+    <string name="affair_popular_will_describle">公共事务民众参与</string>
+    <string name="affair_mayor_box">市长信箱</string>
+    <string name="affair_mayor_box_describle">我给市长写封信</string>
+
+
+</resources>

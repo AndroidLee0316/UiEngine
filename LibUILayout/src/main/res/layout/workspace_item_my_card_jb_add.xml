@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/fl_card_all_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="130dp">
+
+    <ImageView
+        android:id="@+id/iv_my_card_bg"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/workspace_card_pkg_jb_add" />
+
+    <com.flyco.roundview.RoundTextView
+        android:id="@+id/tv_my_card_unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:text="点击添加"
+        android:textColor="#017AF9"
+        android:textSize="15sp"
+        app:rv_backgroundColor="#FFFFFF"
+        app:rv_cornerRadius="100dp" />
+</FrameLayout>

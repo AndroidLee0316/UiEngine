@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_bg"
+    android:orientation="vertical">
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1px"
+    android:id="@+id/top_view"/>
+  <com.pasc.lib.widget.toolbar.PascToolbar
+      android:id="@+id/title_view"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/blue_38b0ff"
+      app:leftIcon="@drawable/mine_ic_back_white"
+      app:title="个人信用"
+      app:titleColor="@color/white_ffffff"
+      app:titleSize="@dimen/text_size_18"
+      />
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/rv"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="visible"
+      />
+
+  <LinearLayout
+      android:id="@+id/ll_not_certification_page"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:visibility="gone"
+      >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="77dp"
+        android:src="@drawable/mine_ic_not_certification"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:text="您还未认证"
+        android:textColor="@color/black_2b3244"
+        android:textSize="@dimen/text_size_24"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="17dp"
+        android:text="您当前为未实名状态，请先进行身份认证再查询个人信用"
+        android:textColor="@color/gray_798698"
+        android:textSize="@dimen/text_size_14"
+        />
+
+    <com.flyco.roundview.RoundTextView
+        android:id="@+id/rtv_goto_certification"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="去认证"
+        android:textColor="@color/white_ffffff"
+        android:textSize="@dimen/text_size_17"
+        app:rv_backgroundColor="@color/blue_27a5f9"
+        app:rv_cornerRadius="1dp"
+        />
+
+    <TextView
+        android:id="@+id/rtv_cancel_certification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:text="暂不认证"
+        android:textColor="@color/gray_8d8d8d"
+        android:textSize="@dimen/text_size_15"
+        />
+
+
+  </LinearLayout>
+
+
+</LinearLayout>

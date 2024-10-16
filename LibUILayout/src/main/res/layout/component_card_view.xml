@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+  <ImageView
+      android:id="@+id/imgView"
+      android:layout_width="300dp"
+      android:layout_height="130dp"
+      android:scaleType="fitXY"
+      android:src="@drawable/bg_card"
+      />
+
+  <TextView
+      android:id="@+id/titleView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="18dp"
+      android:ellipsize="end"
+      android:maxLines="1"
+      android:text="深圳市住房公积金管理中心"
+      android:textColor="#99FFFFFF"
+      android:textSize="13dp"
+      app:layout_constraintLeft_toLeftOf="@+id/imgView"
+      app:layout_constraintTop_toTopOf="@+id/imgView"
+      />
+
+  <TextView
+      android:id="@+id/cardNameView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="2dp"
+      android:ellipsize="end"
+      android:maxLines="1"
+      android:text="公积金"
+      android:textColor="#FFFFFF"
+      android:textSize="22dp"
+      app:layout_constraintLeft_toLeftOf="@+id/titleView"
+      app:layout_constraintTop_toBottomOf="@+id/titleView"
+      />
+
+  <TextView
+      android:id="@+id/descView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="22dp"
+      android:ellipsize="end"
+      android:maxLines="1"
+      android:textColor="#99FFFFFF"
+      android:textSize="13dp"
+      app:layout_constraintBottom_toBottomOf="@+id/imgView"
+      app:layout_constraintLeft_toLeftOf="@+id/titleView"
+      tools:text="F*******"
+      />
+
+  <TextView
+      android:id="@+id/actionDescView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="22dp"
+      android:layout_marginRight="20dp"
+      android:background="@drawable/bg_card_action"
+      android:gravity="center"
+      android:text="去登录"
+      android:textColor="#FFFFFF"
+      android:textSize="13dp"
+      app:layout_constraintBottom_toBottomOf="@+id/imgView"
+      app:layout_constraintRight_toRightOf="@+id/imgView"
+      />
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+

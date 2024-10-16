@@ -1,0 +1,12 @@
+{
+  "type": "component-imgText",
+  "title": "车主服务专区",
+  "titleColor": "#ffffff",
+  "titleFontSize": 15,
+  "titleBold": false,
+  "imgVisible": true,
+  "imgUrl": "res://img_census",
+  "imgWidth": 120,
+  "imgHeight": 78,
+  "imgMargin": "[0,0,0,0]"
+}

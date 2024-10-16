@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_ffffff"
+                android:fitsSystemWindows="true"
+   >
+
+
+    <com.pasc.lib.widget.toolbar.PascToolbar
+        android:id="@+id/ctv_topbar"
+        style="@style/WhiteFontToolbar"
+        android:background="@color/white"
+        app:enable_under_divider="true"
+        app:support_translucent_status_bar="false"
+        app:title="@string/business_mine_feedback"
+        app:title_text_color="@color/black_333333"
+        app:back_icon="@drawable/mine_temp_ic_back"
+        app:under_divider_color="@color/gray_d5d5d5" />
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="@dimen/dp_140.0"
+        android:layout_height="@dimen/dp_140.0"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ctv_topbar"
+        android:layout_marginTop="@dimen/dp_80.0"
+        android:src="@drawable/feedback_ic_feedback_success" />
+
+    <TextView
+        android:id="@+id/tv_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_21"
+        android:textColor="@color/black_333333"
+        android:layout_below="@+id/iv_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_20.0"
+        android:text="@string/business_mine_submit_success"/>
+
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_14"
+        android:textColor="@color/gray_6a6a6a"
+        android:layout_below="@+id/tv_success"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_5.0"
+        android:text="@string/feedback_tips"/>
+
+    <com.pasc.lib.widget.roundview.RoundTextView
+        android:id="@+id/rtv_done"
+        android:layout_width="@dimen/dp_116.0"
+        android:layout_height="@dimen/dp_44.0"
+        android:layout_below="@+id/tv_tips"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white_ffffff"
+        android:layout_marginTop="@dimen/dp_20.0"
+        android:textSize="@dimen/text_size_17"
+        android:gravity="center"
+        app:rv_backgroundColor="@color/red_e03a1f"
+        app:rv_strokeColor="@color/red_e03a1f"
+        app:rv_cornerRadius="@dimen/dp_3.0"
+        app:rv_strokeWidth="@dimen/dp_1.0"
+        android:text="@string/feedback_done"/>
+
+
+
+
+</RelativeLayout>

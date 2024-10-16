@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--设置页面的TextView样式-->
+    <style name="SettingTextViewStyle" parent="BaseSettingTextViewStyle">
+        <item name="android:drawableRight">@drawable/mine_ic_item_arrow_right</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+
+    <style name="BaseSettingTextViewStyle">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/black_333333</item>
+        <item name="android:textSize">@dimen/text_size_17</item>
+        <item name="android:drawablePadding">11dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/mine_selector_item_common</item>
+    </style>
+
+    <style name="InteractionTabTextSize" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">@dimen/text_size_17</item>
+    </style>
+
+    <style name="style_business_user_item_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/black_333333</item>
+        <item name="android:textSize">@dimen/text_size_18</item>
+    </style>
+
+    <style name="style_business_user_item_entry">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black_3C4058</item>
+        <item name="android:textSize">@dimen/text_size_13</item>
+    </style>
+    <style name="icon_loading_dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="choose_option_dialog" parent="icon_loading_dialog">
+    </style>
+    <style name="AppTheme" parent="android:Theme.NoTitleBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/theme_color</item>
+    </style>
+
+
+    <!-- Customize theme for floating. -->
+    <style name="AppTheme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+</resources>

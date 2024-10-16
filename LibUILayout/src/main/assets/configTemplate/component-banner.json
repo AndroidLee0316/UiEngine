@@ -1,0 +1,46 @@
+{
+  "type": "container-oneColumn",
+  "style": {
+    "aspectRatio": 1.56
+  },
+  "items": [
+    {
+      "id": "banner",
+      "type": "component-banner",
+      "imgDefaultRes": "res://img_default_banner",
+      "indicatorSelectedRes": "res://ic_indicator_long_dash_dot",
+      "indicatorNormalRes": "res://ic_indicator_dot",
+      "indicatorPosition": "bottomRight",
+      "indicatorPadding": "[8,8,8,8]",
+      "radius": 10,
+      "ratio": 1.56,
+      "imgFrame": "radius",
+      "imgFrameVisible": true,
+      "shelter": "sphereSurface",
+      "shelterVisible": true,
+      "actionsVisible": true,
+      "actions": [
+        {
+          "iconUrl": "res://ic_banner_action_icon_0",
+          "title": "疾病预测"
+        },
+        {
+          "iconUrl": "res://ic_banner_action_icon_1",
+          "title": "车辆违章"
+        },
+        {
+          "iconUrl": "res://ic_banner_action_icon_2",
+          "title": "爱车估值"
+        },
+        {
+          "iconUrl": "res://ic_banner_action_icon_3",
+          "title": "房贷计算器"
+        }
+      ],
+      "dataSource": []
+    }
+  ],
+  "id": "bannerContainer",
+  "load": "getBanner",
+  "loadType": "-1"
+}

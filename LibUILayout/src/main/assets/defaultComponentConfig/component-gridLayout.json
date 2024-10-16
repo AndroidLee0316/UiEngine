@@ -1,0 +1,38 @@
+{
+  "type": "component-gridLayout",
+  "style": {
+    "padding": "[0,15,0,15]",
+    "bgImgUrl": "res://bg_grid"
+  },
+  "columnCount": 3,
+  "actionItems": [
+    {
+      "type": "component-iconText",
+      "iconVisible": true,
+      "iconUrl": "res://ic_pay",
+      "iconWidth": 45,
+      "iconHeight": 45,
+      "gap": 2,
+      "title": "生活缴费",
+      "onClick": "event://NotValid"
+    },
+    {
+      "type": "component-iconText",
+      "iconVisible": true,
+      "iconUrl": "res://ic_park",
+      "iconWidth": 45,
+      "iconHeight": 45,
+      "gap": 2,
+      "title": "智慧停车"
+    },
+    {
+      "type": "component-iconText",
+      "iconVisible": true,
+      "iconUrl": "res://ic_bus",
+      "iconWidth": 45,
+      "iconHeight": 45,
+      "gap": 2,
+      "title": "实时公交"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "component-iconTwoTextSalt",
+  "style": {
+    "padding": "[8,8,8,8]"
+  },
+  "title": "就医记录",
+  "titleColor": "#333333",
+  "titleFontSize": 15,
+  "titleBold": true,
+  "desc": "就诊情况快速查询",
+  "descColor": "#999999",
+  "descFontSize": 13,
+  "descBold": false,
+  "lineGap": 6,
+  "iconVisible": true,
+  "iconUrl": "res://ic_record",
+  "iconWidth": 20,
+  "iconHeight": 20,
+  "iconMargin": "[0,8,0,0]"
+}

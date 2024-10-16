@@ -1,0 +1,296 @@
+[
+  {
+    "id": "bannerContainer",
+    "type": "container-oneColumn",
+    "load": "getBanner",
+    "loadType": "-1",
+    "items": [
+      {
+        "id": "banner",
+        "ratio": 1.36,
+        "shelterVisible": true,
+        "mascotViewVisible": true,
+        "shelter": "concaveNew",
+        "image5GUrl": "res://homepage_5g_image",
+        "jump5GUrl": "https://uat-csweb.csx.cn/inxingsha/index.html#/page",
+        "indicatorPosition": "bottomCenter",
+        "indicatorPadding": "[0,0,20,0]",
+        "indicatorVisible": false,
+        "type": "component-banner",
+        "dataSource": [],
+        "duration": 5000
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "loadType": "-1",
+    "style": {},
+    "items": [
+      {
+        "id": "wygNotice",
+        "type": "component-twoIconBgTextView",
+        "style": {
+          "width": 340,
+          "height": 44,
+          "margin": "[-44,20,0,20]"
+        },
+        "rootBgWidth": -1,
+        "rootBgHeight": 44,
+        "rootBgUrl": "res://homepage_notice_bg",
+        "localBgVisible": true,
+        "leftIconWidth": "68",
+        "leftIconHeight": "14",
+        "leftIconUrl": "res://homepage_notice_lefticon",
+        "rightIconWidth": "11",
+        "rightIconHeight": "11",
+        "rightIconUrl": "res://homepage_notice_righticon",
+        "title": "",
+        "titleFontSize": 12,
+        "titleColor": "#3E3A39",
+        "onClickHost": "http://ht.xs.dingtoo.com/Share/HtmlShare/App/pages/SingleNews.html?AppType=android&ResourceGUID=",
+        "onClick": "event://SimpleClick?eventId=onClickWygNotice"
+      }
+    ]
+  },
+  {
+    "id": "favoriteServices",
+    "type": "container-fiveColumn",
+    "load": "getServices",
+    "loadType": "-1",
+    "style": {
+      "vGap": 16,
+      "bgColor": "#ffffff",
+      "width": -1,
+      "layout_gravity": "center_horizontal",
+      "gravity": "center"
+    },
+    "items": [
+      {
+        "type": "component-syIconText",
+        "bgUrl": "0",
+        "iconMore": "https://csweb.csx.cn/static/zaixingsha/jingang_3.png",
+        "iconUrl": "https://csweb.csx.cn/static/zaixingsha/jingang_3.png",
+        "iconWidth": 90,
+        "iconHeight": 90,
+        "gap": 6,
+        "title": "后勤服务",
+        "onClick": "https://portal.hkttech.cn:8183/smart-logistics-app-h5/",
+        "identifier": "businessHall"
+      },
+      {
+        "type": "component-syIconText",
+        "bgUrl": "0",
+        "iconMore": "https://csweb.csx.cn/static/zaixingsha/jingang_1.png",
+        "iconUrl": "https://csweb.csx.cn/static/zaixingsha/jingang_1.png",
+        "iconWidth": 90,
+        "iconHeight": 90,
+        "gap": 6,
+        "title": "智慧停车",
+        "onClick": "http://xczb.csx.cn/parkingPlace-wx/#/pages/temp-pages/entry-target-page?target=/pages/main-page/main-page",
+        "onClickEventId": "home_common_police",
+        "identifier": "emrgency"
+      },
+      {
+        "type": "component-syIconText",
+        "bgUrl": "0",
+        "iconMore": "https://csweb.csx.cn/static/zaixingsha/jingang_8.png",
+        "iconUrl": "https://csweb.csx.cn/static/zaixingsha/jingang_8.png",
+        "iconWidth": 90,
+        "iconHeight": 90,
+        "gap": 6,
+        "title": "实时公交",
+        "onClick": "https://uat-csweb.csx.cn/traffic-search/#/traffic-search",
+        "onClickEventId": "home_common_police",
+        "identifier": "emrgency"
+      },
+      {
+        "type": "component-syIconText",
+        "bgUrl": "0",
+        "iconMore": "https://csweb.csx.cn/static/zaixingsha/jingang_4.png",
+        "iconUrl": "https://csweb.csx.cn/static/zaixingsha/jingang_4.png",
+        "iconWidth": 90,
+        "iconHeight": 90,
+        "gap": 6,
+        "title": "生活缴费",
+        "onClick": "https://uat-csweb.csx.cn/jimu/preview/30/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickEventId": "home_common_police",
+        "identifier": "emrgency"
+      },
+      {
+        "type": "component-syIconText",
+        "bgUrl": "0",
+        "iconMore": "https://csweb.csx.cn/static/zaixingsha/jingang_2.png",
+        "iconUrl": "https://csweb.csx.cn/static/zaixingsha/jingang_2.png",
+        "iconWidth": 90,
+        "iconHeight": 90,
+        "gap": 6,
+        "title": "办事预约",
+        "onClick": "https://uat-csapi.csx.cn/instar/pages/new_interaction/interaction_appointment.html",
+        "onClickEventId": "home_common_nearby",
+        "identifier": "nearBy"
+      },
+      {
+        "type": "component-syIconText",
+        "bgUrl": "0",
+        "iconMore": "https://csweb.csx.cn/static/zaixingsha/jingang_haika2.png",
+        "iconUrl": "https://csweb.csx.cn/static/zaixingsha/jingang_haika2.png",
+        "style": {
+          "margin": "[-10,0,0,0]"
+        },
+        "iconWidth": 90,
+        "iconHeight": 90,
+        "gap": 6,
+        "title": "城市嗨卡",
+        "onClick": "https://uat-h5.zhcs.csbtv.com/act/csPlayTicket/#/details?id=1242649614&source=1242848701&platform=app",
+        "identifier": "fund"
+      },
+      {
+        "type": "component-syIconText",
+        "bgUrl": "0",
+        "iconMore": "https://csweb.csx.cn/static/zaixingsha/jingang_5.png",
+        "iconUrl": "https://csweb.csx.cn/static/zaixingsha/jingang_5.png",
+        "style": {
+          "margin": "[-10,0,0,0]"
+        },
+        "iconWidth": 90,
+        "iconHeight": 90,
+        "gap": 6,
+        "title": "文明实践",
+        "onClick": "https://xsdcloud.rednet.cn/m/#/index?areaCode=1018001007",
+        "identifier": "hospitalRegistration"
+      },
+      {
+        "type": "component-syIconText",
+        "bgUrl": "0",
+        "iconMore": "https://csweb.csx.cn/static/zaixingsha/jingang_7.png",
+        "iconUrl": "https://csweb.csx.cn/static/zaixingsha/jingang_7.png",
+        "style": {
+          "margin": "[-10,0,0,0]"
+        },
+        "iconWidth": 90,
+        "iconHeight": 90,
+        "gap": 6,
+        "title": "健康星城",
+        "onClick": "https://uat-csweb.csx.cn/esatHealth/",
+        "identifier": "violation"
+      },
+      {
+        "type": "component-syIconText",
+        "bgUrl": "0",
+        "iconMore": "https://csweb.csx.cn/static/zaixingsha/jingang_rencai.png",
+        "iconUrl": "https://csweb.csx.cn/static/zaixingsha/jingang_rencai.png",
+        "iconWidth": 90,
+        "iconHeight": 90,
+        "style": {
+          "margin": "[-10,0,0,0]"
+        },
+        "gap": 6,
+        "title": "人才超市",
+        "onClick": "https://uat-csweb.csx.cn/jimu/preview/26/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "identifier": "foodScan"
+      },
+      {
+        "type": "component-syIconText",
+        "bgUrl": "0",
+        "iconMore": "https://csweb.csx.cn/static/zaixingsha/jingang_10.png",
+        "iconUrl": "https://csweb.csx.cn/static/zaixingsha/jingang_10.png",
+        "iconWidth": 90,
+        "iconHeight": 90,
+        "style": {
+          "margin": "[-10,0,0,0]"
+        },
+        "gap": 6,
+        "title": "更多",
+        "onClick": "event://SimpleClick?eventId=allservice",
+        "identifier": "allServices"
+      }
+    ]
+  },
+  {
+    "id": "bannerContainer1",
+    "type": "container-oneColumn",
+    "load": "getBannerSecondary",
+    "loadType": "-1",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[5,15,15,15]"
+    },
+    "items": [
+      {
+        "id": "bannerSecondary",
+        "ratio": 4.1,
+        "shelterVisible": false,
+        "indicatorPosition": "bottomCenter",
+        "type": "component-banner",
+        "radius": "10",
+        "dataSource": []
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[5,15,5,15]"
+    },
+    "load": "getRatioImage",
+    "items": [
+      {
+        "id": "ratioImage",
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "https://csweb.csx.cn/static/zaixingsha/section_3_2.png",
+        "imgWidthRatio": 501,
+        "imgHeightRatio": 252,
+        "imgRatioRef": 1,
+        "style": {
+          "padding": "[0,6,5,0]"
+        },
+        "onClick": "https://uat-csweb.csx.cn/jimu/preview/48/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickEventId": "在星沙-缴费大厅",
+        "onClickParams": {}
+      },
+      {
+        "id": "ratioImage",
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "https://csweb.csx.cn/static/zaixingsha/card_xzxs.png",
+        "imgWidthRatio": 501,
+        "imgHeightRatio": 252,
+        "imgRatioRef": 1,
+        "style": {
+          "padding": "[0,0,5,6]"
+        },
+        "onClick": "https://uat-csweb.csx.cn/jimu/preview/12/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickEventId": "在星沙-行走星沙",
+        "onClickParams": {}
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-dividerHorizontal",
+        "color": "#F4F4F4",
+        "height": 6
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "id": "nxNews",
+    "load": "initNews",
+    "loadType": "-1",
+    "items": [
+      {
+        "id": "nxNews",
+        "type": "component-nxNews",
+        "style": {
+          "bgColor": "#ffffff"
+        }
+      }
+    ]
+  }
+]

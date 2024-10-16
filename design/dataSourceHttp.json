@@ -1,0 +1,22 @@
+{
+  "id": "bannerContainer",
+  "type": "container-oneColumn",
+  "load": "http",
+  "loadType": "-1",
+  "loadParams": {
+    "url": "",
+    "method": "get",
+    "params": {},
+    "headers":{},
+    "body": {}
+  },
+  "items": [
+    {
+      "id": "banner",
+      "ratio": 2,
+      "shelterVisible": false,
+      "type": "component-banner",
+      "dataSource": []
+    }
+  ]
+}

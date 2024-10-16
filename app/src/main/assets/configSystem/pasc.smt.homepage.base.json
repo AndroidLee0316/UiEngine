@@ -1,0 +1,711 @@
+[
+  {
+    "id": "bannerContainer",
+    "type": "container-oneColumn",
+    "load": "getBanner",
+    "loadType": "-1",
+    "items": [
+      {
+        "id": "banner",
+        "ratio": 2,
+        "shelterVisible": false,
+        "type": "component-banner",
+        "dataSource": []
+      }
+    ]
+  },
+  {
+    "id": "announcementContainer",
+    "type": "container-oneColumn",
+    "style": {
+      "padding": "[8,15,0,15]",
+      "bgColor": "#ffffff"
+    },
+    "load": "getAnnouncement",
+    "loadType": "-1",
+    "items": [
+      {
+        "id": "announcement",
+        "type": "component-marqueeText",
+        "dataSource": []
+      }
+    ]
+  },
+  {
+    "type": "container-fourColumn",
+    "style": {
+      "vGap": 16,
+      "padding": "[16,0,16,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_hall",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "办事大厅",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "http://iobs.pingan.com.cn/download/szsc-smt-app-dmz-prd/dc2a52d1-3e5f-4e97-875f-19b8455b22f8_1545118036769",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "一键报警",
+        "onClick": "router://com.pasc.smt/emrgency/one/worn",
+        "onClickEventId": "home_common_police"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_insurance",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "附近生活",
+        "onClick": "router://com.pasc.smt/nearby/map/main",
+        "onClickEventId": "home_common_nearby"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_fund",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "公积金",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_registration",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "挂号",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_break",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "违章",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_scan",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "食品扫码",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_all",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "全部",
+        "onClick": "event://NotValid",
+        "onClickEventId": "home_more_service"
+      }
+    ]
+  },
+  {
+    "id": "scrollNewsContainer",
+    "type": "container-oneColumn",
+    "load": "getScrollNews",
+    "loadType": "-1",
+    "loadParams": {
+      "version": 2,
+      "lineCount": 2
+    },
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "id": "scrollNews",
+        "type": "component-marqueeNews",
+        "height": 70,
+        "imgWidth": 40,
+        "imgHeight": 40,
+        "imgGap": 16,
+        "bgImgVisible": false,
+        "animInterval": 5000,
+        "animDuration": 1000,
+        "lineCount": 2,
+        "lineGap": 6,
+        "titleLabelVisible": false,
+        "titleSize": 13,
+        "dataSource": []
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 7,
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "热门事项",
+      "titleBold": true,
+      "iconVisible": false,
+      "onClickEventId": "home_more_service",
+      "onClickParams": {
+        "eventLabel": "办事大厅"
+      }
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "title": "敬老优待证办理",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "desc": "公共租赁住房核准",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "iconUrl": "res://ic_main_public_rental_housing_check",
+        "onClick": "{h5UrlRoot}/nantong/govermentguide/recommend/db63f710d9b54d98aa57aa68bc31825e/%E5%85%AC%E5%85%B1%E7%A7%9F%E8%B5%81%E4%BD%8F%E6%88%BF%E6%A0%B8%E5%87%86?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "公租房核准"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "残疾人失业登记",
+        "iconUrl": "res://ic_main_renting_registration",
+        "onClick": "event://SimpleClick",
+        "onClickParams": {
+          "id": "smtAppShowTips"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "流动人口婚育证明",
+        "desc": "药品经营许可审批",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "iconUrl": "res://ic_main_drug_supply_cetificate",
+        "onClick": "{h5UrlRoot}/nantong/govermentguide/recommend/47a7704ab4c843d884eaf2886a2353e6/%E8%8D%AF%E5%93%81%E7%BB%8F%E8%90%A5%E8%AE%B8%E5%8F%AF?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "药品经营"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "计划生育服务证",
+        "desc": "归侨学生身份认定",
+        "iconUrl": "res://ic_main_government_overseas_chinese_family",
+        "onClick": "{h5UrlRoot}/nantong/govermentguide/recommend/0f12e60a6d864e4ba7f1952e24da1cfa/%E5%BD%92%E4%BE%A8%E5%AD%A6%E7%94%9F%E8%AE%A4%E5%AE%9A?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "归侨学生"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-threeColumn",
+    "style": {
+      "hGap": 7,
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "平安服务",
+      "titleBold": true,
+      "iconVisible": false
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "title": "平安付水费",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "desc": "平安付",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "iconUrl": "res://ic_main_public_rental_housing_check",
+        "onClick": "event://SimpleClick",
+        "onClickParams": {
+          "paservice": "waterFee",
+          "needLogin": true
+        },
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "平安付"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "平安付电费",
+        "desc": "平安付",
+        "onClick": "event://SimpleClick",
+        "onClickParams": {
+          "paservice": "electricityFee",
+          "needLogin": true
+        },
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "平安好医生"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "平安付话费",
+        "desc": "平安付",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "event://SimpleClick",
+        "onClickParams": {
+          "paservice": "callsCharge",
+          "needLogin": true
+        },
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "平安付"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "平安付流量",
+        "desc": "平安付",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "event://SimpleClick",
+        "onClickParams": {
+          "paservice": "flows"
+        },
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "平安付"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "年检代办",
+        "desc": "年检代办",
+        "onClick": "event://SimpleClick",
+        "onClickParams": {
+          "paservice": "nianJianDaiBan",
+          "needLogin": true
+        },
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "年检代办"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "车价评估",
+        "desc": "车价评估",
+        "onClick": "event://SimpleClick",
+        "onClickParams": {
+          "paservice": "cheJiaPingGu",
+          "needLogin": true
+        },
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "车价评估"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "房贷计算器",
+        "desc": "房贷计算器",
+        "iconUrl": "res://ic_main_government_overseas_chinese_family",
+        "onClick": "https://m.pinganfang.com/tools/fangdai.html?hfcmpn=679",
+        "onClickEventId": "房贷计算器",
+        "onClickEventParams": {
+          "服务名称": "房贷计算器"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "平安好医生",
+        "desc": "平安好医生",
+        "iconUrl": "res://ic_main_government_overseas_chinese_family",
+        "onClick": "event://SimpleClick",
+        "onClickParams": {
+          "paservice": "paGoodDoctor",
+          "needLogin": true
+        },
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "平安好房"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[0,0,16,0]"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "title": "办事大厅",
+      "titleBold": true,
+      "iconVisible": false,
+      "onClickEventId": "home_more_service",
+      "onClickParams": {
+        "eventLabel": "办事大厅"
+      }
+    }
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[0,15,6,15]"
+    },
+    "items": [
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[18,12,18,12]",
+          "bgColor": "#f9f9f9"
+        },
+        "title": "热门事项名称",
+        "titleFontSize": 15,
+        "desc": "事项简介事项简介事项简介事项简介事项简介",
+        "textLayoutPadding": "[0,16,0,0]",
+        "iconUrl": "res://ic_service_all",
+        "onClick": "event://NotValid"
+      }
+    ]
+  },
+  {
+    "type": "container-threeColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[0,15,8,15]",
+      "hGap": 6
+    },
+    "items": [
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[12,12,12,12]",
+          "bgColor": "#f9f9f9"
+        },
+        "title": "居住证办理",
+        "titleFontSize": 15,
+        "desc": "留深必备证件",
+        "iconPosition": "top",
+        "textLayoutPadding": "[6,0,0,0]",
+        "textLayoutGravity": "center",
+        "iconUrl": "res://ic_service_all",
+        "iconHeight": 30,
+        "iconWidth": 30,
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[12,12,12,12]",
+          "bgColor": "#f9f9f9"
+        },
+        "title": "福田活动",
+        "titleFontSize": 15,
+        "desc": "文娱公益活动",
+        "iconPosition": "top",
+        "textLayoutPadding": "[6,0,0,0]",
+        "textLayoutGravity": "center",
+        "iconUrl": "res://ic_service_all",
+        "iconHeight": 30,
+        "iconWidth": 30,
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[12,12,12,12]",
+          "bgColor": "#f9f9f9"
+        },
+        "title": "青年驿站",
+        "titleFontSize": 15,
+        "desc": "来深青年之家",
+        "iconPosition": "top",
+        "textLayoutPadding": "[6,0,0,0]",
+        "textLayoutGravity": "center",
+        "iconUrl": "res://ic_service_all",
+        "iconHeight": 30,
+        "iconWidth": 30,
+        "onClick": "event://NotValid"
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 7,
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "title": "福田图书馆",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "福田文体",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "福田学位",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "留学生入户",
+        "onClick": "event://NotValid"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "header": {
+      "type": "component-cardHeader",
+      "title": "政府部门",
+      "titleBold": true,
+      "iconVisible": false,
+      "onClickEventId": "home_more_service",
+      "onClickParams": {
+        "eventLabel": "政府部门"
+      }
+    },
+    "style": {
+      "padding": "[0,0,16,0]",
+      "bgColor": "#ffffff"
+    }
+  },
+  {
+    "type": "container-fourColumn",
+    "style": {
+      "vGap": 16,
+      "hGap": 4,
+      "padding": "[0,15,16,15]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "style": {
+          "padding": "[18,0,18,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_market",
+        "bgImgUrl": "res://bg_icon_text",
+        "iconWidth": 24,
+        "iconHeight": 24,
+        "gap": 6,
+        "title": "市场监管委",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[18,0,18,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_police",
+        "bgImgUrl": "res://bg_icon_text",
+        "iconWidth": 24,
+        "iconHeight": 24,
+        "gap": 6,
+        "title": "市公安局",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[18,0,18,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_land",
+        "bgImgUrl": "res://bg_icon_text",
+        "iconWidth": 24,
+        "iconHeight": 24,
+        "gap": 6,
+        "title": "市规土委",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[18,0,18,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_building",
+        "bgImgUrl": "res://bg_icon_text",
+        "iconWidth": 24,
+        "iconHeight": 24,
+        "gap": 6,
+        "title": "市住建局",
+        "onClick": "event://NotValid"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "load": "getBannerSecondary",
+    "loadType": "-1",
+    "header": {
+      "type": "component-cardHeader",
+      "title": "深圳印象",
+      "titleBold": true,
+      "iconVisible": false,
+      "onClickEventId": "home_more_service",
+      "onClickParams": {
+        "eventLabel": "深圳印象"
+      }
+    },
+    "items": [
+      {
+        "style": {
+          "padding": "[18,15,0,15]"
+        },
+        "id": "bannerSecondary",
+        "ratio": 3,
+        "type": "component-bannerSecondary",
+        "imgFrameVisible": true,
+        "dataSource": [
+          {
+            "picUrl": "http://www.time-weekly.com/uploadfile/images/2016/1209/1481260818922988.jpg"
+          },
+          {
+            "picUrl": "http://img1.cache.netease.com/catchpic/8/8D/8D4CC86AD9812E8DDEAB18CAC2B6BD24.jpg"
+          },
+          {
+            "picUrl": "http://img5.cache.netease.com/house/2015/7/10/201507101357387449b.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "container-threeColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[18,0,18,0]"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_sz",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "魅力深圳"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_volunteer",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "志愿者在身边"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_tips",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "港澳通关贴士"
+      }
+    ]
+  },
+  {
+    "id": "newsContainer",
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "load": "getNews",
+    "loadType": "-1",
+    "loadParams": {
+      "max": 5
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "title": "资讯信息",
+      "visible": false,
+      "titleBold": true,
+      "iconVisible": false,
+      "desc": "更多",
+      "onClick": "router://com.pasc.smt/newscenter/main/list"
+    },
+    "items": []
+  }
+]

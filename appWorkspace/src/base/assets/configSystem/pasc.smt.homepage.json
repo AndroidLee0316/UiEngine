@@ -1,0 +1,872 @@
+[
+  {
+    "id": "bannerContainer",
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "id": "banner",
+        "ratio": 2,
+        "shelterVisible": false,
+        "type": "component-banner",
+        "indicatorNormalRes": "res://ic_indicator_dot",
+        "indicatorSelectedRes": "res://ic_indicator_long_dash_dot",
+        "indicatorPadding": "[8,8,24,8]",
+        "imgFrameVisible": true,
+        "imgFrame": "concave",
+        "dataSource": [
+          {
+            "id": 1,
+            "picUrl": "http://img3.imgtn.bdimg.com1/it/u=1616472533,1649170474&fm=26&gp=0.jpg"
+          },
+          {
+            "id": 2,
+            "picUrl": "http://img0.imgtn.bdimg.com2/it/u=4278070400,582818240&fm=26&gp=0.jpg"
+          },
+          {
+            "id": 3,
+            "picUrl": "http://img2.imgtn.bdimg.com3/it/u=2929314891,994527773&fm=26&gp=0.jpg"
+          },
+          {
+            "id": 4,
+            "picUrl": "http://img5.imgtn.bdimg.com/it/u=1638695478,3359394321&fm=26&gp=0.jpg"
+          },
+          {
+            "id": 5,
+            "picUrl": "http://img1.imgtn.bdimg.com/it/u=55649405,1452350630&fm=26&gp=0.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "padding": "[0,0,0,0]",
+      "margin": "[-20,0,0,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-personalInfo",
+        "id": "testVisibleFalse",
+        "visible": true,
+        "authItems": [
+          {
+            "type": "component-twoIconText",
+            "style": {
+              "width": -2
+            },
+            "title": "超级实名认证",
+            "titleFontSize": 13,
+            "titleColor": "#999999",
+            "arrowIconVisible": true,
+            "arrowIconUrl": "res://ic_auth",
+            "onClick": "event://NotValid"
+          }
+        ]
+      },
+      {
+        "id": "testVisibleTrue",
+        "type": "component-cardHeader",
+        "visible": false,
+        "desc": "已入驻8家部门单位"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[16,16,0,16]",
+      "vGap": 16
+    },
+    "items": [
+      {
+        "type": "component-gridLayout"
+      },
+      {
+        "type": "component-card"
+      },
+      {
+        "type": "component-personalHeader2",
+        "authItems": [
+          {
+            "type": "component-twoIconText",
+            "style": {
+              "bgImgUrl": "",
+              "padding":"[0,0,0,0]"
+            },
+            "titleColor": "#999999"
+          }
+        ],
+        "dataSource": [
+          {
+            "personName": "陈小姐",
+            "imgUrl": "res://img_person_head",
+            "authIconUrl": "res://ic_auth",
+            "authTitle": "去认证",
+            "authIconVisible": false,
+            "authArrowIconVisible": true,
+            "scoreDesc": "888分"
+          }
+        ]
+      },
+      {
+        "type": "component-personalHeader",
+        "scoreItems": [
+          {
+            "visible": false
+          }
+        ],
+        "dataSource": [
+          {
+            "personName": "陈小姐",
+            "imgUrl": "res://img_person_head",
+            "authIconUrl": "res://ic_auth",
+            "authTitle": "超级认证会员",
+            "authIconVisible": true,
+            "authArrowIconVisible": false,
+            "scoreDesc": "888分"
+          }
+        ]
+      },
+      {
+        "type": "component-twoIconText",
+        "title": "超级实名认证"
+      },
+      {
+        "type": "component-roundedImage"
+      },
+      {
+        "type": "component-iconTwoTextScore",
+        "title": "不文明分",
+        "desc": "100分"
+      },
+      {
+        "type": "component-bannerTwoText"
+      },
+      {
+        "type": "component-nearbyService"
+      },
+      {
+        "type": "component-twoIconTwoText"
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[16,16,0,16]",
+      "vGap": 16,
+      "hGap": 4
+    },
+    "items": [
+      {
+        "type": "component-imgText"
+      },
+      {
+        "type": "component-imgText"
+      },
+      {
+        "type": "component-iconTwoTextSalt",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconTwoTextSalt",
+        "desc": "HIS系统结合精准导航",
+        "title": "智能导诊",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconTextNearbyService"
+      },
+      {
+        "type": "component-iconTextNearbyService",
+        "iconUrl": "res://ic_hospital",
+        "title": "人民医院"
+      },
+      {
+        "type": "component-iconTwoText",
+        "labelVisible": true,
+        "labelType": "dot",
+        "label": "0",
+        "labelMargin": "[4,0,0,0]"
+      },
+      {
+        "type": "component-iconTwoText",
+        "title": "购车",
+        "desc": "小汽车摇号等",
+        "divider": false,
+        "dividerColor": "#e8e8e8",
+        "dividerLeft": true,
+        "dividerLeftLength": -1
+      },
+      {
+        "type": "component-menu"
+      },
+      {
+        "type": "component-menu",
+        "title": "交管服务",
+        "iconVisible": true,
+        "iconUrl": "res://ic_menu_title",
+        "style": {
+          "padding": "[16,8,16,16]",
+          "bgImgUrl": "res://bg_menu"
+        },
+        "menuItems": [
+          {
+            "type": "component-singleText",
+            "title": "驾驶证违法查询",
+            "style": {
+              "padding": "[8,16,8,0]",
+              "margin": "[8,0,0,0]"
+            },
+            "onClick": "event://NotValid"
+          },
+          {
+            "type": "component-singleText",
+            "style": {
+              "padding": "[8,16,8,0]"
+            },
+            "title": "车辆违法查询",
+            "onClick": "event://NotValid"
+          },
+          {
+            "type": "component-singleText",
+            "style": {
+              "padding": "[8,16,8,0]"
+            },
+            "title": "机动车状态查询",
+            "onClick": "event://NotValid"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "announcementContainer",
+    "type": "container-oneColumn",
+    "style": {
+      "padding": "[8,15,0,15]",
+      "margin": "[0,0,0,0]",
+      "bgColor": "#ffffff"
+    },
+    "load": "getAnnouncement",
+    "loadType": "-1",
+    "items": [
+      {
+        "id": "announcement",
+        "type": "component-marqueeText",
+        "dataSource": []
+      }
+    ]
+  },
+  {
+    "type": "container-fourColumn",
+    "style": {
+      "vGap": 16,
+      "padding": "[16,0,16,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_hall",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "办事大厅",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_law",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "政策法规",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_insurance",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "社保",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_fund",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "公积金",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_registration",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "挂号",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_break",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "违章",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_scan",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "食品扫码",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_all",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "全部",
+        "onClick": "event://NotValid"
+      }
+    ]
+  },
+  {
+    "id": "scrollNewsContainer",
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "load": "getScrollNews",
+    "loadType": "-1",
+    "loadParams": {
+      "version": 2,
+      "lineCount": 2
+    },
+    "items": [
+      {
+        "id": "scrollNews",
+        "type": "component-marqueeNews",
+        "imgWidth": 40,
+        "imgHeight": 40,
+        "bgImgVisible": false,
+        "animInterval": 5000,
+        "animDuration": 1000,
+        "lineCount": 2,
+        "height": 70,
+        "lineGap": 6,
+        "titleLabelVisible": false,
+        "titleSize": 13,
+        "imgGap": 16,
+        "dataSource": []
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[16,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-horizontalScroll",
+        "hGap": 6,
+        "scrollMarginRight": 15,
+        "items": [
+          {
+            "type": "component-imgText",
+            "style": {
+              "width": -2
+            },
+            "onClick": "event://NotValid"
+          },
+          {
+            "type": "component-imgText",
+            "style": {
+              "width": -2
+            }
+          },
+          {
+            "type": "component-imgText",
+            "style": {
+              "width": -2
+            }
+          },
+          {
+            "type": "component-imgText",
+            "style": {
+              "width": -2
+            }
+          },
+          {
+            "type": "component-imgText",
+            "style": {
+              "width": -2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[16,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-horizontalScroll",
+        "hGap": 6,
+        "scrollMarginRight": 15,
+        "items": [
+          {
+            "type": "component-card",
+            "style": {
+              "width": -2
+            },
+            "onClick": "event://NotValid"
+          },
+          {
+            "type": "component-card",
+            "style": {
+              "width": -2
+            }
+          },
+          {
+            "type": "component-card",
+            "style": {
+              "width": -2
+            },
+            "descVisible": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[16,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-ratioImage"
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 7,
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "城热门事项",
+      "titleBold": true,
+      "iconVisible": true,
+      "iconUrl": "res://ic_salt",
+      "iconMargin": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "iconWidth": 19,
+      "iconHeight": 19,
+      "arrowIconUrl": "res://ic_arrow_salt_city"
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "title": "敬老优待证办理",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "desc": "公共租赁住房核准",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "iconUrl": "res://ic_main_public_rental_housing_check",
+        "onClick": "{h5UrlRoot}/nantong/govermentguide/recommend/db63f710d9b54d98aa57aa68bc31825e/%E5%85%AC%E5%85%B1%E7%A7%9F%E8%B5%81%E4%BD%8F%E6%88%BF%E6%A0%B8%E5%87%86?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "公租房核准"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "残疾人失业登记",
+        "desc": "房屋租赁登记",
+        "iconUrl": "res://ic_main_renting_registration",
+        "onClick": "{h5UrlRoot}/nantong/govermentguide/recommend/b0dd479142164836b1fd146625ffdb8a/%E6%88%BF%E5%B1%8B%E7%A7%9F%E8%B5%81%E7%99%BB%E8%AE%B0?openweb=paschybrid",
+        "onClickParams": {
+        },
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "租房登记"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "流动人口婚育证明",
+        "desc": "药品经营许可审批",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "iconUrl": "res://ic_main_drug_supply_cetificate",
+        "onClick": "{h5UrlRoot}/nantong/govermentguide/recommend/47a7704ab4c843d884eaf2886a2353e6/%E8%8D%AF%E5%93%81%E7%BB%8F%E8%90%A5%E8%AE%B8%E5%8F%AF?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "药品经营"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "计划生育服务证",
+        "desc": "归侨学生身份认定",
+        "iconUrl": "res://ic_main_government_overseas_chinese_family",
+        "onClick": "{h5UrlRoot}/nantong/govermentguide/recommend/0f12e60a6d864e4ba7f1952e24da1cfa/%E5%BD%92%E4%BE%A8%E5%AD%A6%E7%94%9F%E8%AE%A4%E5%AE%9A?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "归侨学生"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[0,0,16,0]"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "title": "办事大厅",
+      "titleBold": true,
+      "iconVisible": true
+    }
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[0,15,6,15]"
+    },
+    "items": [
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[18,12,18,12]",
+          "bgColor": "#f9f9f9"
+        },
+        "title": "热门事项名称热门事项名称热门事项名称热门事项名称热门事项名称热门事项名称热门事项名称热门事项名称热门事项名称热门事项名称热门事项名称",
+        "lineGap": 8,
+        "titleFontSize": 15,
+        "desc": "事项简介事项简介事项简介事项简介事项简介事项简介事项简介事项简介事项简介事项简介",
+        "textLayoutPadding": "[0,16,0,0]",
+        "iconUrl": "res://ic_service_all",
+        "onClick": "event://NotValid"
+      }
+    ]
+  },
+  {
+    "type": "container-threeColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[0,15,8,15]",
+      "hGap": 6
+    },
+    "items": [
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[12,12,12,12]",
+          "bgColor": "#f9f9f9"
+        },
+        "title": "居住证办理",
+        "titleFontSize": 15,
+        "desc": "留深必备证件",
+        "iconPosition": "top",
+        "textLayoutPadding": "[6,0,0,0]",
+        "textLayoutGravity": "center",
+        "iconUrl": "res://ic_service_all",
+        "iconHeight": 30,
+        "iconWidth": 30,
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[12,12,12,12]",
+          "bgColor": "#f9f9f9"
+        },
+        "title": "福田活动",
+        "titleFontSize": 15,
+        "desc": "文娱公益活动",
+        "iconPosition": "top",
+        "textLayoutPadding": "[6,0,0,0]",
+        "textLayoutGravity": "center",
+        "iconUrl": "res://ic_service_all",
+        "iconHeight": 30,
+        "iconWidth": 30,
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[12,12,12,12]",
+          "bgColor": "#f9f9f9"
+        },
+        "title": "青年驿站",
+        "titleFontSize": 15,
+        "desc": "来深青年之家",
+        "iconPosition": "top",
+        "textLayoutPadding": "[6,0,0,0]",
+        "textLayoutGravity": "center",
+        "iconUrl": "res://ic_service_all",
+        "iconHeight": 30,
+        "iconWidth": 30,
+        "onClick": "event://NotValid"
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 7,
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "title": "福田图书馆",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "福田文体",
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "福田学位",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "event://NotValid"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "留学生入户",
+        "onClick": "event://NotValid"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "header": {
+      "type": "component-cardHeader",
+      "title": "政府部门",
+      "titleBold": true,
+      "iconVisible": false
+    },
+    "style": {
+      "padding": "[0,0,16,0]",
+      "bgColor": "#ffffff"
+    }
+  },
+  {
+    "type": "container-fourColumn",
+    "style": {
+      "vGap": 16,
+      "hGap": 4,
+      "padding": "[0,15,16,15]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "style": {
+          "padding": "[18,0,18,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_market",
+        "bgImgUrl": "res://bg_icon_text",
+        "iconWidth": 24,
+        "iconHeight": 24,
+        "gap": 6,
+        "title": "市场监管委",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[18,0,18,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_police",
+        "bgImgUrl": "res://bg_icon_text",
+        "iconWidth": 24,
+        "iconHeight": 24,
+        "gap": 6,
+        "title": "市公安局",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[18,0,18,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_land",
+        "bgImgUrl": "res://bg_icon_text",
+        "iconWidth": 24,
+        "iconHeight": 24,
+        "gap": 6,
+        "title": "市规土委",
+        "onClick": "event://NotValid"
+      },
+      {
+        "style": {
+          "padding": "[18,0,18,0]"
+        },
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_building",
+        "bgImgUrl": "res://bg_icon_text",
+        "iconWidth": 24,
+        "iconHeight": 24,
+        "gap": 6,
+        "title": "市住建局",
+        "onClick": "event://NotValid"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "title": "深圳印象",
+      "titleBold": true,
+      "iconVisible": false
+    },
+    "items": [
+      {
+        "style": {
+          "padding": "[18,15,0,15]"
+        },
+        "id": "bannerSecondary",
+        "ratio": 3,
+        "type": "component-bannerSecondary",
+        "imgFrameVisible": true,
+        "dataSource": [
+          {
+            "picUrl": "http://www.time-weekly.com/uploadfile/images/2016/1209/1481260818922988.jpg"
+          },
+          {
+            "picUrl": "http://img1.cache.netease.com/catchpic/8/8D/8D4CC86AD9812E8DDEAB18CAC2B6BD24.jpg"
+          },
+          {
+            "picUrl": "http://img5.cache.netease.com/house/2015/7/10/201507101357387449b.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "container-threeColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[18,0,18,0]"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_sz",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "魅力深圳"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_volunteer",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "志愿者在身边"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_service_tips",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "港澳通关贴士"
+      }
+    ]
+  },
+  {
+    "id": "newsContainer",
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "load": "getNews",
+    "loadType": "-1",
+    "loadParams": {
+      "max": 10
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "title": "资讯信息",
+      "visible": false,
+      "titleBold": true,
+      "iconVisible": false,
+      "desc": "更多",
+      "onClick": "event://NotValid"
+    },
+    "items": []
+  }
+]

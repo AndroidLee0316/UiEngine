@@ -1,0 +1,16 @@
+{
+  "type": "component-iconTextNearbyService",
+  "style": {
+    "bgImgUrl": "res://bg_bubble",
+    "padding": "[6,10,11,10]"
+  },
+  "title": "人民医院",
+  "titleColor": "#333333",
+  "titleFontSize": 12,
+  "titleBold": false,
+  "iconVisible": true,
+  "iconUrl": "res://ic_hospital",
+  "iconWidth": 16,
+  "iconHeight": 16,
+  "iconMargin": "[0,4,0,0]"
+}

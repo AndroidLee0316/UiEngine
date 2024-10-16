@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <integer name="tag_key_image_placeholder" tools:ignore="ResourceName">1</integer>
+  <integer name="tag_key_default_image" tools:ignore="ResourceName">2</integer>
+  <integer name="tag_key_click_time" tools:ignore="ResourceName">3</integer>
+</resources>

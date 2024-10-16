@@ -1,0 +1,393 @@
+[
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "id": "multiTabWhitNews",
+        "type": "component-multiTabWithNews",
+        "style": {
+          "padding": "[5,10,5,10]"
+        },
+        "titleArray": [
+          "头条",
+          "关注",
+          "看报纸",
+          "听广播",
+          "正直播",
+          "看报纸",
+          "看报纸"
+        ],
+        "onClickEventId": "main_headlines",
+        "selectTextSize": 14,
+        "normalTextSize": 14,
+        "normalTextColor": "#333333",
+        "selectTextColor": "#ffffff",
+        "textPadding":[6,16,6,16],
+        "columnType":[11,12,13,14],
+        "normalImgUlr": "res://shap_news_tab_gay",
+        "selectImgUlr": "res://shap_news_tab_select",
+        "onClick": "event://SimpleClick?id=homePageWork",
+        "dataSource":[]
+      }
+    ]
+  },
+  {
+    "id": "bannerContainer",
+    "type": "container-oneColumn",
+    "load": "getBanner",
+    "loadType": "-1",
+    "items": [
+      {
+        "id": "banner",
+        "ratio": 2.2,
+        "shelterVisible": false,
+        "imgDefaultRes": "res://affair_bg_header",
+        "indicatorPosition": "bottomCenter",
+        "type": "component-banner",
+        "dataSource": []
+      }
+    ]
+  },
+  {
+    "id": "announcementContainer",
+    "type": "container-oneColumn",
+    "style": {
+      "padding": "[8,15,0,15]",
+      "bgColor": "#ffffff"
+    },
+    "load": "getAnnouncement",
+    "loadType": "-1",
+    "items": [
+      {
+        "id": "announcement",
+        "type": "component-marqueeText",
+        "dataSource": []
+      }
+    ]
+  },
+  {
+    "id": "scrollNewsContainer",
+    "type": "container-oneColumn",
+    "load": "getScrollNews",
+    "loadType": "-1",
+    "loadParams": {
+      "version": 2,
+      "lineCount": 2
+    },
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "id": "scrollNews",
+        "type": "component-marqueeNews",
+        "height": 70,
+        "imgWidth": 40,
+        "imgHeight": 40,
+        "imgGap": 16,
+        "imgUrl": "res://news_ic_cert",
+        "bgImgVisible": false,
+        "animInterval": 5000,
+        "animDuration": 1000,
+        "lineCount": 2,
+        "lineGap": 6,
+        "titleLabelVisible": false,
+        "titleSize": 13,
+        "dataSource": []
+      }
+    ]
+  },
+
+  {
+    "type": "container-oneColumn",
+    "header": {
+      "type": "component-mCardHeader",
+      "style": {
+        "padding": "[5,0,18,0]"
+      },
+      "title": "星沙号",
+      "titleBold": true,
+      "iconVisible": false,
+      "arrowIconVisible": true,
+      "moreVisible": true,
+      "more": "更多",
+      "descVisible": true,
+      "partitionVisible": true,
+      "onClick": "event://SimpleClick?eventId=allService&serviceTab=jtcx",
+      "titleFontSize": "18",
+      "onClickEventId": "首页-交通出行-更多",
+      "onClickEventParams": {
+        "eventLabel": "更多"
+      }
+    }},
+  {
+    "id": "favoriteServices",
+    "load": "getServices",
+    "type": "container-fourColumn",
+    "style": {
+      "vGap": 16,
+      "padding": "[0,0,16,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://news_ic_xxqg",
+        "iconWidth": 44,
+        "iconHeight": 44,
+        "gap": 6,
+        "title": "学习强国",
+        "onClick": "event://NotValid",
+        "identifier": "businessHall"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://news_ic_zsxs",
+        "iconWidth": 44,
+        "iconHeight": 44,
+        "gap": 6,
+        "title": "掌上星沙",
+        "onClick": "router://com.pasc.smt/emrgency/one/worn",
+        "onClickEventId": "home_common_police",
+        "identifier": "emrgency"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://news_ic_wxs",
+        "iconWidth": 44,
+        "iconHeight": 44,
+        "gap": 6,
+        "title": "微星沙",
+        "onClick": "router://com.pasc.smt/nearby/map/main",
+        "onClickEventId": "home_common_nearby",
+        "identifier": "nearBy"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://news_ic_caxs",
+        "iconWidth": 44,
+        "iconHeight": 44,
+        "gap": 6,
+        "title": "畅安星沙",
+        "onClick": "http://192.168.204.251:3100",
+        "identifier": "fund"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://news_ic_xssb",
+        "iconWidth": 44,
+        "iconHeight": 44,
+        "gap": 6,
+        "title": "数据星沙",
+        "onClick": "http://smt-stg.yun.city.pingan.com/base/stg/app/feature/askbob/#/",
+        "identifier": "hospitalRegistration"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://news_ic_jkxs",
+        "iconWidth": 44,
+        "iconHeight": 44,
+        "gap": 6,
+        "title": "健康星沙",
+        "onClick": "event://NotValid",
+        "identifier": "violation"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://news_ic_xswj",
+        "iconWidth": 44,
+        "iconHeight": 44,
+        "gap": 6,
+        "title": "星沙微警",
+        "onClick": "event://NotValid",
+        "identifier": "foodScan"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://news_ic_xsjy",
+        "iconWidth": 44,
+        "iconHeight": 44,
+        "gap": 6,
+        "title": "星沙教育",
+        "onClick": "event://SimpleClick?eventId=allService",
+        "identifier": "allServices"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://news_ic_xsgc",
+        "iconWidth": 44,
+        "iconHeight": 44,
+        "gap": 6,
+        "title": "星沙观察",
+        "onClick": "event://SimpleClick?eventId=allService",
+        "identifier": "allServices"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://news_ic_xsrm",
+        "iconWidth": 44,
+        "iconHeight": 44,
+        "gap": 6,
+        "title": "星沙融媒",
+        "onClick": "event://SimpleClick?eventId=allService",
+        "identifier": "allServices"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://news_ic_xssb",
+        "iconWidth": 44,
+        "iconHeight": 44,
+        "gap": 6,
+        "title": "星沙时报",
+        "onClick": "event://SimpleClick?eventId=allService",
+        "identifier": "allServices"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://news_ic_wyxs",
+        "iconWidth": 44,
+        "iconHeight": 44,
+        "gap": 6,
+        "title": "文旅星沙",
+        "onClick": "event://SimpleClick?eventId=allService",
+        "identifier": "allServices"
+      }
+    ]
+  },
+
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-horizontalDivider",
+        "height": 6,
+        "color": "#f7f7f7"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "id": "multiTabWhitNews",
+        "type": "component-multiTabWithNews",
+        "style": {
+          "padding": "[5,10,5,10]"
+        },
+        "titleArray": [
+          "重点关注",
+          "资讯",
+          "图集",
+          "专题",
+          "县直",
+          "镇街",
+          "星沙新闻"
+        ],
+        "onClickEventId": "main_headlines",
+        "selectTextSize": 14,
+        "normalTextSize": 14,
+        "normalTextColor": "#333333",
+        "selectTextColor": "#ffffff",
+        "textPadding":[6,16,6,16],
+        "columnType":[11,12,13,14],
+        "normalImgUlr": "res://shap_news_tab_white",
+        "selectImgUlr": "res://shap_news_tab_select",
+        "onClick": "event://SimpleClick?id=homePageWork",
+        "dataSource":[]
+      }
+    ]
+  },
+  {
+    "id": "newsVideoInfo",
+    "type": "container-oneColumn",
+    "style": {
+    },
+    "columnCount": 1,
+    "visible": false,
+    "items": [
+      {
+        "type": "component-newsInfo",
+        "typeInfo": "0",
+        "title": "长沙县“党建聚合力书记领航行动”直播",
+        "time": "04-27  2.5W阅读",
+        "imgUrl": "res://home_bg_new",
+        "imgUrlTwo": "",
+        "imgUrlThree": ""
+      },
+      {
+        "type": "component-newsInfo",
+        "typeInfo": "0",
+        "title": "县区召开奋力实施强省会战略推进大会，付旭明…",
+        "time": "04-27  2.5W阅读",
+        "imgUrlTwo": "",
+        "imgUrlThree": ""
+      },
+      {
+        "type": "component-newsInfo",
+        "typeInfo": "0",
+        "title": "付旭明专程开展县委巡察中期走访",
+        "time": "04-27  2.5W阅读",
+        "imgUrl": "res://home_bg_new",
+        "imgUrlTwo": "",
+        "imgUrlThree": ""
+      },
+      {
+        "type": "component-newsInfo",
+        "typeInfo": "0",
+        "title": "为实施“强省会”战略贡献政协智慧和力量…",
+        "time": "04-27  2.5W阅读",
+        "imgUrl": "res://home_bg_new",
+        "imgUrlTwo": "",
+        "imgUrlThree": ""
+      },
+      {
+        "type": "component-newsInfo",
+        "typeInfo": "0",
+        "title": "星沙时报特别报道 | 致敬！他们在平凡的岗位上绽放…",
+        "time": "04-27  2.5W阅读",
+        "imgUrl": "res://home_bg_new",
+        "imgUrlTwo": "",
+        "imgUrlThree": ""
+      },
+      {
+        "type": "component-newsInfo",
+        "typeInfo": "0",
+        "title": "请您查收！长沙创建“全国法制政府建设示范市”",
+        "time": "04-27  2.5W阅读",
+        "imgUrl": "res://home_bg_new",
+        "imgUrlTwo": "",
+        "imgUrlThree": ""
+      }
+    ]
+  },
+  {
+    "type": "component-singleText",
+    "style": {
+      "padding": "[12,8,12,8]",
+      "bgColor": "#ffffff"
+    },
+    "title": "查看更多",
+    "gravity": "center",
+    "titleColor": "#1890FF",
+    "titleFontSize": 15,
+    "onClick": "https://app.flmy.mianyang.cn/app/feature/jimu/76/",
+    "onClickEventId": "个人版生活页-活动资讯-更多资讯"
+  },
+
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-horizontalDivider",
+        "height": 6,
+        "color": "#f7f7f7"
+      }
+    ]
+  }
+]

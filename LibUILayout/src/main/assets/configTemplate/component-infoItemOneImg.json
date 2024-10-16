@@ -1,0 +1,10 @@
+{
+  "type": "component-infoItemOneImg",
+  "style": {
+    "padding": "[16,15,16,15]"
+  },
+  "title": "2019年度考试录用公务员公共科目笔试在全国各考区。",
+  "desc": "2018-11-11",
+  "imgUrl": "http://www.time-weekly.com/uploadfile/images/2016/1209/1481260818922988.jpg",
+  "onClick": "event://NotValid"
+}

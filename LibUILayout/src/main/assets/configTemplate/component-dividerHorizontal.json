@@ -1,0 +1,8 @@
+{
+  "type": "component-dividerHorizontal",
+  "style": {
+    "padding": "[0,15,0,15]"
+  },
+  "color": "#e8e8e8",
+  "height": 0.5
+}

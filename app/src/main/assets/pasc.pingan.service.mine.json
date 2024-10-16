@@ -1,0 +1,45 @@
+{
+  "settingConfig": {
+    "profile": true,
+    "security": true,
+    "pwdReset": false,
+    "feedback": false,
+    "clearCache": true,
+    "about": true,
+    "unregister": true,
+    "permissions": [
+      "/zhuhai/stg/app/feature/authority-detail/#/1",
+      "/zhuhai/stg/app/feature/authority-detail/#/2",
+      "/zhuhai/stg/app/feature/authority-detail/#/3",
+      "/zhuhai/stg/app/feature/authority-detail/#/4",
+      "/zhuhai/stg/app/feature/authority-detail/#/5",
+      "/zhuhai/stg/app/feature/authority-detail/#/6"
+    ]
+  },
+  "profileConfig": {
+    "portrait": true,
+    "mobile": true,
+    "nickname": true,
+    "gender": true,
+    "certification": true,
+    "identity": true,
+    "address": true,
+    "extend": {
+      "title": "我的企业",
+      "router": "company/my/company",
+      "needCert": true
+    }
+  },
+  "aboutConfig": {
+    "version": true,
+    "copyright": true,
+    "protocolUrl": "https://smt-stg.yun.city.pingan.com/basic/stg/app/feature/provision/?uiparams=%7B%22title%22:%22%22%7D#/detail",
+    "privatePolicy": "https://www.baidu.com"
+  },
+  "defaultAddr": {
+    "provinceName": "",
+    "cityName": "",
+    "countryName": ""
+
+  }
+}

@@ -1,0 +1,401 @@
+[
+  {
+    "id": "bannerContainer",
+    "type": "container-oneColumn",
+    "style": {
+      "aspectRatio": 3,
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "id": "banner",
+        "type": "component-banner",
+        "indicatorNormalRes": "res://ic_indicator_dot",
+        "indicatorSelectedRes": "res://ic_indicator_long_dash_dot",
+        "indicatorPadding": "[8,8,24,8]",
+        "dataSource": [
+          {
+            "picUrl": "http://iobs.pingan.com.cn/download/szsc-smt-app-dmz-prd/89fd7bd9-c54b-431c-b202-4768024cfccb_1545124491502"
+          }
+        ]
+      }
+    ],
+    "load": "getBanner",
+    "loadType": "-1"
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "padding": "[0,16,0,16]",
+      "margin": "[-20,0,0,0]",
+      "hGap": 8,
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[20,16,20,16]",
+          "bgImgUrl": "res://bg_rectangle"
+        },
+        "iconUrl": "http://iobs.pingan.com.cn/download/szsc-smt-app-dmz-prd/250d23f3-0316-4b50-ad29-c124b0d813df_1540817828332",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "iconPosition": "left",
+        "textLayoutGravity": "left",
+        "textLayoutPadding": "[0,0,0,8]",
+        "title": "个人办事",
+        "titleFontSize": 16,
+        "titleBold": true,
+        "desc": "提供276项服务"
+      },
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[20,16,20,16]",
+          "bgImgUrl": "res://bg_rectangle"
+        },
+        "iconUrl": "http://iobs.pingan.com.cn/download/szsc-smt-app-dmz-prd/c16a0abc-9778-43d5-8109-ca0f11a2e0dc_1540817907333",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "iconPosition": "left",
+        "textLayoutGravity": "left",
+        "textLayoutPadding": "[0,0,0,8]",
+        "title": "企业办事",
+        "titleFontSize": 16,
+        "titleBold": true,
+        "desc": "提供276项服务"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[16,0,0,0]",
+      "hGap": 8,
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,16,0]"
+      },
+      "title": "便民主题",
+      "titleBold": true,
+      "iconVisible": false,
+      "partitionVisible": false,
+      "arrowIconVisible": false
+    },
+    "items": []
+  },
+  {
+    "type": "container-threeColumn",
+    "style": {
+      "padding": "[0,15,0,15]",
+      "hGap": 8,
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[20,0,20,0]",
+          "bgImgUrl": "res://bg_rectangle_light_blue"
+        },
+        "iconUrl": "http://iobs.pingan.com.cn/download/szsc-smt-app-dmz-prd/b07fdbc3-064b-4cd7-8e45-57c02537f7f5_1540818488821",
+        "iconWidth": 32,
+        "iconHeight": 32,
+        "iconPosition": "top",
+        "textLayoutGravity": "center",
+        "textLayoutPadding": "[8,0,0,0]",
+        "title": "交通出行",
+        "titleFontSize": 16,
+        "desc": "货运经营许可"
+      },
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[20,0,20,0]",
+          "bgImgUrl": "res://bg_rectangle_light_blue"
+        },
+        "iconUrl": "http://iobs.pingan.com.cn/download/szsc-smt-app-dmz-prd/1f8de3b7-81e9-4cbb-b7b3-745c602056dc_1540818549082",
+        "iconWidth": 32,
+        "iconHeight": 32,
+        "iconPosition": "top",
+        "textLayoutGravity": "center",
+        "textLayoutPadding": "[8,0,0,0]",
+        "title": "住房保障",
+        "titleFontSize": 16,
+        "desc": "公租房申请"
+      },
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[20,0,20,0]",
+          "bgImgUrl": "res://bg_rectangle_light_blue"
+        },
+        "iconUrl": "http://iobs.pingan.com.cn/download/szsc-smt-app-dmz-prd/c835f40e-d744-4501-87dc-510b0ff28a40_1540818636169",
+        "iconWidth": 32,
+        "iconHeight": 32,
+        "iconPosition": "top",
+        "textLayoutGravity": "center",
+        "textLayoutPadding": "[8,0,0,0]",
+        "title": "司法公证",
+        "titleFontSize": 16,
+        "desc": "法律援助申请"
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 8,
+      "padding": "[15,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "教育科研",
+        "dividerRight": true,
+        "dividerRightLength": 16
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "医疗卫生"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "职业资格",
+        "dividerRight": true,
+        "dividerRightLength": 16
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "文化体育"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[16,0,0,0]",
+      "hGap": 8,
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,16,0]"
+      },
+      "title": "利企主题",
+      "titleBold": true,
+      "iconVisible": false,
+      "partitionVisible": true,
+      "arrowIconVisible": false
+    },
+    "items": []
+  },
+  {
+    "type": "container-threeColumn",
+    "style": {
+      "padding": "[0,15,0,15]",
+      "hGap": 8,
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[20,0,20,0]",
+          "bgImgUrl": "res://bg_rectangle_light_blue"
+        },
+        "iconUrl": "http://iobs.pingan.com.cn/download/szsc-smt-app-dmz-prd/563678b6-46ee-4eff-8a10-76e76f5c9f1e_1540819420570",
+        "iconWidth": 32,
+        "iconHeight": 32,
+        "iconPosition": "top",
+        "textLayoutGravity": "center",
+        "textLayoutPadding": "[8,0,0,0]",
+        "title": "准营准办",
+        "titleFontSize": 16,
+        "desc": "公共场所卫生"
+      },
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[20,0,20,0]",
+          "bgImgUrl": "res://bg_rectangle_light_blue"
+        },
+        "iconUrl": "http://iobs.pingan.com.cn/download/szsc-smt-app-dmz-prd/827f930c-04be-45f9-8dfe-f730d3fafec5_1545635326253",
+        "iconWidth": 32,
+        "iconHeight": 32,
+        "iconPosition": "top",
+        "textLayoutGravity": "center",
+        "textLayoutPadding": "[8,0,0,0]",
+        "title": "建设管理",
+        "titleFontSize": 16,
+        "desc": "工程测量"
+      },
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[20,0,20,0]",
+          "bgImgUrl": "res://bg_rectangle_light_blue"
+        },
+        "iconUrl": "http://iobs.pingan.com.cn/download/szsc-smt-app-dmz-prd/b66f5cc4-aa48-45bf-92e5-cfac2d931b55_1544683684476",
+        "iconWidth": 32,
+        "iconHeight": 32,
+        "iconPosition": "top",
+        "textLayoutGravity": "center",
+        "textLayoutPadding": "[8,0,0,0]",
+        "title": "交通运输",
+        "titleFontSize": 16,
+        "desc": "市政建设审批"
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 8,
+      "padding": "[15,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "知识产权",
+        "dividerRight": true,
+        "dividerRightLength": 16
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "就业创业"
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "规划建设",
+        "dividerRight": true,
+        "dividerRightLength": 16
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "行政缴费"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,16,0]"
+      },
+      "title": "政民互动",
+      "titleBold": true,
+      "iconVisible": false,
+      "partitionVisible": true,
+      "arrowIconVisible": false
+    },
+    "items": []
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "padding": "[0,15,0,15]",
+      "hGap": 8,
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[0,15,0,15]",
+          "bgImgUrl": "res://bg_rectangle_light_blue"
+        },
+        "iconUrl": "http://smt-cdn.yun.city.pingan.com/isz/app/icon/affairsHomepage/message.png",
+        "iconWidth": 80,
+        "iconHeight": 80,
+        "title": "给市长写信",
+        "titleFontSize": 16,
+        "desc": "市领导公务电子信箱"
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 8,
+      "padding": "[16,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "民心桥",
+        "desc": "解答民众关切问题",
+        "iconVisible": false,
+        "dividerRight": true,
+        "dividerRightLength": 16
+      },
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "在线访谈",
+        "desc": "与市民在线交流",
+        "iconVisible": false
+      },
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "征集调查",
+        "desc": "公共事务民众参与",
+        "iconVisible": false,
+        "dividerRight": true,
+        "dividerRightLength": 16
+      },
+      {
+        "type": "component-iconTwoText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "网上信访",
+        "desc": "信访动态实时掌握",
+        "iconVisible": false
+      }
+    ]
+  }
+]

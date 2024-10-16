@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- hotseat -->
+    <dimen name="workspace_hotseat_cellitem_message_tip_height">15dp</dimen>
+    <dimen name="workspace_cellitem_message_tip_marginLeft">-9dp</dimen>
+    <dimen name="workspace_cellitem_message_tip_marginTop">3dp</dimen>
+    <dimen name="workspace_cellitem_message_tip_paddingLeft">5dp</dimen>
+    <dimen name="workspace_cellitem_message_tip_paddingRight">5dp</dimen>
+    <dimen name="workspace_cellitem_message_tip_paddingTop">1dp</dimen>
+    <dimen name="workspace_cellitem_message_tip_paddingBottom">1dp</dimen>
+
+</resources>

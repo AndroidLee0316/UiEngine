@@ -1,0 +1,729 @@
+[
+  {
+    "type": "container-oneColumn",
+    "load": "getPersonalHeader",
+    "loadType": -1,
+    "items": [
+      {
+        "id": "personalHeader",
+        "type": "component-tpersonalHeader",
+        "style": {
+          "width": -1,
+          "height": 260,
+          "padding": "[50,0,0,0]",
+          "margin": "[0,0,0,0]",
+          "bgImgUrl": "res://common_mine_topbg2"
+        },
+        "noLoginTitleFontSize": 12,
+        "noLoginTitleColor": "#000000",
+        "noLoginTitleBold": false,
+        "imageItems": [
+          {
+            "style": {
+              "margin": "[25,10,18,22]",
+              "width": -2
+            },
+            "type": "component-roundedImage",
+            "imgWidth": 60,
+            "imgHeight": 60,
+            "imgUrl": "res://user_default_head_icon",
+            "onClick": "event://SimpleClick?eventId=onClickPersonalHeaderImage"
+          }
+        ],
+        "personNameItems": [
+          {
+            "type": "component-commonTextView",
+            "style": {
+              "margin": "[10,0,0,0]",
+              "width": -2,
+              "height": -2
+            },
+            "gravity": "left",
+            "title": "",
+            "titleFontSize": 18,
+            "titleBold": true,
+            "titleColor": "#000000",
+            "onClick": "event://SimpleClick?eventId=onClickPersonalHeaderPersonName"
+          }
+        ],
+        "authItems": [
+          {
+            "type": "component-image",
+            "style": {
+              "margin": "[10,0,0,0]",
+              "width": -2
+            },
+            "onClick": "event://SimpleClick?eventId=onClickPersonalHeaderAuth"
+          }
+        ],
+        "nologinItems": [
+          {
+            "type": "component-commonTextView",
+            "onClick": "event://SimpleClick?eventId=onClickPersonalHeaderAuth",
+            "gravity": "left",
+            "style": {
+              "width": -2,
+              "height": -2
+            },
+            "title": "即刻体验更多精彩",
+            "titleColor": "#000000",
+            "titleFontSize": 12,
+            "titleBold": false
+          }
+        ],
+        "settingIconItems": [
+          {
+            "type": "component-image",
+            "imgUrl": "res://mine_ic_setting",
+            "onClick": "event://SimpleClick?eventId=onClickPersonalSetting",
+            "style": {
+              "margin": "[90,20,0,0]",
+              "width": 24,
+              "height": 24
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "padding": "[0,15,5,15]",
+      "margin": "[-90,0,0,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://mine_bg_banner",
+        "imgWidthRatio": 1035,
+        "imgHeightRatio": 252,
+        "imgRatioRef": 1,
+        "onClick": "https://csweb.csx.cn/jimu/preview/43/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickParams": {
+          "onClickEventLabel": ""
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[0,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-bottomRound"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[10,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-lineRoude"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "id": "ecard",
+    "items": [
+      {
+        "type": "component-ecard",
+        "id": "ecard"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "header": {
+      "type": "component-mCardHeader",
+      "style": {
+        "padding": "[0,0,0,0]",
+        "margin": "[-10,0,0,0]",
+        "bgColor": "#ffffff"
+      },
+      "title": "我的服务",
+      "titleBold": true,
+      "iconVisible": false,
+      "arrowIconVisible": false,
+      "moreVisible": false,
+      "more": "更多",
+      "descVisible": true,
+      "partitionVisible": false,
+      "titleFontSize": "18",
+      "onClickEventId": "我的-我的服务-更多",
+      "onClickEventParams": {
+        "eventLabel": "更多"
+      }
+    }
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-horizontalScroll2",
+        "style": {
+          "bgColor": "#ffffff",
+          "margin": "[0,0,0,0]"
+        },
+        "horitems": [
+          {
+            "type": "component-customRatioImageView",
+            "imgUrl": "https://csweb.csx.cn/static/wode/wdfw_wdbg.png",
+            "imgVisible": true,
+            "imgWidthRatio": 150,
+            "imgHeightRatio": 100,
+            "imgRatioRef": 1,
+            "onClick": "http://113.240.240.203:4680/app/index",
+            "style": {
+              "width": 150,
+              "height": 100
+            }
+          },
+          {
+            "type": "component-customRatioImageView",
+            "imgUrl": "https://csweb.csx.cn/static/wodefuwu/wdrw.png",
+            "imgVisible": true,
+            "imgWidthRatio": 150,
+            "imgHeightRatio": 100,
+            "imgRatioRef": 1,
+            "onClick": "http://rwdb.csx.cn:6160/h5/",
+            "style": {
+              "width": 150,
+              "height": 100
+            }
+          },
+          {
+            "type": "component-customRatioImageView",
+            "imgUrl": "https://csweb.csx.cn/static/wode/wdfw_wdqb.png",
+            "imgVisible": true,
+            "imgWidthRatio": 150,
+            "imgHeightRatio": 100,
+            "imgRatioRef": 1,
+            "onClick": "https://mall.xrcbank.com.cn/mobile/#/user/coupons",
+            "style": {
+              "width": 150,
+              "height": 100
+            }
+          },
+          {
+            "type": "component-customRatioImageView",
+            "imgUrl": "https://csweb.csx.cn/static/wode/wdfw_wdzz.png",
+            "imgVisible": true,
+            "imgWidthRatio": 150,
+            "imgHeightRatio": 100,
+            "imgRatioRef": 1,
+            "onClick": "https://csweb.csx.cn/jimu/preview/47/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+            "style": {
+              "width": 150,
+              "height": 100
+            }
+          },
+          {
+            "type": "component-customRatioImageView",
+            "imgUrl": "https://csweb.csx.cn/static/wode/wdfw_wdll.png",
+            "imgVisible": true,
+            "imgWidthRatio": 150,
+            "imgHeightRatio": 100,
+            "imgRatioRef": 1,
+            "onClick": "router:///collection/history/service",
+            "style": {
+              "width": 150,
+              "height": 100
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[0,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-bottomRound"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[10,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-lineRoude"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "header": {
+      "type": "component-mCardHeader",
+      "style": {
+        "padding": "[0,0,0,0]",
+        "margin": "[-10,0,0,0]",
+        "bgColor": "#ffffff"
+      },
+      "title": "我要举报",
+      "titleBold": true,
+      "iconVisible": false,
+      "arrowIconVisible": false,
+      "moreVisible": false,
+      "more": "更多",
+      "descVisible": true,
+      "partitionVisible": false,
+      "onClick": "event://SimpleClick?eventId=allService&serviceTab=jtcx",
+      "titleFontSize": "18",
+      "onClickEventId": "我的-我要举报-更多",
+      "onClickEventParams": {
+        "eventLabel": "更多"
+      }
+    }
+  },
+  {
+    "type": "container-fiveColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[5,0,5,0]"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://mine_ic_aqyh",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "安全隐患",
+        "onClickEventId": "我的-我要举报-安全隐患",
+        "onClick": "http://113.247.234.234:7091/#/pages/group-center/report-something/index?type=1&mainTypeCode=9000090001&titles=安全隐患&jumpPath=zxs",
+        "identifier": "businessHall"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://mine_ic_wzjz",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "违章建筑",
+        "onClickEventId": "我的-我要举报-违章建筑",
+        "onClick": "http://113.247.234.234:7091/#/pages/group-center/report-something/index?type=2&mainTypeCode=9000090002&titles=违章建筑&jumpPath=zxs",
+        "identifier": "businessHall"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://mine_ic_shdd",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "涉黄赌毒",
+        "onClickEventId": "我的-我要举报-涉黄赌毒",
+        "onClick": "http://113.247.234.234:7091/#/pages/group-center/report-something/index?type=5&mainTypeCode=9000090005&titles=涉黄赌毒&jumpPath=zxs",
+        "identifier": "businessHall"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://mine_ic_mdjf",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "矛盾纠纷",
+        "onClickEventId": "我的-我要举报-矛盾纠纷",
+        "onClick": "http://113.247.234.234:7091/#/pages/group-center/report-something/index?type=4&mainTypeCode=9000090004&titles=矛盾纠纷&jumpPath=zxs",
+        "identifier": "businessHall",
+        "onClickParams": {
+          "needLogin": "false"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://mine_ic_tsrq",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "特殊人群",
+        "onClickEventId": "我的-我要举报-特殊人群",
+        "onClick": "http://113.247.234.234:7091/#/pages/group-center/report-something/index?type=3&mainTypeCode=9000090003&titles=特殊人群&jumpPath=zxs",
+        "identifier": "businessHall",
+        "onClickParams": {
+          "needLogin": "false"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://mine_ic_shse",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "涉黑涉恶",
+        "onClickEventId": "我的-我要举报-涉黑涉恶",
+        "onClick": "http://113.247.234.234:7091/#/pages/group-center/report-something/index?type=6&mainTypeCode=9000090006&titles=涉黑涉恶&jumpPath=zxs",
+        "identifier": "businessHall",
+        "onClickParams": {
+          "needLogin": "false"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://mine_ic_qtwt",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "其他问题",
+        "onClickEventId": "我的-我要举报-其他问题",
+        "onClick": "http://113.247.234.234:7091/#/pages/group-center/report-something/index?type=7&mainTypeCode=9000090099&titles=其他问题&jumpPath=zxs",
+        "identifier": "businessHall",
+        "onClickParams": {
+          "needLogin": "false"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[0,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-bottomRound"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[10,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-lineRoude"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "header": {
+      "type": "component-mCardHeader",
+      "style": {
+        "padding": "[0,0,0,0]",
+        "margin": "[-10,0,0,0]",
+        "bgColor": "#ffffff"
+      },
+      "title": "我要参与",
+      "titleBold": true,
+      "iconVisible": false,
+      "arrowIconVisible": false,
+      "moreVisible": false,
+      "more": "更多",
+      "descVisible": true,
+      "partitionVisible": false,
+      "onClick": "event://SimpleClick?eventId=allService&serviceTab=jtcx",
+      "titleFontSize": "18",
+      "onClickEventId": "我的-我要参与-更多",
+      "onClickEventParams": {
+        "eventLabel": "更多"
+      }
+    }
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[5,15,5,15]"
+    },
+    "items": [
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://mine_wycy_sqbd",
+        "imgWidthRatio": 170,
+        "imgHeightRatio": 80,
+        "imgRatioRef": 1,
+        "style": {
+          "padding": "[0,6,5,0]"
+        },
+        "onClick": "http://113.247.234.234:7091/#/pages/group-center/volunteers-manage/modules/ReportDetails",
+        "onClickEventId": "我的-我要参与-社区报道",
+        "onClickParams": {}
+      },
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://mine_wycy_sqhd",
+        "imgWidthRatio": 170,
+        "imgHeightRatio": 80,
+        "imgRatioRef": 1,
+        "style": {
+          "padding": "[0,0,5,6]"
+        },
+        "onClick": "http://113.247.234.234:7091/#/pages/group-center/volunteers-manage/modules/Activity?activeType=joinActive&mainTypeCode=0&titles=%E5%BF%97%E6%84%BF%E8%80%85%E6%B4%BB%E5%8A%A8",
+        "onClickEventId": "我的-我要参与-社区活动",
+        "onClickParams": {}
+      },
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://mine_wycy_hdfc",
+        "imgWidthRatio": 170,
+        "imgHeightRatio": 80,
+        "imgRatioRef": 1,
+        "style": {
+          "padding": "[5,6,10,0]"
+        },
+        "onClick": "http://113.247.234.234:7091/#/pages/group-center/volunteers-manage/modules/Notice",
+        "onClickEventId": "我的-我要参与-活动风采",
+        "onClickParams": {}
+      },
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://mine_wycy_wdhd",
+        "imgWidthRatio": 170,
+        "imgHeightRatio": 80,
+        "imgRatioRef": 1,
+        "style": {
+          "padding": "[5,0,10,6]"
+        },
+        "onClick": "http://113.247.234.234:7091/#/pages/group-center/volunteers-manage/modules/Activity?activeType=myActive",
+        "onClickEventId": "我的-我要参与-我的活动",
+        "onClickParams": {}
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[0,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-bottomRound"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[10,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-lineRoude"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "header": {
+      "type": "component-mCardHeader",
+      "style": {
+        "padding": "[0,0,0,0]",
+        "margin": "[0,0,0,0]",
+        "bgColor": "#ffffff"
+      },
+      "title": "其他",
+      "titleBold": true,
+      "iconVisible": false,
+      "arrowIconVisible": false,
+      "moreVisible": false,
+      "more": "更多",
+      "descVisible": true,
+      "partitionVisible": false,
+      "onClick": "",
+      "titleFontSize": "18",
+      "onClickEventId": "我的-其他-更多",
+      "onClickEventParams": {
+        "eventLabel": "更多"
+      }
+    }
+  },
+  {
+    "type": "container-fiveColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[5,0,5,0]"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://mine_qt_jfrw",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "积分任务",
+        "onClickEventId": "我的-其他-积分任务",
+        "onClick": "https://mall.xrcbank.com.cn/mobile/#/user/signIn/1",
+        "onClickParams": {
+          "needLogin": "false"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "https://csweb.csx.cn/static/wode/qita_wdjsb.png",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "我的记事本",
+        "onClickEventId": "我的-其他-我的记事本",
+        "onClick": "https://csweb.csx.cn/notepad/",
+        "onClickParams": {
+          "needLogin": "false"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://mine_qt_wdqy",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "我的企业",
+        "onClickEventId": "我的-其他-我的企业",
+        "onClick": "event://onClickMyCompany",
+        "identifier": "businessHall",
+        "onClickParams": {
+          "needLogin": "false"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://mine_qt_wdjy",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "我的建议",
+        "onClickEventId": "我的-其他-我的建议",
+        "onClick": "router://com.pasc.smt/feedback/feedback/main",
+        "identifier": "businessHall",
+        "onClickParams": {
+          "needLogin": "true",
+          "needGesture": "true"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://mine_qt_wdyq",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "我的邀请",
+        "onClickEventId": "我的-其他-我的邀请",
+        "onClick": "{h5UrlRoot}/feature/recommend/#/qrcode",
+        "identifier": "businessHall",
+        "onClickParams": {
+          "needLogin": "true"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://mine_qt_wdhp",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "我的好评",
+        "onClick": "event://goToPraise",
+        "identifier": "businessHall",
+        "onClickEventId": "我的-其他-我的好评",
+        "onClickParams": {
+          "needLogin": "true"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://mine_qt_wdbb",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "titleFontSize": 13,
+        "gap": 6,
+        "title": "我的版本",
+        "onClickEventId": "我的-其他-我的版本",
+        "onClick": "event://onClickMyAbout",
+        "identifier": "businessHall",
+        "onClickParams": {
+          "needLogin": "true"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[0,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-bottomRound"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-horizontalDivider",
+        "pageHeight": 6,
+        "bgColor": "#f4f5f6"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-horizontalDivider",
+        "pageHeight": 6,
+        "bgColor": "#f4f5f6"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "padding": "[10,0,0,0]",
+      "bgColor": "#f4f4f4",
+      "width": 150,
+      "height": 64
+    },
+    "items": [
+      {
+        "type": "component-imgCenter",
+        "imgVisible": true,
+        "imgUrl": "https://csweb.csx.cn/static/wode/publisher4.png",
+        "imgWidth": 214,
+        "imgHeight": 64
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-dividerHorizontal",
+        "color": "#F4F4F4",
+        "height": 25
+      }
+    ]
+  }
+]

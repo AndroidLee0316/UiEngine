@@ -1,0 +1,23 @@
+{
+  "type": "component-bannerTwoText",
+  "style": {
+    "margin": "[0,15,0,15]"
+  },
+  "bannerVisible": true,
+  "bannerUrl": "res://bg_banner_two_text",
+  "bannerWidth": -1,
+  "bannerHeight": -2,
+  "bannerWidthRatio": 16,
+  "bannerHeightRatio": 5,
+  "bannerRatioRef": 1,
+  "title": "网上大厅",
+  "titleColor": "#ffffff",
+  "titleFontSize": 22,
+  "titleBold": false,
+  "desc": "政务服务的私人管家",
+  "descColor": "#ffffff",
+  "descFontSize": 16,
+  "descBold": false,
+  "lineGap": 4,
+  "textLayoutMargin": "[0,0,0,16]"
+}

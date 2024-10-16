@@ -1,0 +1,24 @@
+{
+  "settingConfig": {
+    "profile": true,
+    "security": true,
+    "feedback": true,
+    "clearCache": true,
+    "about": true
+  },
+  "profileConfig": {
+    "portrait": true,
+    "mobile": true,
+    "nickname": true,
+    "gender": true,
+    "certification": true,
+    "identity": true,
+    "address": true
+  },
+  "aboutConfig": {
+    "version": true,
+    "protocol": true,
+    "copyright": true,
+    "protocolUrl":"https://smt-stg.yun.city.pingan.com/basic/stg/app/feature/provision/?uiparams=%7B%22title%22:%22%22%7D#/detail"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "component-iconText",
+  "iconUrl": "res://ic_main_page_service_hall",
+  "iconWidth": 30,
+  "iconHeight": 30,
+  "title": "办事大厅",
+  "gap": 4,
+  "onClick": "router://com.pasc.smt/governmentAffairs/onlineHall/guide",
+  "onClickEventId": "home",
+  "onClickEventParams": {
+    "服务名称": "办事大厅"
+  }
+}

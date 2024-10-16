@@ -1,0 +1,81 @@
+apply plugin: 'com.android.library'
+
+apply from: 'uploadArchives.gradle'
+
+android {
+
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        multiDexEnabled true
+        //ARouter
+        javaCompileOptions {
+            annotationProcessorOptions {
+                // 数据库与路由的配置
+                arguments = [targetModuleName: project.getName(), moduleName: project.getName()]
+                arguments = [AROUTER_MODULE_NAME: project.getName(), AROUTER_GENERATE_DOC: "enable"]
+            }
+        }
+    }
+    sourceSets {
+        main {
+            res.srcDirs += "src/main/res-theme"
+        }
+    }
+
+    buildTypes {
+        release {
+        }
+        debug {
+        }
+    }
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    //奔溃日志捕获显示
+    api "com.github.tuikes:CrashHandler:${rootProject.ext.crashHandler}"
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.47'
+    api "com.zxs.lib:ota:1.0.0"
+    api "com.zxs.lib:storage:1.0.0"
+    api   'com.github.AndroidLee0316:base:support_1.0.0'
+    api 'com.github.AndroidLee0316:zxs_net:support_2.0.0'
+    annotationProcessor "com.alibaba:arouter-compiler:${rootProject.ext.arouterCompiler}"
+    api 'org.greenrobot:eventbus:3.1.1'
+    api 'com.github.AndroidLee0316:router:support_1.0.0'
+    api "com.zxs.business:ota:1.0.0"
+    api "com.zxs.lib:behavior:1.0.0"
+    api "com.zxs.lib:share:1.0.0"
+
+//    if (isMavenBuild == 'true') {
+//        api "com.pasc.business:feedback:${rootProject.ext.BUSINESS_FEEDBACK_VERSION}"
+//    } else {
+//        api project(':BusinessFeedback')
+//    }
+    api "com.zxs.business:feedback:1.0.0"
+
+    api  "com.zxs.lib:statistics:1.0.0"
+    api LIB_WIDGET
+    api LIB_USER_OUT
+//    if (isMavenBuild == 'false') {
+//        api project(':BusinessWorkspace')
+//    } else {
+//        api BUSINESS_WORKSPACE
+//    }
+    api "com.zxs.business:workspace:1.0.0"
+}

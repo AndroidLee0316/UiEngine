@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="12dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@drawable/workspace_selector_item_common"
+    >
+  <TextView
+      android:id="@+id/tv_title"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_toLeftOf="@+id/iv_icon"
+      android:ellipsize="end"
+      android:maxLines="2"
+      android:paddingBottom="10dp"
+      android:textColor="#3C4058"
+      android:textSize="@dimen/text_size_17"
+      android:lineSpacingMultiplier="1.2"
+      tools:text="南通支云足球俱乐部誓师出征 目标“冲甲hahahaxxxx123131231”"
+      />
+
+  <com.pasc.lib.widget.roundview.RoundTextView
+      android:id="@+id/rtv_tag"
+      android:layout_width="wrap_content"
+      android:layout_height="14dp"
+      android:layout_alignBottom="@+id/tv_publish"
+      android:layout_alignTop="@+id/tv_publish"
+      android:layout_below="@+id/tv_title"
+      android:layout_marginRight="10dp"
+      android:gravity="center"
+      android:paddingLeft="4dp"
+      android:paddingRight="4dp"
+      android:text="视频"
+      android:textColor="#fa8c16"
+      android:textSize="@dimen/text_size_10"
+      app:rv_cornerRadius="7dp"
+      app:rv_backgroundColor="#fff7e6"
+      />
+
+
+  <TextView
+      android:id="@+id/tv_publish"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/tv_title"
+      android:layout_toRightOf="@+id/rtv_tag"
+      android:textColor="#949DB2"
+      android:textSize="12sp"
+      android:maxLines="1"
+      android:ellipsize="end"
+      tools:text="南通新闻网 2018年05月11日14:27:07"
+      />
+  <View
+      android:id="@+id/v_divider"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/common_line_width"
+      android:layout_below="@+id/tv_publish"
+      android:layout_marginTop="12dp"
+      android:background="#e8e8e8"
+      />
+
+</RelativeLayout>

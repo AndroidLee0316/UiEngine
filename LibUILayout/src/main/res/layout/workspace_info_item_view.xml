@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lineSpacingMultiplier="1.2"
+            android:maxLines="2"
+            android:text="中美同意不再加征新关税，释放了三个清晰的信号！"
+            android:textColor="#333333"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:id="@+id/threeImgContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/centerImgView1"
+                android:layout_width="0dp"
+                android:layout_height="78dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius="4dp" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/centerImgView2"
+                android:layout_width="0dp"
+                android:layout_height="78dp"
+                android:layout_marginLeft="9dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius="4dp" />
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/centerImgView3"
+                android:layout_width="0dp"
+                android:layout_height="78dp"
+                android:layout_marginLeft="9dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius="4dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:id="@+id/timeView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="2018-11-08"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/descView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="深圳特区报"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/rightImgView"
+        android:layout_width="109dp"
+        android:layout_height="78dp"
+        android:layout_gravity="top"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="4dp" />
+
+</LinearLayout>

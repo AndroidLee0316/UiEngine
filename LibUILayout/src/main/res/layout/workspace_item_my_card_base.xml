@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_card_all_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="130dp">
+
+    <ImageView
+        android:id="@+id/iv_my_card_bg"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_card" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/workspace_ic_personal_settings" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_my_card_dept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#99FFFFFF"
+                android:textSize="13dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="深圳市住房公积金管理中心" />
+
+            <TextView
+                android:id="@+id/tv_my_card_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_marginTop="2dp"
+                android:textSize="22dp"
+                android:text="公积金"/>
+
+
+            <TextView
+                android:id="@+id/tv_my_card_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#99FFFFFF"
+                android:textSize="13dp"
+                android:layout_marginRight="80dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_marginTop="16dp"
+                android:visibility="visible"
+                tools:text="F*******" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.flyco.roundview.RoundTextView
+        android:id="@+id/tv_my_card_unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        app:rv_cornerRadius="100dp"
+        app:rv_backgroundColor="#33FFFFFF"
+        tools:text="@string/business_mine_card_to_bind" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="28dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/workspace_ic_three_overtime"
+        android:visibility="gone" />
+
+</FrameLayout>

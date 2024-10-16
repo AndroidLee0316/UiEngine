@@ -1,0 +1,15 @@
+{
+  "announcementList": [
+    {
+      "title": "测试公告：关于人脸认证系统功能暂时无法使用的通知，人脸系统迎来重大更新。",
+      "content": "this is a test announcement for index",
+      "publishTime": "2019年01月16日 10:27",
+      "id": 11,
+      "versionRange": 1,
+      "versionRangeStart": null,
+      "versionRangeEnd": null,
+      "skipUrl": "http://www.baidu.com",
+      "closedAble": 0
+    }
+  ]
+}

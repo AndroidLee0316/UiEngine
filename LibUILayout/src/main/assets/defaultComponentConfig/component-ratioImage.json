@@ -1,0 +1,10 @@
+{
+  "type": "component-ratioImage",
+  "imgVisible": true,
+  "imgUrl": "res://bg_ratio_image",
+  "imgWidth": -1,
+  "imgHeight": -2,
+  "imgWidthRatio": 1125,
+  "imgHeightRatio": 216,
+  "imgRatioRef": 1
+}

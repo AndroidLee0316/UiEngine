@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">BusinessSettings</string>
+    <string name="business_mine_about_us">关于我们</string>
+    <string name="business_mine_current_version">当前版本号：</string>
+    <string name="business_mine_feedback">意见反馈</string>
+
+    <string name="business_mine_my_business_title">我的消息</string>
+
+    <string name="business_mine_unread_msg">未读消息</string>
+
+
+    <string name="business_mine_card">我的卡包</string>
+    <string name="business_mine_card_fund_name">公积金</string>
+    <string name="business_mine_card_fund_dept">深圳市住房公积金管理中心</string>
+    <string name="business_mine_card_to_bind">去登录</string>
+    <string name="business_mine_card_jb_desc_hint">社会信用代码：</string>
+    <string name="business_mine_card_jb_dept_hint">法定代表人：</string>
+
+    <string name="opinion">意见反馈</string>
+    <string name="business_mine_profile">用户资料</string>
+
+    <string name="business_user_my_address">联系地址</string>
+    <string name="business_user_add_address">添加地址</string>
+    <string name="token_invalid">登录已过期，请重新登录</string>
+    <string name="mine_real_name">真实姓名</string>
+    <string name="mine_identity_no">身份证号</string>
+    <string name="mine_nickname">昵称</string>
+
+    <string name="business_mine_feedback_photo_num">(%s/4)</string>
+    <string name="mine_set_nickname">设置昵称</string>
+    <string name="mine_finish">完成</string>
+    <string name="mine_nickname_hint">请输入2-15个字符</string>
+    <string name="mine_no_update">您已是最新版本</string>
+    <string name="mine_no_new_version">已是最新版本</string>
+    <string name="mine_new_version">发现新版本</string>
+  <string name="mine_take_photo">拍照</string>
+    <string name="mine_select_pic">从相册选择</string>
+    <string name="mine_add_addr">添加地址</string>
+    <string name="mine_contact">联系人</string>
+    <string name="mine_name">姓名</string>
+    <string name="mine_phone">手机号码</string>
+    <string name="mine_pls_enter_cell">请输入手机号</string>
+    <string name="mine_region">所在地区</string>
+    <string name="mine_region_belong">请选择所在地区</string>
+    <string name="mine_detailed_addr">详细地址</string>
+    <string name="mine_addr_hint">如道路、小区门牌、楼栋号、单元室等2个字符以上</string>
+    <string name="mine_save">保存</string>
+    <string name="mine_zcode">邮政编码</string>
+    <string name="pls_enter_zcode">请填写邮政编码（选填）</string>
+    <string name="mine_set_default_addr">设为默认地址</string>
+    <string name="mine_delete_addr">删除联系地址</string>
+    <string name="mine_clearing_cache">正在清理缓存</string>
+    <string name="mine_clearing_succed">缓存清除成功</string>
+    <string name="mine_no_addr_hint">您还未添加地址</string>
+    <string name="mine_about_copyright">Copyright©-2018平安智慧城市.\nAll Rights Reserved.</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_del">删除</string>
+  <string name="business_mine_private_policy">用户隐私协议</string>
+  <string name="business_mine_pwd_reset">密码重置</string>
+  <string name="mine_discard_edition">是否放弃本次编辑？</string>
+  <string name="mine_addr_discard">放弃</string>
+  <string name="mine_continue_edit">继续编辑</string>
+  <string name="mine_unregister">帐户注销</string>
+  <string name="mine_title">我的</string>
+  <string name="mine_use_permission">系统权限</string>
+  <string name="mine_use_pemission_hint">为提供更好的用户体验，%s在特定场景下将向您申请一下手机系统权限</string>
+  <string name="setting_use_permission_location_title" translatable="false">允许%s访问位置信息权限</string>
+  <string name="setting_use_permission_location_subtitle" translatable="false">根据您的位置展示对应的天气信息等</string>
+  <string name="setting_use_permission_camera_title" translatable="false">允许%s访问相机权限</string>
+  <string name="setting_use_permission_camera_subtitle" translatable="false">进行扫码、拍摄，用于反馈问题、资料上传等</string>
+  <string name="setting_use_permission_contact_title" translatable="false">允许%s访问通讯录权限</string>
+  <string name="setting_use_permission_contact_subtitle" translatable="false">办理手机话费充值时，获取联系人信息</string>
+  <string name="setting_use_permission_call_phone_title" translatable="false">允许%s访问电话权限</string>
+  <string name="setting_use_permission_call_phone_subtitle" translatable="false">与直接拨打相关部门联系电话时需要获取对应信息</string>
+  <string name="setting_use_permission_photo_title" translatable="false">允许%s访问相册权限</string>
+  <string name="setting_use_permission_photo_subtitle" translatable="false">使用扫码、图片选择功能，用于资料上传等</string>
+  <string name="setting_use_permission_microphone_title" translatable="false">允许%s访问麦克风权限</string>
+  <string name="setting_use_permission_microphone_subtitle" translatable="false">为您提供语音搜索或语音输入等服务</string>
+  <string name="setting_use_permission_opened" translatable="false">已开启</string>
+  <string name="setting_use_permission_unopen" translatable="false">未开启</string>
+
+</resources>

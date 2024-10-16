@@ -1,0 +1,88 @@
+{
+  "type": "component-nearbyService",
+  "style": {
+    "bgImgUrl": "res://bg_map"
+  },
+  "serviceEntryItems": [
+    {
+      "type": "component-twoIconTwoText",
+      "style": {
+        "padding": "[16,16,16,16]",
+        "margin": "[0,10,10,10]",
+        "bgImgUrl": "res://bg_life_map_rect"
+      },
+      "title": "发现周边",
+      "titleColor": "#333333",
+      "titleFontSize": 15,
+      "titleBold": false,
+      "desc": "医院/诊所、公共服务站点等",
+      "descColor": "#999999",
+      "descFontSize": 13,
+      "descBold": false,
+      "iconVisible": false,
+      "iconUrl": "res://ic_circle_orange_education",
+      "iconWidth": 24,
+      "iconHeight": 24,
+      "iconMargin": "[0,12,0,0]",
+      "arrowIconVisible": true,
+      "arrowIconUrl": "res://ic_arrow_salt_city",
+      "arrowIconWidth": 12,
+      "arrowIconHeight": 12,
+      "arrowIconMargin": "[0,0,0,0]"
+    }
+  ],
+  "serviceItems": [
+    {
+      "style": {
+        "margin": "[10,0,0,19]",
+        "width": -2
+      },
+      "type": "component-iconTextNearbyService",
+      "title": "安心早餐店",
+      "iconWidth": 24,
+      "iconHeight": 24,
+      "iconMargin": "[2,4,2,0]",
+      "iconUrl": "res://ic_breakfast",
+      "onClick": "event://NotValid"
+    },
+    {
+      "style": {
+        "margin": "[0,0,10,49]",
+        "width": -2
+      },
+      "type": "component-iconTextNearbyService",
+      "title": "公共卫生间",
+      "iconWidth": 24,
+      "iconHeight": 24,
+      "iconMargin": "[2,4,2,0]",
+      "iconUrl": "res://ic_wc",
+      "onClick": "event://NotValid"
+    },
+    {
+      "style": {
+        "margin": "[0,47,5,0]",
+        "width": -2
+      },
+      "type": "component-iconTextNearbyService",
+      "title": "公交站点",
+      "iconWidth": 24,
+      "iconHeight": 24,
+      "iconMargin": "[2,4,2,0]",
+      "iconUrl": "res://ic_bus_station",
+      "onClick": "event://NotValid"
+    },
+    {
+      "style": {
+        "margin": "[15,27,0,0]",
+        "width": -2
+      },
+      "type": "component-iconTextNearbyService",
+      "title": "公共自行车",
+      "iconWidth": 24,
+      "iconHeight": 24,
+      "iconMargin": "[2,4,2,0]",
+      "iconUrl": "res://ic_bike",
+      "onClick": "event://NotValid"
+    }
+  ]
+}

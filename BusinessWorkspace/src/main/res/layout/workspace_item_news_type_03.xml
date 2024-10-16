@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="102dp"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@drawable/workspace_selector_item_common">
+  <TextView
+      android:id="@+id/tv_title"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignTop="@+id/iv_icon"
+      android:layout_toLeftOf="@+id/iv_icon"
+      android:ellipsize="end"
+      android:maxLines="2"
+      android:paddingBottom="10dp"
+      android:lineSpacingMultiplier="1.2"
+      android:paddingRight="12dp"
+      tools:text="南通支云足球俱乐部誓师出征 目标“冲甲”"
+      android:textColor="#3C4058"
+      android:textSize="@dimen/text_size_17"
+      />
+
+
+  <TextView
+      android:id="@+id/tv_publish"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_toLeftOf="@+id/iv_icon"
+      android:paddingBottom="12dp"
+      android:paddingTop="10dp"
+      tools:text="南通新闻网 2018年05月11日14:27:07"
+      android:textColor="#949DB2"
+      android:maxLines="1"
+      android:ellipsize="end"
+      android:textSize="12sp"
+      />
+
+  <ImageView
+      android:id="@+id/iv_icon"
+      android:layout_width="118dp"
+      android:layout_height="78dp"
+      android:layout_alignParentRight="true"
+      android:layout_centerVertical="true"
+      tools:src="#27a5f9"
+
+      />
+
+  <View
+      android:id="@+id/v_divider"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/common_line_width"
+      android:layout_alignParentBottom="true"
+      android:background="#e8e8e8"
+      />
+
+
+</RelativeLayout>

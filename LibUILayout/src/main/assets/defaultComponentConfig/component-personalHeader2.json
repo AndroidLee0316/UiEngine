@@ -1,0 +1,95 @@
+{
+  "type": "component-personalHeader2",
+  "style": {
+    "padding": "[0,8,0,8]",
+    "bgImgUrl": "res://bg_personal_header"
+  },
+  "imageItems": [
+    {
+      "style": {
+        "margin": "[0,0,20,15]",
+        "width": -2
+      },
+      "type": "component-roundedImage",
+      "imgWidth": 54,
+      "imgHeight": 54,
+      "imgUrl": "res://img_person_head",
+      "onClick": "event://SimpleClick?eventId=onClickPersonalHeaderImage"
+    }
+  ],
+  "personNameItems": [
+    {
+      "type": "component-singleText",
+      "style": {
+        "margin": "[0,0,0,15]",
+        "width": -2
+      },
+      "title": "王小姐",
+      "titleFontSize": 17,
+      "titleBold": true,
+      "onClick": "event://SimpleClick?eventId=onClickPersonalHeaderPersonName"
+    }
+  ],
+  "authItems": [
+    {
+      "type": "component-twoIconText",
+      "style": {
+        "margin": "[0,0,0,15]",
+        "width": -2,
+        "bgImgUrl": "res://bg_white_rounded",
+        "padding": "[0,4,0,4]"
+      },
+      "title": "已实名",
+      "titleFontSize": 12,
+      "titleColor": "#22C8D8",
+      "iconUrl": "res://ic_right",
+      "iconWidth": 12,
+      "iconHeight": 12,
+      "iconMargin": "[0,2,0,0]",
+      "arrowIconVisible": false,
+      "onClick": "event://SimpleClick?eventId=onClickPersonalHeaderAuth"
+    }
+  ],
+  "scoreItems": [
+    {
+      "type": "component-iconTwoText",
+      "style": {
+        "padding": "[15,0,15,24]",
+        "width": -2
+      },
+      "title": "文明分",
+      "titleFontSize": 13,
+      "desc": "800分",
+      "descFontSize": 15,
+      "descBold": true,
+      "descColor": "#22C8D8",
+      "iconPosition": "left",
+      "iconMargin": "[0,8,0,0]",
+      "iconWidth": 30,
+      "iconHeight": 30,
+      "iconUrl": "res://ic_score",
+      "onClick": "event://SimpleClick?eventId=onClickPersonalHeaderScore"
+    }
+  ],
+  "stepNumItems": [
+    {
+      "type": "component-iconTwoText",
+      "style": {
+        "padding": "[15,0,15,24]",
+        "width": -2
+      },
+      "iconPosition": "left",
+      "iconMargin": "[0,8,0,0]",
+      "title": "今日步数",
+      "titleFontSize": 13,
+      "desc": "2000步",
+      "descFontSize": 15,
+      "descBold": true,
+      "descColor": "#22C8D8",
+      "iconWidth": 30,
+      "iconHeight": 30,
+      "iconUrl": "res://ic_step",
+      "onClick": "event://SimpleClick?eventId=onClickPersonalHeaderStepNum"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+  <ImageView
+      android:id="@+id/iconView"
+      android:layout_width="18dp"
+      android:layout_height="18dp"
+      android:layout_marginRight="8dp"
+      android:src="@drawable/ic_circle_orange_education"
+      app:layout_constraintBottom_toBottomOf="@+id/titleView"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toLeftOf="@+id/titleView"
+      app:layout_constraintTop_toTopOf="@+id/titleView"
+      />
+
+  <TextView
+      android:id="@+id/titleView"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:text="交管服务"
+      android:textColor="#333333"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/menuLayout"
+      app:layout_constraintLeft_toRightOf="@id/iconView"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+  <LinearLayout
+      android:id="@+id/menuLayout"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="@+id/titleView"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/titleView"
+      >
+
+  </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+

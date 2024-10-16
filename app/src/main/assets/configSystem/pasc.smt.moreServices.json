@@ -1,0 +1,1423 @@
+{
+  "sections": [
+    {
+      "header": {
+        "eventId": "更多服务",
+        "title": "交通出行"
+      },
+      "items": [
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhqx.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhqx_w.png",
+          "identifier": "service.jtcx.tqyb",
+          "router": "https://app.bestzhuhai.com.cn/jimu/9/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "天气预报",
+          "eventLabel": "_e5e42a5bd6f341288d7e3548959fbe99"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ggzxc.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ggzxc_w.png",
+          "identifier": "service.jtcx.ggzxc",
+          "router": "router://com.pasc.smt/bike/main?needLogin=true&needIdentity=true",
+          "title": "公共自行车",
+          "eventLabel": "_82e328b4a0d14c51b9d6ba48811788b1"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ssgj.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ssgj_w.png",
+          "identifier": "service.jtcx.ssgj",
+          "router": "http://zhwx.hizh.cn/Act/traffic_new/bus/path.html",
+          "title": "实时公交",
+          "eventLabel": "_cdbfd1061ded4031a00e27bb5fe11ad9"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ygdc.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ygdc_w.png",
+          "identifier": "service.jtcx.ygdc",
+          "title": "有轨电车",
+          "router": "http://wx.zhmrt.com:13555/Inquire/Index/?scene=126",
+          "eventLabel": "_201832c57b3f46f5a1d5bb775d0d32ee"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_sslk.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_sslk_w.png",
+          "identifier": "service.jtcx.sslk",
+          "router": "https://app.bestzhuhai.com.cn/jimu/26/",
+          "title": "实时路况",
+          "eventLabel": "_679be678bae848f3a7b84a57a8aaff47"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_mbcw.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_mbcw_w.png",
+          "identifier": "service.jtcx.mbcw",
+          "router": "http://wx.zhuhaipark.com/Home/Search",
+          "title": "咪表车位",
+          "eventLabel": "_e846c418550a4d1f996b7158465741a4"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jzg.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jzg_w.png",
+          "identifier": "service.jtcx.jzg",
+          "router": "http://zhjzg.haidaotrip.com/Wap/Views/Index.aspx?appType=zzh",
+          "title": "九洲港",
+          "eventLabel": "_414a08c7db364644a4e321be191d26f0"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_xzg.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_xzg_w.png",
+          "identifier": "service.jtcx.xzg",
+          "router": "https://app.bestzhuhai.com.cn/jimu/137/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "香洲港",
+          "eventLabel": "_ed0d77cc67fe4524be09b8e098f0d17c"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gzadq.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gzadq_w.png",
+          "identifier": "service.jtcx.gzadq",
+          "router": "https://app.bestzhuhai.com.cn/jimu/21/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "港珠澳大桥",
+          "eventLabel": "_621076bb06794eacb52959cda53c4a4f"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai//more/0303/ic_sgtkj.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gbka_w.png",
+          "identifier": "service.jtcx.sgtkj",
+          "router": "https://app.bestzhuhai.com.cn/jimu/211/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "深港通跨境",
+          "eventLabel": "_03af221a0491493a9b936ee5fdb3f7ba"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gbka.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gbka_w.png",
+          "identifier": "service.jtcx.gbka",
+          "router": "https://app.bestzhuhai.com.cn/jimu/55/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "拱北口岸",
+          "eventLabel": "_ddb5c0aad5bb434984a81bd0567d663f"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_wzka.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_wzka_w.png",
+          "identifier": "service.jtcx.wzka",
+          "router": "https://app.bestzhuhai.com.cn/jimu/160/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "湾仔口岸",
+          "eventLabel": "_09f632fa6fda42a5a0a1e1064d201528"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_zhglka.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_zhglka_w.png",
+          "identifier": "service.jtcx.zhglka",
+          "router": "https://app.bestzhuhai.com.cn/jimu/140/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "珠海公路口岸",
+          "eventLabel": "_e40fa53afac04a2195c166c614c9cc80"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bjtg.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bjtg_w.png",
+          "identifier": "service.jtcx.bjtg",
+          "router": "https://app.bestzhuhai.com.cn/jimu/58/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "边检通关",
+          "eventLabel": "_08d2259ea80a4ec9acf8103ab84e9832"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hbcx.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hbcx_w.png",
+          "identifier": "service.jtcx.hbcx",
+          "router": "http://h5gdzhjc.iairportcloud.com/#/SearchFlight",
+          "title": "航班查询",
+          "eventLabel": "_1c29a3c90f57437e86523f944f17d5b6"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhjc.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhjc_w.png",
+          "identifier": "service.jtcx.jwjc",
+          "router": "https://app.bestzhuhai.com.cn/jimu/117/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "金湾机场",
+          "eventLabel": "_46cc19d4f67247ab86baa97e65d0dfe1"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ggkczd.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ggkczd_w.png",
+          "identifier": "service.jtcx.gjkczd",
+          "router": "http://www.zhbuswx.com/AppWeb/Recharge.html#/",
+          "title": "公交卡充值点",
+          "eventLabel": "_1c183747fe0d4a4db337920e37d43d46"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gslk.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gslk_w.png",
+          "identifier": "service.jtcx.gslk",
+          "router": "http://mainten.televehicle.com/highwaystatus/getRoadListForRegion.action?regionId=0&cityid=440400",
+          "title": "高速路况",
+          "eventLabel": "_9e8380e8a1174f91b8b0265610b18425"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200428/ic_more_blqf.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200428/ic_more_blqf_w.png",
+          "identifier": "service.jtcx.qczzfw",
+          "router": "http://m.yuanweixc.com/client/index.html#/comm/bestzh/reservation?needLogin=true",
+          "title": "汽车增值服务",
+          "eventLabel": "_7d570490d4054ac09dbbb547a0fa7de5"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jykcz.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jykcz_w.png",
+          "identifier": "service.jtcx.ykcz",
+          "router": "https://mwz.autohome.com.cn/JiaYou/oilsecure.aspx?platformid=UQTeJOOj9m8&refpage=pazh",
+          "title": "油卡充值",
+          "eventLabel": "_031b2b81ef134018bfd9dcb90e709526"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_qcgz.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_qcgz_w.png",
+          "identifier": "service.jtcx.qcgz",
+          "router": "https://m.che168.com/pinggu/?sourcename=weizhang&safe=1&pvareaid=105766&sellmark=oaha10021&refpage=pazh",
+          "title": "汽车估值",
+          "eventLabel": "_09e62c72ed1d4e8c81521d19d1b541db"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_njdb.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_njdb_w.png",
+          "identifier": "service.jtcx.njdb",
+          "router": "https://mwz.autohome.com.cn/NianJian/dianping/index-m.html?refpage=pazh#/index",
+          "title": "年检代办",
+          "eventLabel": "_66014b83b4ca44548dffd9a61daae871"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jryj.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jryj_w.png",
+          "identifier": "service.jtcx.jryj",
+          "router": "https://mwz.autohome.com.cn/YouJia/today-oil-price.html?refpage=pazh",
+          "title": "今日油价",
+          "eventLabel": "_f985081226694582bc5093184df607f6"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_czcjd.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_czcjd_w.png",
+          "identifier": "service.jtcx.czcjd",
+          "router": "http://zh.gps1188.com/app/view/mobile/pingjia_rukou.jsp",
+          "title": "出租车监督",
+          "eventLabel": "_af1c4b2f7c4549e39d69037cd07c797d"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-交通出行",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_qctt.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_qctt_w.png",
+          "identifier": "service.jtcx.qctt",
+          "router": "http://m.wz.qichecdn.com/car-headline-list/car-headline-list.html?refpage=pazh",
+          "title": "汽车头条",
+          "eventLabel": "_8bac6b9d7a7f413397dee1d0872a645c"
+        }
+      ],
+      "type": "Community service"
+    },
+    {
+      "header": {
+        "eventId": "更多服务",
+        "title": "医疗健康"
+      },
+      "items": [
+        {
+          "canShow": true,
+          "eventId": "更多服务-医疗健康",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_yygh.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_yygh_w.png",
+          "identifier": "service.yljk.yygh",
+          "router": "https://wx.weisheng.com/wechat/wx_hcn-v2.html#/appoint-hospital-list?zzh=2&needLogin=true&needIdentity=true",
+          "title": "预约挂号",
+          "eventLabel": "_c7aab323818e4c9ea6ce24971efef1df"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-医疗健康",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200508/ic_ertkzyy.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/homepage/20200329/kouzhao_whtie.png",
+          "identifier": "service.yljk.yygh",
+          "router": "https://zhuhai.yun.city.pingan.com/web/release/zzh-kid-mask-booking/index.html#/",
+          "title": "儿童口罩",
+          "eventLabel": "_061afa1504024fb08f902b6dc74ed1bc"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-医疗健康",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhjk.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhjk_w.png",
+          "identifier": "service.yljk.jkym",
+          "router": "https://app.bestzhuhai.com.cn/jimu/28/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "疫情防控",
+          "eventLabel": "_7ba2f85a93124e5092ad5becd1e3a8f7"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-医疗健康",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ylzs.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ylzs_w.png",
+          "identifier": "service.yljk.ylzs",
+          "router": "https://ima.yingxiang.pingan.com/main/#/zhuh",
+          "title": "医疗助手",
+          "eventLabel": "_6cee5716420b4625b58e6fd20f493715"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-医疗健康",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_sb.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_sb_w.png",
+          "identifier": "service.yljk.sbfw",
+          "router": "https://app.bestzhuhai.com.cn/jimu/54/?needLogin=true&needIdentity=true&uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "社保服务",
+          "eventLabel": "_919cd766c0d945cd8307aa1feedc9bd7"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-医疗健康",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_yb.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_yb_w.png",
+          "identifier": "service.yljk.ybfw",
+          "router": "https://app.bestzhuhai.com.cn/jimu/27/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "医保服务",
+          "eventLabel": "_c46fd15b80a14493b7bfe7cbee9334f6"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-医疗健康",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_jkzh.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_jkzh_w.png",
+          "identifier": "service.yljk.jkzh",
+          "router": "https://app.bestzhuhai.com.cn/jimu/132/?needLogin=true&needIdentity=true&uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "健康珠海",
+          "eventLabel": "_0e5f1eb9618648949576728b0aade751"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-医疗健康",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_fytj.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_fytj_w.png",
+          "identifier": "service.yljk.fybjtj",
+          "router": "https://app.bestzhuhai.com.cn/jimu/60/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "妇幼保健体检",
+          "eventLabel": "_3c2d5664b2d44ef4bed4e24fc35a14d1"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-医疗健康",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_xlrx.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_xlrx_w.png",
+          "identifier": "service.yljk.xlrx",
+          "router": "https://app.bestzhuhai.com.cn/jimu/157/",
+          "title": "心理热线",
+          "eventLabel": "_a88f29a0056d4835b6bcc5377a82688e"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-医疗健康",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hpvyy.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hpvyy_w.png",
+          "identifier": "service.yljk.hpvyy",
+          "router": "http://www.zhcdc.org/jk-gongzhonghao/wx/page/activity-main.html?companyCode=jikong&activityId=17",
+          "title": "HPV预约",
+          "eventLabel": "_95779ca8f58346bb8d4846b4a84faa16"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-医疗健康",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_xx.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_xx_w.png",
+          "identifier": "service.zfbz.wcxx",
+          "router": "https://app.bestzhuhai.com.cn/jimu/72/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "无偿献血",
+          "eventLabel": "_ed63efac74a04e9392311efada322b9e"
+        }
+      ],
+      "type": "MEDICAL"
+    },
+    {
+      "header": {
+        "eventId": "更多服务",
+        "title": "澳门专区"
+      },
+      "items": [
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_amcszn.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_amcszn_w.png",
+          "identifier": "service.amzq.cszn",
+          "router": "https://gb.cityguide.gov.mo/gate/gb/m.cityguide.gov.mo/c/home",
+          "title": "城市指南",
+          "eventLabel": "_44726f0e05514280871b1a8b4419f2ed"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_amtq.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_amtq_w.png",
+          "identifier": "service.amzq.amtq",
+          "router": "http://smgwechat.in168.com/WeiXinWeb/221/Weather/Actual.aspx",
+          "title": "澳门天气",
+          "eventLabel": "_5934c52101cd4809a1a56351c429cda3"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jtzn.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jtzn_w.png",
+          "identifier": "service.amzq.sbfw",
+          "router": "https://app.bestzhuhai.com.cn/jimu/22/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "交通指南",
+          "eventLabel": "_4fee119c1ec143d99fae09547b2b0a09"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_amsslk.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_amsslk_w.png",
+          "identifier": "service.amzq.amlk",
+          "router": "http://m.dsat.gov.mo/cam.aspx?data=dsat",
+          "title": "澳门路况",
+          "eventLabel": "_9ba445fa6c54487f945961ccd30a7fe2"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_amgjbs.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_amgjbs_w.png",
+          "identifier": "service.amzq.gjbs",
+          "router": "https://app.bestzhuhai.com.cn/jimu/25/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "公交巴士",
+          "eventLabel": "_c8f07428bcf04f3a8deed3258a51fd01"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_mfwifi.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_mfwifi_w.png",
+          "identifier": "service.amzq.mfwifi",
+          "router": "http://freewifi.mo/cn/?scene=126&clicktime=1574133168",
+          "title": "免费WiFi",
+          "eventLabel": "_55a89a364a8346a88c2936d06a79aa60"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_lqxs.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_lqxs_w.png",
+          "identifier": "service.amzq.lxlx",
+          "router": "http://mgtowx.y5link.com/?scene=126&clicktime=1574070391",
+          "title": "旅行路线",
+          "eventLabel": "_b5f3096ac99f4417b76d99c7e82a4cbc"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bwgjzl.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bwgjzl_w.png",
+          "identifier": "service.amzq.wcxx",
+          "router": "http://mgtowx.y5link.com/index.php?s=/Home/Index/list_tour/type/46.html&scene=126&clicktime=1574070437",
+          "title": "博物馆",
+          "eventLabel": "_bcb6f2e55cd44bbca7f06adbec4d3f5e"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_amyhl.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more_ic_amyhl_w.png",
+          "identifier": "service.amzq.amyhl",
+          "router": "https://gb.cityguide.gov.mo/gate/gb/m.cityguide.gov.mo/c/tips/table/exchange",
+          "title": "澳门元汇率",
+          "eventLabel": "_646cbb6421dd4fa88eca32ab6babb91a"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jyzn.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jyzn_w.png",
+          "identifier": "service.amzq.jyzn",
+          "router": "https://app.bestzhuhai.com.cn/jimu/24/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "就医指南",
+          "eventLabel": "_6c0021a0763d453faa4cd6abd803cd4c"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_jhgh.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_jhgh_w.png",
+          "identifier": "service.amzq.jhgh",
+          "router": "https://reg.kwh.org.mo/?scene=126&clicktime=1574132698",
+          "title": "镜湖挂号",
+          "eventLabel": "_41807447c4fb4ed2a5c422a940fa5609"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_mzdhqk.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_mzdhqk_w.png",
+          "identifier": "service.amzq.mzdh",
+          "router": "http://www.ssm.gov.mo/portal/wsmym.aspx?lang=all&scene=126&clicktime=1574132721",
+          "title": "门诊等候",
+          "eventLabel": "_41a6d35e1e12431f88cea44918c253ed"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_crjfwz.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_crjfwz_w.png",
+          "identifier": "service.amzq.crjsw",
+          "router": "http://www.fsm.gov.mo/psp/pspmonitor/mobile/default.aspx",
+          "title": "出入境事务",
+          "eventLabel": "_5fc7ef857687486eb0709ad5c417767b"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_amt.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_amt_w.png",
+          "identifier": "service.amzq.amt",
+          "router": "https://app.bestzhuhai.com.cn/jimu/56/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "澳门通",
+          "eventLabel": "_296bb14d7c234a9eb5c4cb7469bb6628"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_amjc.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_amjc_w.png",
+          "identifier": "service.amzq.amjc",
+          "router": "https://app.bestzhuhai.com.cn/jimu/23/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "澳门机场",
+          "eventLabel": "_d1221c471a264e4a8cfff9d4f4a9fa10"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_amzls.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_amzls_w.png",
+          "identifier": "service.amzq.amzls",
+          "router": "https://app.bestzhuhai.com.cn/jimu/124/",
+          "title": "澳门自来水",
+          "eventLabel": "_8aab0a926c374ed2b1f73c9b921fe0aa"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_amwsfw.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_amwsfw_w.png",
+          "identifier": "service.amzq.amwsfw",
+          "router": "https://m.iam.gov.mo/c/OnlineService/",
+          "title": "澳门网上服务",
+          "eventLabel": "_0cbb910a77b04b6da8133a5b3621d34e"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_szzx.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_szzx_w.png",
+          "identifier": "service.amzq.szzx",
+          "router": "https://app.iam.gov.mo/iamconnect/",
+          "title": "市政在线",
+          "eventLabel": "_265faff5cdd640d3a8aa091d7a6406c2"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_szxw.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_szxw_w.png",
+          "identifier": "service.amzq.szxw",
+          "router": "https://m.iam.gov.mo/c/news/List/",
+          "title": "市政新闻",
+          "eventLabel": "_dd7f657ff1bd4f9eba524b2ebabba133"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_wsyy.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_wsyy_w.png",
+          "identifier": "service.amzq.szyy",
+          "router": "https://app.iam.gov.mo/iambooking/#/index",
+          "title": "市政预约",
+          "eventLabel": "_85c6a7b206c647ecb508bf8ff0115de5"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_ngswyy.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_ngswyy_w.png",
+          "identifier": "service.amzq.ngswyy",
+          "router": "https://www3.dsal.gov.mo/booking/index.jsp?lang=zh",
+          "title": "劳工事务预约",
+          "eventLabel": "_dc0ad15f63484f0382e4b63b83566df4"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_ngswlh.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_ngswlh_w.png",
+          "identifier": "service.amzq.ngswlh",
+          "router": "https://www3.dsal.gov.mo/booking/search.jsp?lang=zh",
+          "title": "劳工事务轮候",
+          "eventLabel": "_d25d5231dd4f4c6498f214c9e91a628d"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ycqc.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ycqc_w.png",
+          "identifier": "service.amzq.ycqc",
+          "router": "https://app.iam.gov.mo/iamticket/#/lang/zh",
+          "title": "远程取筹",
+          "eventLabel": "_692d9d7f05504da4bc966a95ccd6ba8a"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-澳门专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_dxmg.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_dxmg_w.png",
+          "identifier": "service.amzq.dxmg",
+          "router": "https://app.iam.gov.mo/pandaticket/spring/welcome?lang=zh",
+          "title": "大熊猫馆",
+          "eventLabel": "_5b04f986ce35439c90c3e9f56c946848"
+        }
+      ],
+      "type": "MACAO"
+    },
+    {
+      "header": {
+        "eventId": "更多服务",
+        "title": "横琴专区"
+      },
+      "items": [
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hqzq.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hqzq_w.png",
+          "identifier": "service.hqzq.hqzq",
+          "router": "https://app.bestzhuhai.com.cn/jimu/106/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "横琴专区",
+          "eventLabel": "_08578647ecf941b4b3e7d44c91378316"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1230/more_ic_hqka.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1230/more_ic_hqka_w.png",
+          "identifier": "service.hqzq.hqka",
+          "router": "https://app.bestzhuhai.com.cn/jimu/57/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "横琴口岸",
+          "eventLabel": "_4a1ad040cedc4133ad3a6f6f29547672"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_tzhq.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_tzhq_w.png",
+          "identifier": "service.hqzq.zstz",
+          "router": "http://m.hengqin.gov.cn/Wap/tzpt/tzpt.shtml",
+          "title": "招商投资",
+          "eventLabel": "_4482cd2a9d084a3b9a94e8418f28fe4a"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_kjtqbs.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_kjtqbs_w.png",
+          "identifier": "service.hqzq.kjtqbs",
+          "router": "https://app.bestzhuhai.com.cn/jimu/39/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "跨境通勤巴士",
+          "eventLabel": "_d5eb0f6d5ae3448a8ec85060d14b25e6"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_dpc.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_dpc_w.png",
+          "identifier": "service.hqzq.amdpc",
+          "router": "https://app.bestzhuhai.com.cn/jimu/113/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "澳门单牌车",
+          "eventLabel": "_97d87cc435f943888d5c1dc4743b9099"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_rczc.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_rczc_w.png",
+          "identifier": "service.hqzq.rczc",
+          "router": "https://mp.weixin.qq.com/mp/homepage?__biz=MzA3MDMxNTgxMw==&hid=1&sn=50d6e617fe8d67f1c4df85402f1bb3ec&scene=18",
+          "title": "人才政策",
+          "eventLabel": "_2f09e872847845c7b14da1d7143d6e76"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bsyy.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bsyy_w.png",
+          "identifier": "service.hqzq.bsyy",
+          "router": "https://zwfw.hengqin.gov.cn/matter_register/webapp/window/weiXinAppointment/page/zuizhuhai_zxyy.html?needLogin=true",
+          "title": "办事预约",
+          "eventLabel": "_e7816c0071ed438b85190f3e2b3ee86c"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_dtpd.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_dtpd_w.png",
+          "identifier": "service.hqzq.dtpd",
+          "router": "https://zwfw.hengqin.gov.cn/matter_register/weiXinAppointmentAction.struts?actionType=toWaitInfo&fromSystem=zuizhuhai&needLogin=true",
+          "title": "大厅排队",
+          "eventLabel": "_60b58a7d0bb84965a0c877428a7f9468"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bsjdcx.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bsjdcx_w.png",
+          "identifier": "service.hqzq.bsjdcx",
+          "router": "https://zwfw.hengqin.gov.cn/matter_register/itemMatterActionForWeixin.struts?actionType=searchProgress",
+          "title": "办事进度查询",
+          "eventLabel": "_70df52e70db24cf1a91e0734710398f3"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_yyjl.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_yyjl_w.png",
+          "identifier": "service.hqzq.yyjl",
+          "router": "https://zwfw.hengqin.gov.cn/matter_register/webapp/window/weiXinAppointment/page/zuizhuhai_yyjl.html?needLogin=true",
+          "title": "预约记录",
+          "eventLabel": "_78e71c47ccf54c608e429482d8d9d752"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_tzzx.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_tzzx_w.png",
+          "identifier": "service.hqzq.tszx",
+          "router": "https://zwfw.hengqin.gov.cn/matter_register/webapp/window/weiXinAppointment/page/zuizhuhai_tszx.html?needLogin=true",
+          "title": "投诉咨询",
+          "eventLabel": "_dcff33d4c303405d86e909982124935b"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_swfw.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_swfw_w.png",
+          "identifier": "service.hqzq.swfw",
+          "router": "https://app.bestzhuhai.com.cn/jimu/36/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "税务服务",
+          "eventLabel": "_360934ac202d4c588d071f99dc76f020"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jzbgsq.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jzbgsq_w.png",
+          "identifier": "service.hqzq.xndzyw",
+          "router": "https://qcdz.hengqin.gov.cn/zuiZhuhai/login?redirectUrl=%2FaddressManagement%3FbussinessType%3DaddressFirstApply",
+          "title": "虚拟地址业务",
+          "eventLabel": "_f9e010f3c7b547c6935f9252e91a0801"
+        }
+      ],
+      "type": "HENGQIN"
+    },
+    {
+      "header": {
+        "eventId": "更多服务",
+        "title": "住房保障"
+      },
+      "items": [
+        {
+          "canShow": true,
+          "eventId": "更多服务-住房保障",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_sfcx.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_sfcx_w.png",
+          "identifier": "service.zfbz.sfcx",
+          "router": "https://app.bestzhuhai.com.cn/feature/water-rate/#/?needLogin=true",
+          "title": "水费查询",
+          "eventLabel": "_12061b1f8b0d4f1e834deb024cb4d756"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-住房保障",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200428/huafagongyu.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200428/huahuagongyubai.png",
+          "identifier": "service.zfbz.gxrqa",
+          "router": "https://app.bestzhuhai.com.cn/jimu/226/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "公寓租赁",
+          "eventLabel": "_04b41661865e43a9abde5603264d29c1"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-住房保障",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200428/ic_more_huafazyt.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200428/ic_more_huafazyt_w.png",
+          "identifier": "service.zfbz.hfzyt",
+          "router": "https://zhhfzygj.huafamarkting.com/apph5/t9?id=66458&psn=f9e7657c52a24c389a59ea8a90b2a68f&needLogin=true",
+          "title": "好房优选",
+          "eventLabel": "_5c13d17dea3e4c9eb05509410b275725"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-住房保障",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gxrq.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gxrq_w.png",
+          "identifier": "service.zfbz.gxrq",
+          "router": "https://app.bestzhuhai.com.cn/jimu/69/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "港兴燃气",
+          "eventLabel": "_385225eaee6443a4b1c05a334bf48931"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-住房保障",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_yjjy.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_yjjy_w.png",
+          "identifier": "service.zfbz.yjjy",
+          "router": "https://app.bestzhuhai.com.cn/jimu/70/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "应急救援",
+          "eventLabel": "_3508805bfdb7480dbc34ae3edeff37cc"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-住房保障",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gsjsq.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gsjsq_w.png",
+          "identifier": "service.zfbz.gsjsq",
+          "router": "https://isz-web.sz.gov.cn/sz/app/feature/tax-calculator/#/",
+          "title": "个税计算器",
+          "eventLabel": "_e71f62c42c414d31b2d4d7cffb1b0f76"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-住房保障",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bdcfw.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bdcfw_w.png",
+          "identifier": "service.zfbz.bdcfw",
+          "router": "https://app.bestzhuhai.com.cn/jimu/18/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "不动产服务",
+          "eventLabel": "_e8a3eb5ed26d4098853562757c7e86f4"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-住房保障",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_dtanzs.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_dtanzs_w.png",
+          "identifier": "service.zfbz.dtaq",
+          "router": "https://app.bestzhuhai.com.cn/jimu/71/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "电梯安全",
+          "eventLabel": "_4bd16cc8851a418fa0590e18976d91d1"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-住房保障",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_sykpzs.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_sykpzs_w.png",
+          "identifier": "service.zfbz.sykp",
+          "router": "https://app.bestzhuhai.com.cn/jimu/73/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "食药科普",
+          "eventLabel": "_813f425064944b60a25a4f0f28497a88"
+        }
+      ],
+      "type": "HOUSE"
+    },
+    {
+      "header": {
+        "eventId": "更多服务",
+        "title": "教育培训"
+      },
+      "items": [
+        {
+          "canShow": true,
+          "eventId": "更多服务-珠海市教育局",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_zhuhaijiaoyuju.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhtsg_w.png",
+          "identifier": "service.jypx.zzsjyj",
+          "router": "https://app.bestzhuhai.com.cn/jimu/214/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "珠海市教育局",
+          "eventLabel": "_0e65846465e146d5b4a6b04c91237f91"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-教育培训",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhtsg.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhtsg_w.png",
+          "identifier": "service.jypx.stsg",
+          "router": "https://app.bestzhuhai.com.cn/jimu/74/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "市图书馆",
+          "eventLabel": "_53f7a3992bfa4f938a76bb0e352ba907"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-教育培训",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_yjzs.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_yjzs_w.png",
+          "identifier": "service.jypx.yjzs",
+          "router": "https://app.bestzhuhai.com.cn/jimu/33/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "应急知识",
+          "eventLabel": "_d9182eea6fe145ee864ebc06b7d765e6"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-教育培训",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_xfsf.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_xfsf_w.png",
+          "identifier": "service.jypx.xfsf",
+          "router": "https://app.bestzhuhai.com.cn/jimu/34/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "学法识法",
+          "eventLabel": "_08e64cff21b443f689f54db0ccf4a950"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-教育培训",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ksrl.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_ksrl_w.png",
+          "identifier": "service.jypx.ksrl",
+          "router": "https://app.bestzhuhai.com.cn/jimu/12/",
+          "title": "考试日历",
+          "eventLabel": "_2ee8579466214378a89dadc5f62c25a6"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-教育培训",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_xzdt.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_xzdt_w.png",
+          "identifier": "service.jypx.xzxqdt",
+          "router": "https://app.bestzhuhai.com.cn/jimu/178/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "学区地图",
+          "eventLabel": "_b6bec77eac0b4433b85c461ac551b902"
+        }
+      ],
+      "type": "EDUCATE"
+    },
+    {
+      "header": {
+        "eventId": "更多服务",
+        "title": "休闲娱乐"
+      },
+      "items": [
+        {
+          "canShow": true,
+          "eventId": "更多服务-休闲娱乐",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhdjy.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhdjy_w.png",
+          "identifier": "service.xxyl.zhdjy",
+          "router": "https://app.bestzhuhai.com.cn/jimu/35/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "珠海大剧院",
+          "eventLabel": "_78baad36c00a44c8815e384488df9157"
+        }
+      ],
+      "type": "ENTERTAMENT"
+    },
+    {
+      "header": {
+        "eventId": "更多服务",
+        "title": "文化旅游"
+      },
+      "items": [
+        {
+          "canShow": true,
+          "eventId": "更多服务-文化旅游",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_hdgl.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_hdgl_w.png",
+          "identifier": "service.whly.hdgl",
+          "router": "https://app.bestzhuhai.com.cn/jimu/41/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "海岛攻略",
+          "eventLabel": "_6b05a53d0a1e486aba6c45624a07b504"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-文化旅游",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_zmqn.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_zmqn_w.png",
+          "identifier": "service.whly.zmqn",
+          "router": "https://app.bestzhuhai.com.cn/jimu/147/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "周末去哪",
+          "eventLabel": "_37a69c54f5574fb68c45d8ed6e7517bb"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-文化旅游",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_htgcl.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1231/more_ic_htgcl_w.png",
+          "identifier": "service.whly.htgcl",
+          "router": "https://app.bestzhuhai.com.cn/jimu/153/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "会同古村落",
+          "eventLabel": "_4a306022e7ce459abb6a4737f0fefb7c"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-文化旅游",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_bssq.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_bssq_w.png",
+          "identifier": "service.whly.bssq",
+          "router": "https://app.bestzhuhai.com.cn/jimu/161/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "北山社区",
+          "eventLabel": "_b4cabe0741594e2796fddb1eca2e7ccc"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-文化旅游",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_xgcsgl.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_xgcsgl_w.png",
+          "identifier": "service.whly.xgcsgl",
+          "router": "https://app.bestzhuhai.com.cn/jimu/158/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "香港城市攻略",
+          "eventLabel": "_d07159c30de6401ebde9abf543f01b35"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-文化旅游",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_yxzh.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_yxzh_w.png",
+          "identifier": "service.whly.yxzh",
+          "router": "https://app.bestzhuhai.com.cn/jimu/3/",
+          "title": "印象珠海",
+          "eventLabel": "_c9e5ce5cfc5b4687a0830fc4df4fce33"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-文化旅游",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_qjzh.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_qjzh_w.png",
+          "identifier": "service.whly.qjzh",
+          "router": "https://720yun.com/t/3ecjz0syem2?scene_id=8751006",
+          "title": "全景珠海",
+          "eventLabel": "_d56bd6f4751a4d0282149d5e917c145c"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-文化旅游",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200428/feiyi.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200428/zhuhaifeiyibai.png",
+          "identifier": "service.whly.qjzh",
+          "router": "https://app.bestzhuhai.com.cn/jimu/225/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "珠海非遗",
+          "eventLabel": "_dd36bc19000b46008e93a0778300227d"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-文化旅游",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200428/yuechao.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200428/yuechaowenhuabai.png",
+          "identifier": "service.whly.qjzh",
+          "router": "https://app.bestzhuhai.com.cn/jimu/219/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "阅潮文化",
+          "eventLabel": "_83f0514de38c40ee975e006bf8d0a635"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-文化旅游",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gymsg.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gymsg_w.png",
+          "identifier": "service.whly.gymsg",
+          "router": "https://app.bestzhuhai.com.cn/jimu/37/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "古元美术馆",
+          "eventLabel": "_6f8acf3e3a3049f880f4ecb2e74f4ca1"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-文化旅游",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhhz.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhhz_w.png",
+          "identifier": "service.whly.zhhz",
+          "router": "https://app.bestzhuhai.com.cn/jimu/48/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "珠海航展",
+          "eventLabel": "_97f7f1ec5f304c2497b7216654139864"
+        }
+      ],
+      "type": "CULTURE"
+    },
+    {
+      "header": {
+        "eventId": "更多服务",
+        "title": "购物生活"
+      },
+      "items": [
+        {
+          "canShow": true,
+          "eventId": "更多服务-购物生活",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/youhuiquan.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/youhuiquanbai.png",
+          "identifier": "service.gwsh.hmyx",
+          "router": "https://zuizhuhai.yun.city.pingan.com/web/release/zzh-consumption-coupon/index.html?vt=test#/",
+          "title": "消费券申领",
+          "eventLabel": "_e22f5a1bd55c4279b69aa27c3a60074c"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-购物生活",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hmyx.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hmyx_w.png",
+          "identifier": "service.gwsh.hmyx",
+          "router": "https://zzh.weesharing.com?needLogin=true",
+          "title": "惠民优选",
+          "eventLabel": "_aec4199050d142fb8ffa7b18b8e9cf98"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-购物生活",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_dyp.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_dyp_w.png",
+          "identifier": "service.gwsh.dygp",
+          "router": "https://g.qll-times.com/api/payc/XAxet4/film_pa?needLogin=true",
+          "title": "电影购票",
+          "eventLabel": "_6336d6f9cd374f03b97ba561376b31b8"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-购物生活",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_zhyd.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hyc_w.png",
+          "identifier": "service.gwsh.zhyd",
+          "router": "https://app.bestzhuhai.com.cn/jimu/208/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "珠海移动",
+          "eventLabel": "_9a36757923084adcbb1973c2b3dedf96"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-购物生活",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hyc.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hyc_w.png",
+          "identifier": "service.gwsh.hyc",
+          "router": "https://app.bestzhuhai.com.cn/jimu/102/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "海韵城",
+          "eventLabel": "_58f8ffef7ca9476286dcc26e25b05296"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-住房保障",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1229/more_ic_mclz.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1229/more_ic_mclz_w.png",
+          "identifier": "service.gwsh.mclz",
+          "router": "http://mclz.zhboss.com/",
+          "title": "明厨亮灶",
+          "eventLabel": "_4c0bdd6d96034661a824e1f260ea3174"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-购物生活",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_fc.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_fc_w.png",
+          "identifier": "service.gwsh.zfgf",
+          "router": "https://jumpluna.58.com/i/2dsxqdf2797pnc4f21",
+          "title": "租房购房",
+          "eventLabel": "_f3d3f69ba01440e78ee89408605de73d"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-购物生活",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_esjy.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_esjy_w.png",
+          "identifier": "service.gwsh.eswp",
+          "router": "https://jumpluna.58.com/i/2dsxscfes97pnc46zg",
+          "title": "二手物品",
+          "eventLabel": "_e950d8ce9a174999a6ec0463cce65613"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-购物生活",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zp.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zp_w.png",
+          "identifier": "service.gwsh.gzzp",
+          "router": "https://jumpluna.58.com/i/2dsxqhvcu3v43nkddh1",
+          "title": "工作招聘",
+          "eventLabel": "_19826d233b07422a9eee9a6af0665c77"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-购物生活",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bdfw.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bdfw_w.png",
+          "identifier": "service.gwsh.hycx",
+          "router": "https://jumpluna.58.com/i/2dsxse38s97pnc46zg",
+          "title": "黄页查询",
+          "eventLabel": "_9d493e009a22429fa4171e0e5565fb72"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-购物生活",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bxzq.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_bxzq_w.png",
+          "identifier": "service.gwsh.bxzq",
+          "router": "https://app.bestzhuhai.com.cn/jimu/118/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "保险专区",
+          "eventLabel": "_54408f9903324a08b5629a1577dbd20f"
+        }
+      ],
+      "type": "SHOPPING"
+    },
+    {
+      "header": {
+        "eventId": "更多服务",
+        "title": "政务办事"
+      },
+      "items": [
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gjj.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gjj_w.png",
+          "identifier": "service.zwbs.gjj",
+          "router": "https://app.bestzhuhai.com.cn/jimu/78/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "公积金",
+          "eventLabel": "_de0333fa986142f7a21fd723f25ff55c"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_crj.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_crj_w.png",
+          "identifier": "service.zwbs.crjyy",
+          "router": "https://app.bestzhuhai.com.cn/jimu/44/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "出入境预约",
+          "eventLabel": "_38e6071c238b45288b6e3614af69ccbf"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hjbl.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hjbl_w.png",
+          "identifier": "service.zwbs.hjbl",
+          "router": "https://app.bestzhuhai.com.cn/jimu/101/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "户籍办理",
+          "eventLabel": "_799940c53fa4435aa337b6c2f954737c"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0313/more_ic_hydjyy.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0313/more_ic_hydjyy_w.png",
+          "identifier": "service.zwbs.hydjyy",
+          "router": "https://www.gdhy.gov.cn/app/index.html",
+          "title": "婚姻登记预约",
+          "eventLabel": "_adae5eeb1e6e4bdeb5d950c7bede0587"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-横琴专区",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200428/gongzhengfuwu.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_gzfw_w.png",
+          "identifier": "service.hqzq.gzfw",
+          "router": "https://api.egongzheng.com/hybrid/zuizhuhaihengqin?needLogin=true",
+          "title": "公证服务",
+          "eventLabel": "_b8ead9068b61453aab9b6dded6b0962d"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_smrx.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_smrx_w.png",
+          "identifier": "service.zwbs.smrx",
+          "router": "https://app.bestzhuhai.com.cn/jimu/45/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "市民热线",
+          "eventLabel": "_5f79121ca2a7490bb8d6602d03622b8e"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_pazs.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_pazs_w.png",
+          "identifier": "service.zwbs.ngswlh",
+          "router": "https://testgov.zhzjzdh.com/Goverment/SafetyInfo/Pages/Answer/dist/index.html#/index",
+          "title": "平安指数",
+          "eventLabel": "_19e3c6e561ab4c1387d4b96555659e4d"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/0303/ic_zhjiaotongyunshuju.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jjfw_w.png",
+          "identifier": "service.zwbs.zhjt",
+          "router": "https://app.bestzhuhai.com.cn/jimu/216/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "珠海交通",
+          "eventLabel": "_156ccdc92bb44ebca2818632c1bd91e7"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jjfw.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_jjfw_w.png",
+          "identifier": "service.zwbs.jjfw",
+          "router": "https://app.bestzhuhai.com.cn/jimu/38/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "交警服务",
+          "eventLabel": "_5b559539ab8b43f4b202c20d2b4fd18e"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhzf.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhzf_w.png",
+          "identifier": "service.zwbs.zhzf",
+          "router": "https://app.bestzhuhai.com.cn/jimu/76/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "政法服务",
+          "eventLabel": "_fda461aee127458094feee2ab84eb8bf"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhjcy.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhjcy_w.png",
+          "identifier": "service.zwbs.jcfw",
+          "router": "https://app.bestzhuhai.com.cn/jimu/75/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "检察服务",
+          "eventLabel": "_4659e8dcccef4e63a7af108225c04283"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200428/ic_more_falvfuwu.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/20200428/ic_more_falvfuwu_w.png",
+          "identifier": "service.zwbs.ggflfw",
+          "router": "miniapps://startApp?appid=gh_c481e2406b41",
+          "title": "公共法律服务",
+          "eventLabel": "_143168f4f0e841df999718f5efd7618b"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhsfj.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhsfj_w.png",
+          "identifier": "service.zwbs.sffw",
+          "router": "https://app.bestzhuhai.com.cn/jimu/61/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "司法服务",
+          "eventLabel": "_67ab40d6e61d4f678569d7f1e4466d59"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_scjd.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_scjd_w.png",
+          "identifier": "service.zwbs.xfkp",
+          "router": "https://app.bestzhuhai.com.cn/jimu/115/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "消费科普",
+          "eventLabel": "_c087f73aff05478c9a0cbd5d3e5b71e6"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hqsw.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_hqsw_w.png",
+          "identifier": "service.zwbs.swbs",
+          "router": "https://app.bestzhuhai.com.cn/jimu/36/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "税务办事",
+          "eventLabel": "_360934ac202d4c588d071f99dc76f020"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhrc.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zhrc_w.png",
+          "identifier": "service.zwbs.ycfw",
+          "router": "https://app.bestzhuhai.com.cn/jimu/84/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "英才服务",
+          "eventLabel": "_11a9a8069c90425fbfa0fed54028bc01"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zqy.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_zqy_w.png",
+          "identifier": "service.zwbs.zqy",
+          "router": "https://app.bestzhuhai.com.cn/jimu/104/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+          "title": "政企云",
+          "eventLabel": "_4668a0bb65ba49219a6d93d0b4c8cb8f"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-政务办事",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_rjry.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/1225/more_ic_rjry_w.png",
+          "identifier": "service.zwbs.rjfw",
+          "router": "http://crj.ga.zhuhai.gov.cn/jwry/",
+          "title": "入境服务",
+          "eventLabel": "_846510a37b7d4f4b9eab9a37897e9d28"
+        }
+      ],
+      "type": "GOVERNMENT"
+    },
+    {
+      "header": {
+        "eventId": "更多服务",
+        "title": "其它服务"
+      },
+      "items": [
+        {
+          "canShow": true,
+          "eventId": "更多服务-其它服务",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_zhhd.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_zhhd_w.png",
+          "identifier": "service.qtfw.zhhd",
+          "router": "https://app.bestzhuhai.com.cn/jimu/86/",
+          "title": "珠海活动",
+          "eventLabel": "_033514cf9a7b480d8b2b22cfd53ca887"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-其它服务",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_msfx.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_msfx_w.png",
+          "identifier": "service.qtfw.msfx",
+          "router": "https://app.bestzhuhai.com.cn/jimu/92/",
+          "title": "美食发现",
+          "eventLabel": "_ff8dc43db83f46388f3efdb63c224caa"
+        },
+        {
+          "canShow": true,
+          "eventId": "更多服务-其它服务",
+          "icon": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_jkzs.png",
+          "extension": "https://smt-cdn.yun.city.pingan.com/isz/app/zhuhai/more/200103/more_ic_jkzs_w.png",
+          "identifier": "service.qtfw.jkbk",
+          "router": "https://app.bestzhuhai.com.cn/jimu/97/",
+          "title": "健康百科",
+          "eventLabel": "_cb682f373b1549c2860678764869c3f3"
+        }
+      ],
+      "type": "OTHERS"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "component-iconTwoTextScore",
+  "style": {
+    "padding": "[9,15,9,15]",
+    "bgImgUrl": "res://bg_white_rounded"
+  },
+  "title": "文明分",
+  "titleColor": "#333333",
+  "titleFontSize": 16,
+  "titleBold": false,
+  "desc": "750分",
+  "descColor": "#22C8D8",
+  "descFontSize": 20,
+  "descBold": true,
+  "iconVisible": true,
+  "iconUrl": "res://ic_score",
+  "iconWidth": 27,
+  "iconHeight": 27,
+  "iconMargin": "[0,0,0,8]"
+}

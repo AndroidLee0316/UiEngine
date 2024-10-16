@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UI引擎</string>
+    <string name="tab_name_home">"首页"</string>
+    <string name="tab_name_affairs">"办事"</string>
+    <string name="tab_name_life">"生活"</string>
+    <string name="tab_name_setting">"我的"</string>
+</resources>

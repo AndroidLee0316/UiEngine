@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <integer name="workspace_screen_transition_duration_horizontal">350</integer>
+
+    <integer name="workspace_cell_item_title_textSize">13</integer>
+    <integer name="workspace_cell_item_tips_textSize">11</integer>
+
+</resources>

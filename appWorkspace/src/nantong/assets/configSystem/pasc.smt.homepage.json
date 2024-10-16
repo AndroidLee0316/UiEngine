@@ -1,0 +1,718 @@
+[
+  {
+    "id": "bannerContainer",
+    "type": "container-oneColumn",
+    "style": {
+      "aspectRatio": 1.56,
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "id": "banner",
+        "type": "component-banner",
+        "shelterVisible": true,
+        "indicatorNormalRes": "res://ic_indicator_dot",
+        "indicatorSelectedRes": "res://ic_indicator_long_dash_dot",
+        "indicatorPadding": "[8,8,24,8]",
+        "dataSource": []
+      }
+    ],
+    "load": "getBanner",
+    "loadType": "-1"
+  },
+  {
+    "type": "container-fourColumn",
+    "style": {
+      "vGap": 16,
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_goverment_affair",
+        "iconWidth": 52,
+        "iconHeight": 52,
+        "title": "网上大厅",
+        "onClick": "router://com.pasc.smt/governmentAffairs/onlineHall/guide",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "网上大厅"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_main_page_social_security",
+        "iconWidth": 52,
+        "iconHeight": 52,
+        "title": "社保",
+        "onClick": "event://GoToSocialSecurity",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "社保"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_main_page_accumulation_fund",
+        "iconWidth": 52,
+        "iconHeight": 52,
+        "title": "公积金",
+        "onClick": "event://GoToAccumulationFund",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "公积金"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_main_page_real_time_bus",
+        "iconWidth": 52,
+        "iconHeight": 52,
+        "title": "实时公交",
+        "onClick": "router://com.pasc.smt/traffic/realTimeBus/main",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "实时公交"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_main_page_violation_holding",
+        "iconWidth": 52,
+        "iconHeight": 52,
+        "title": "违章处理",
+        "onClick": "event://GoToViolation",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "违章处理"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_main_page_water_fees",
+        "iconWidth": 52,
+        "iconHeight": 52,
+        "title": "水费",
+        "onClick": "event://GoToWaterFees",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "水费"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_main_page_electricity_fees",
+        "iconWidth": 52,
+        "iconHeight": 52,
+        "title": "电费",
+        "onClick": "event://GoToElectricityFees",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "电费"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_main_page_more_service",
+        "iconWidth": 52,
+        "iconHeight": 52,
+        "title": "更多",
+        "onClick": "router://com.pasc.smt/service/moreService/main",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "更多"
+        }
+      }
+    ]
+  },
+  {
+    "id": "scrollNewsContainer",
+    "type": "container-oneColumn",
+    "load": "getScrollNews",
+    "loadType": "-1",
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "id": "scrollNews",
+        "type": "component-marqueeNews",
+        "imgUrl": "res://ic_main_page_news",
+        "dataSource": []
+      }
+    ]
+  },
+  {
+    "id": "myAffairListContainer",
+    "type": "container-oneColumn",
+    "load": "getMyAffairList",
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "loadType": "-1",
+    "header": {
+      "type": "component-cardHeader",
+      "divider": true,
+      "title": "我的办事",
+      "iconUrl": "res://ic_main_page_title_my_affairs",
+      "desc": "更多",
+      "onClick": "router://com.pasc.smt/governmentAffairs/myAffairs/main",
+      "onClickEventId": "home",
+      "onClickEventParams": {
+        "服务名称": "我的办事--更多"
+      }
+    },
+    "items": [
+      {
+        "id": "myAffairList",
+        "type": "component-progressQueryView",
+        "dataSource": []
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 7,
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "政务服务",
+      "iconUrl": "res://ic_main_page_title_government_affairs_service",
+      "desc": "更多",
+      "onClick": "router://com.pasc.smt/service/moreService/main?service_type=9",
+      "onClickEventId": "home",
+      "onClickEventParams": {
+        "服务名称": "政务服务--更多"
+      }
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "title": "公租房核准",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "desc": "公共租赁住房核准",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "iconUrl": "res://ic_main_public_rental_housing_check",
+        "onClick": "{h5UrlRoot}/nantong/govermentguide/recommend/db63f710d9b54d98aa57aa68bc31825e/%E5%85%AC%E5%85%B1%E7%A7%9F%E8%B5%81%E4%BD%8F%E6%88%BF%E6%A0%B8%E5%87%86?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "公租房核准"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "租房登记",
+        "desc": "房屋租赁登记",
+        "iconUrl": "res://ic_main_renting_registration",
+        "onClick": "{h5UrlRoot}/nantong/govermentguide/recommend/b0dd479142164836b1fd146625ffdb8a/%E6%88%BF%E5%B1%8B%E7%A7%9F%E8%B5%81%E7%99%BB%E8%AE%B0?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "租房登记"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "药品经营",
+        "desc": "药品经营许可审批",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "iconUrl": "res://ic_main_drug_supply_cetificate",
+        "onClick": "{h5UrlRoot}/nantong/govermentguide/recommend/47a7704ab4c843d884eaf2886a2353e6/%E8%8D%AF%E5%93%81%E7%BB%8F%E8%90%A5%E8%AE%B8%E5%8F%AF?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "药品经营"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "归侨学生",
+        "desc": "归侨学生身份认定",
+        "iconUrl": "res://ic_main_government_overseas_chinese_family",
+        "onClick": "{h5UrlRoot}/nantong/govermentguide/recommend/0f12e60a6d864e4ba7f1952e24da1cfa/%E5%BD%92%E4%BE%A8%E5%AD%A6%E7%94%9F%E8%AE%A4%E5%AE%9A?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "归侨学生"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 7,
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "智慧警务",
+      "iconUrl": "res://ic_main_page_title_intelligent_police",
+      "desc": "更多",
+      "onClick": "router://com.pasc.smt/service/moreService/main?service_type=10",
+      "onClickEventId": "home",
+      "onClickEventParams": {
+        "服务名称": "智慧警务--更多"
+      }
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "禁区通行证",
+        "desc": "通行证在线办理",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "iconUrl": "res://ic_main_page_restricted_area_permit",
+        "onClick": "http://www.ntjxj.com/pass/atm_pass.jsp",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "禁区通行证"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "三超证申请",
+        "desc": "三超证在线申请",
+        "iconUrl": "res://ic_car",
+        "onClick": "event://GoToThreeExceedPapers",
+        "onClickParams": {
+          "url": "{h5UrlRoot}/nantong/policeonline/bindpolice/%e7%bb%91%e5%ae%9a%e5%85%ac%e5%ae%89%e5%b1%80/{token}?openweb=paschybrid"
+        },
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "三超证申请"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 7,
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "健康服务",
+      "iconUrl": "res://ic_main_page_title_health_service",
+      "desc": "更多",
+      "onClick": "router://com.pasc.smt/service/moreService/main?service_type=2",
+      "onClickEventId": "home",
+      "onClickEventParams": {
+        "服务名称": "健康服务--更多"
+      }
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "药品目录查询",
+        "desc": "一键查询药品目录",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "iconUrl": "res://ic_drug_query",
+        "onClick": "http://www.hrss123.cn/ebao123/html/drugsList.html?keyStr=&amp;contentType=SERVICE4&amp;v=1527759415852&title=药品目录查询",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "药品目录查询"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "定点药店查询",
+        "desc": "查找医保定点药店",
+        "iconUrl": "res://ic_drugstore_query",
+        "onClick": "http://www.hrss123.cn/ebao123/html/pharmacyList.html?keyStr=&amp;contentType=SERVICE3&amp;v=1527759523375&title=定点药店查询",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "定点药店查询"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 7,
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "交通出行",
+      "iconUrl": "res://ic_main_page_title_transportation",
+      "desc": "更多",
+      "onClick": "router://com.pasc.smt/service/moreService/main?service_type=3",
+      "onClickEventId": "home",
+      "onClickEventParams": {
+        "服务名称": "交通出行--更多"
+      }
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "iconUrl": "res://ic_real_time_bus",
+        "title": "实时公交",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "router://com.pasc.smt/traffic/realTimeBus/main",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "实时公交"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "iconUrl": "res://ic_main_page_public_bike",
+        "title": "公共自行车",
+        "onClick": "event://GoToBike",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "公共自行车"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "iconUrl": "res://ic_main_page_road_condition_sketch",
+        "title": "路况简图",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "{h5UrlRoot}/nantong/trip/diagram?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "路况简图"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "iconUrl": "res://ic_main_page_violation_handling",
+        "title": "违章处理",
+        "onClick": "event://GoToViolation",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "违章处理"
+        }
+      }
+    ]
+  },
+  {
+    "id": "todayWaterQualityInfoContainer",
+    "type": "container-oneColumn",
+    "load": "getTodayWaterQualityInfo",
+    "loadType": "-1",
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "公共服务",
+      "iconUrl": "res://ic_main_page_title_public_service",
+      "desc": "更多",
+      "onClick": "router://com.pasc.smt/service/moreService/main?service_type=4",
+      "onClickEventId": "home",
+      "onClickEventParams": {
+        "服务名称": "公共服务--更多"
+      }
+    },
+    "items": [
+      {
+        "id": "todayWaterQualityInfo",
+        "type": "component-dataBoardWater",
+        "dataSource": []
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 7,
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "民生物价",
+        "desc": "查询超市价格",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "iconUrl": "res://ic_main_page_livehood_price",
+        "onClick": "{h5UrlRoot}/nantong/peoplelivelihood/pricelist?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "民生物价"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "婚姻登记",
+        "desc": "预约查询补领证明",
+        "iconUrl": "res://ic_main_page_marriage_registration",
+        "onClick": "http://jshydjxxw.gov.cn/m/mobile/index.html",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "婚姻登记"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "重名查询",
+        "desc": "南通姓名大搜查",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "iconUrl": "res://ic_main_page_rename_query",
+        "onClick": "https://ntwjw.vivatech.cn/app/index.php?i=5&c=entry&do=namenew&m=wjw_name",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "重名查询"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "食品安全",
+        "desc": "食品安全监督报告",
+        "iconUrl": "res://ic_main_page_food_safety",
+        "onClick": "{h5UrlRoot}/nantong/peoplelivelihood/foodsafetylist?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "食品安全"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 7,
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "住房保障",
+      "iconUrl": "res://ic_main_page_title_housing_security",
+      "desc": "更多",
+      "onClick": "router://com.pasc.smt/service/moreService/main?service_type=6",
+      "onClickEventId": "home",
+      "onClickEventParams": {
+        "服务名称": "住房保障--更多"
+      }
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "desc": "保障房公示查询",
+        "iconUrl": "res://ic_house_query",
+        "title": "保障房",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "onClick": "{h5UrlRoot}/nantong/newhousingsecurity/list?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "保障房"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "desc": "快速计算住房贷款",
+        "iconUrl": "res://ic_calculator",
+        "title": "房贷计算器",
+        "onClick": "https://m.pinganfang.com/tools/fangdai.html?hfcmpn=602",
+        "onClickParams": {
+          "needToolbar": false
+        },
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "房贷计算器"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "hGap": 7,
+      "padding": "[0,0,8,0]",
+      "bgColor": "#ffffff"
+    },
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,8,0]"
+      },
+      "title": "文体教育",
+      "iconUrl": "res://ic_main_page_title_recreation_and_sports_education",
+      "desc": "更多",
+      "onClick": "router://com.pasc.smt/service/moreService/main?service_type=8",
+      "onClickEventId": "home",
+      "onClickEventParams": {
+        "服务名称": "文体教育--更多"
+      }
+    },
+    "items": [
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "教育新闻",
+        "desc": "掌握教育动态",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "iconUrl": "res://ic_main_page_gymnasium",
+        "onClick": "router://com.pasc.smt/governmentAffairs/educationNews/main",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "教育新闻"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "图书馆",
+        "desc": "在线查找图书",
+        "iconUrl": "res://ic_main_page_library",
+        "onClick": "router://com.pasc.smt/workspace/bookSearch/main",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "图书馆"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "江海大讲坛",
+        "desc": "享受智慧人生",
+        "dividerRight": true,
+        "dividerRightLength": 16,
+        "iconUrl": "res://ic_main_page_jh_big_lecture_hall",
+        "onClick": "{h5UrlRoot}/nantong/culture/auditorium/list?openweb=paschybrid",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "江海大讲坛"
+        }
+      },
+      {
+        "type": "component-singleText",
+        "style": {
+          "padding": "[8,15,8,15]"
+        },
+        "title": "博物馆",
+        "desc": "感受人文历史",
+        "iconUrl": "res://ic_main_page_museum",
+        "onClick": "http://www.ntmuseum.com/",
+        "onClickEventId": "home",
+        "onClickEventParams": {
+          "服务名称": "博物馆"
+        }
+      }
+    ]
+  },
+  {
+    "id": "interactionNewsListContainer",
+    "type": "container-oneColumn",
+    "load": "getInteractionNewsList",
+    "loadType": "-1",
+    "header": {
+      "type": "component-cardHeader",
+      "style": {
+        "padding": "[0,0,4,0]",
+        "bgColor": "#ffffff"
+      },
+      "title": "民生资讯",
+      "iconUrl": "res://ic_main_page_title_peoples_livelihood_information",
+      "desc": "更多",
+      "onClick": "event://GoToLiveLiHood",
+      "onClickEventId": "home",
+      "onClickEventParams": {
+        "服务名称": "民生资讯--更多"
+      }
+    },
+    "items": [
+      {
+        "id": "interactionNewsList",
+        "type": "component-listLivelihood",
+        "dataSource": []
+      }
+    ]
+  }
+]

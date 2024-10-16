@@ -1,0 +1,1001 @@
+[
+  {
+    "type": "container-oneColumn",
+    "load": "getBanner",
+    "loadType": "-1",
+    "items": [
+      {
+        "id": "bannerLife",
+        "ratio": 1.36,
+        "shelterVisible": false,
+        "imgDefaultRes": "res://life_bg_header",
+        "type": "component-banner",
+        "dataSource": []
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[-9,0,0,0]"
+    },
+    "items": [
+      {
+        "type": "component-lineRoude"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+    },
+    "items": [
+      {
+        "id": "wygNotice",
+        "type": "component-twoIconBgTextView",
+        "style": {
+          "width": -1,
+          "height": 36,
+          "bgColor": "#ffffff"
+        },
+        "rootBgWidth": -2,
+        "rootBgHeight": -1,
+        "rootBgUrl": "res://wyg_notice_bg",
+        "leftIconWidth": "17",
+        "leftIconHeight": "17",
+        "leftIconUrl": "res://wyg_notice_icon",
+        "rightIconWidth": "11",
+        "rightIconHeight": "11",
+        "rightIconUrl": "res://wyg_notice_arrow",
+        "title": "测试一下",
+        "titleFontSize": 12,
+        "titleColor": "#3E3A39",
+        "onClick": "event://SimpleClick?eventId=onClickWygNoticeTitle"
+      }
+    ]
+  },
+
+  {
+    "type": "container-fiveColumn",
+    "style": {
+      "padding": "[5,0,10,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconVisible": true,
+        "iconUrl": "res://life_ic_gjd",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "惠观影",
+        "onClick": "https://mall.xrcbank.com.cn/mobile/#/video/jump/loading",
+        "onClickEventId": "我要逛-金刚区-逛景点",
+        "onClickParams": {
+          "onClickTitle": "出行服务",
+          "onClickIcon": "res://life_ic_gjd",
+          "eventLabel": "",
+          "needCert": "false",
+          "needLogin": "false"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconVisible": true,
+        "iconUrl": "res://life_ic_gms",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "逛美食",
+        "onClick": "https://mall.xrcbank.com.cn/coupon-mobile/#/home",
+        "onClickEventId": "我要逛-金刚区-逛美食",
+        "onClickParams": {
+          "onClickTitle": "民生服务",
+          "onClickIcon": "res://life_ic_gms",
+          "eventLabel": ""
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconVisible": true,
+        "iconUrl": "res://life_ic_gsc",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "逛商城",
+        "onClick": "https://mall.xrcbank.com.cn/mobile/#/shopping/index",
+        "onClickEventId": "我要逛-金刚区-逛商城",
+        "onClickParams": {
+          "onClickTitle": "逛商城",
+          "onClickIcon": "res://life_ic_gsc",
+          "eventLabel": ""
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconVisible": true,
+        "iconUrl": "res://life_ic_gcg",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "逛场馆",
+        "onClick": "https://zxs.hnhide.com:8889",
+        "onClickEventId": "我要逛-金刚区-逛场馆",
+        "onClickParams": {
+          "onClickTitle": "逛场馆",
+          "onClickIcon": "res://life_ic_gcg",
+          "eventLabel": "",
+          "needCert": "false",
+          "needLogin": "false"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconVisible": true,
+        "iconUrl": "res://life_ic_ggy",
+        "iconWidth": 40,
+        "iconHeight": 40,
+        "gap": 6,
+        "title": "我的积分",
+        "onClick": "https://mall.xrcbank.com.cn/mobile/#/user/signIn/1",
+        "onClickEventId": "我要逛-金刚区-逛公园",
+        "onClickParams": {
+          "onClickTitle": "逛公园",
+          "onClickIcon": "res://life_ic_ggy",
+          "eventLabel": "",
+          "needCert": "false",
+          "needLogin": "false"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "padding": "[0,15,20,15]",
+      "bgColor": "#ffffff",
+      "hGap": 6
+    },
+    "items": [
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://life_bg_rccs",
+        "imgWidthRatio": 501,
+        "imgHeightRatio": 252,
+        "imgRatioRef": 1,
+        "style": {
+          "padding": "[0,3,5,0]"
+        },
+        "onClick": "https://csweb.csx.cn/jimu/preview/26/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickEventId": "我要逛-人才超市",
+        "onClickParams": {
+          "onClickEventLabel": ""
+        }
+      },
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://life_bg_jrcs",
+        "imgWidthRatio": 501,
+        "imgHeightRatio": 252,
+        "style": {
+          "padding": "[0,0,5,3]"
+        },
+        "imgRatioRef": 1,
+        "onClick": "https://jrswzx.csx.cn:9080/mobile/",
+        "onClickEventId": "我要逛-金融超市",
+        "onClickParams": {
+          "onClickEventLabel": ""
+        }
+      },
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://life_bg_zjcs",
+        "imgWidthRatio": 501,
+        "imgHeightRatio": 252,
+        "style": {
+          "padding": "[5,3,0,0]"
+        },
+        "imgRatioRef": 1,
+        "onClick": "https://cs.58.com/",
+        "onClickEventId": "我要逛-中介超市",
+        "onClickParams": {
+          "onClickEventLabel": ""
+        }
+      },
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "https://csweb.csx.cn/static/woyaoguang/hudong.png",
+        "imgWidthRatio": 501,
+        "imgHeightRatio": 252,
+        "style": {
+          "padding": "[5,0,0,3]"
+        },
+        "imgRatioRef": 1,
+        "onClick": "https://csweb.csx.cn/jimu/16/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickEventId": "我要逛-互动超市",
+        "onClickParams": {
+          "onClickEventLabel": ""
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-dividerHorizontal",
+        "color": "#F4F4F4",
+        "height": 6
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "padding": "[15,15,15,15]"
+    },
+    "items": [
+      {
+        "type": "component-image",
+        "style": {
+          "height": 76
+        },
+        "imgUrl": "https://csweb.csx.cn/static/woyaoguang/xiangmina.jpg",
+        "onClick": "https://admin.aruaru.cn/#/activity1",
+        "onClickEventId": "我要逛-星沙味道"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "header": {
+      "type": "component-mCardHeader",
+      "style": {
+        "padding": "[0,0,0,0]",
+        "margin": "[0,0,0,0]",
+        "bgColor": "#ffffff"
+      },
+      "title": "缴费大厅",
+      "titleBold": true,
+      "iconVisible": false,
+      "arrowIconVisible": false,
+      "moreVisible": true,
+      "more": "更多",
+      "descVisible": true,
+      "partitionVisible": true,
+      "onClick": "https://csweb.csx.cn/jimu/preview/48/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+      "titleFontSize": "18",
+      "onClickEventId": "我要逛-特色服务-更多",
+      "onClickEventParams": {
+        "eventLabel": "更多"
+      }
+    }
+  },
+  {
+    "type": "container-threeColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "margin": "[0,10,0,10]"
+    },
+    "items": [
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://life_bg_hbjf",
+        "imgWidthRatio": 321,
+        "imgHeightRatio": 252,
+        "style": {
+          "margin": "[0,5,0,5]"
+        },
+        "imgRatioRef": 1,
+        "onClick": "https://living.cmpay.com/jiaofei/?outputEndpoint=h5_zxs_220815",
+        "onClickEventId": "我要逛-缴费大厅-和包缴费",
+        "onClickParams": {
+          "onClickEventLabel": ""
+        }
+      },
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://life_bg_ysfw",
+        "imgWidthRatio": 321,
+        "imgHeightRatio": 252,
+        "style": {
+          "margin": "[0,5,0,5]"
+        },
+        "imgRatioRef": 1,
+        "onClick": "https://csweb.csx.cn/jimu/preview/21/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickEventId": "我要逛-缴费大厅-用水服务",
+        "onClickParams": {
+          "onClickEventLabel": ""
+        }
+      },
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://life_bg_tcjf",
+        "imgWidthRatio": 321,
+        "imgHeightRatio": 252,
+        "style": {
+          "margin": "[0,5,0,5]"
+        },
+        "imgRatioRef": 1,
+        "onClick": "http://xczb.csx.cn/parkingPlace-wx/#/pages/temp-pages/entry-target-page?target=/pages/main-page/main-page",
+        "onClickEventId": "我要逛-缴费大厅-停车缴费",
+        "onClickParams": {
+          "onClickEventLabel": ""
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[15,0,0,0]"
+    },
+    "loadType": "-1",
+    "header": {
+      "title": "行走星沙",
+      "type": "component-mCardHeader",
+      "style": {
+        "padding": "[0,0,0,0]",
+        "margin": "[-10,0,0,0]"
+      },
+      "titleBold": true,
+      "iconVisible": false,
+      "arrowIconVisible": true,
+      "moreVisible": true,
+      "more": "更多",
+      "descVisible": true,
+      "partitionVisible": true,
+      "onClick": "https://csweb.csx.cn/jimu/preview/12/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+      "titleFontSize": "18",
+      "onClickEventId": "我要逛-行走星沙-更多",
+      "onClickEventParams": {
+        "eventLabel": "更多"
+      }
+    },
+    "items": [
+      {
+        "type": "component-leftIconRightTwoText",
+        "iconUrl": "res://life_bg_jtcx",
+        "style": {
+          "margin": "[0,15,0,15]"
+        },
+        "iconVisible": true,
+        "title": "畅通出行 便捷直达",
+        "titleBold": true,
+        "titleColor": "#1873D3",
+        "descColor": "#1873D3",
+        "titleFontSize": 15,
+        "isNeedLogin": false,
+        "showRightDivider": false,
+        "desc": "定制出行 | 客运服务 | 交警服务",
+        "descFontSize": 12,
+        "onClick": ""
+      }
+    ]
+  },
+  {
+    "type": "container-fourColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[15,0,18,0]"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_ssgj",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "公交路线",
+        "onClickEventId": "我要逛-行走星沙-公交路线",
+        "titleFontSize": 13,
+        "onClick": "https://csweb.csx.cn/traffic-search/",
+        "onClickParams": {
+          "onClickTitle": "公交路线",
+          "onClickIcon": "res://life_ic_ssgj"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_fjdz",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "附近电桩",
+        "titleFontSize": 13,
+        "onClick": "https://csweb.csx.cn/recharge/",
+        "onClickEventId": "我要逛-行走星沙-附近电桩",
+        "onClickParams": {
+          "onClickTitle": "查找充电桩",
+          "onClickIcon": "res://life_ic_fjdz"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_jklx",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "titleFontSize": 13,
+        "title": "驾考练习",
+        "onClick": "http://i.jsyst.cn/",
+        "onClickEventId": "我要逛-行走星沙-驾考练习",
+        "onClickParams": {
+          "onClickTitle": "驾考练习",
+          "onClickIcon": "res://life_ic_jklx"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_qcgp",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "titleFontSize": 13,
+        "onClickEventId": "我要逛-行走星沙-电子保单查询",
+        "title": "电子保单查询",
+        "onClick": "http://eservice.ciitc.com.cn/ePolicy/webpage/phonePages/jsp/inquire.jsp?CrwXYsFTjkWi=1658388555356",
+        "onClickParams": {
+          "onClickTitle": "电子保单查询",
+          "onClickIcon": "res://life_ic_qcgp"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff"
+    },
+    "loadType": "-1",
+    "header": {
+      "title": "健康驿站",
+      "type": "component-mCardHeader",
+      "style": {
+        "padding": "[0,0,0,0]",
+        "margin": "[-10,0,0,0]"
+      },
+      "titleBold": true,
+      "iconVisible": false,
+      "arrowIconVisible": true,
+      "moreVisible": true,
+      "more": "更多",
+      "descVisible": true,
+      "partitionVisible": true,
+      "onClick": "https://csweb.csx.cn/jimu/preview/11/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+      "titleFontSize": "18",
+      "onClickEventId": "我要逛-医疗健康-更多",
+      "onClickEventParams": {
+        "eventLabel": "更多"
+      }
+    },
+    "items": [
+      {
+        "type": "component-leftIconRightTwoText",
+        "iconUrl": "res://life_bg_yljk",
+        "style": {
+          "margin": "[0,15,0,15]"
+        },
+        "iconVisible": true,
+        "title": "关爱健康 绿色养生",
+        "titleColor": "#1BA2C0",
+        "titleBold": true,
+        "descColor": "#1BA2C0",
+        "titleFontSize": 15,
+        "isNeedLogin": false,
+        "showRightDivider": false,
+        "desc": "预约缴费 | 医养保健 | 医保服务",
+        "descFontSize": 12,
+        "onClick": ""
+      }
+    ]
+  },
+  {
+    "type": "container-fourColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[15,0,18,0]"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_xfybjy",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "县妇幼保健院",
+        "onClickEventId": "我要逛-健康驿站-县妇幼保健院",
+        "onClick": "https://weixin.ngarihealth.com/weixin/pageZsx.html?appkey=csxcjcd123",
+        "onClickParams": {
+          "onClickTitle": "县妇幼保健院",
+          "onClickIcon": "res://life_ic_xfybjy"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_mzbjsc",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "onClickEventId": "我要逛-健康驿站-母子保健手册",
+        "gap": 6,
+        "title": "母子保健手册",
+        "onClick": "https://smcs.jumper-health.com/proxy_csx_pingtai/jumper-cs/api-smcs-csx/csx-api/open/toCsxApp",
+        "onClickParams": {
+          "onClickTitle": "母子保健手册",
+          "onClickIcon": "res://life_ic_mzbjsc"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_yljk_yhzxly",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "婚检孕检",
+        "onClick": "https://www.csxjkxs.com/app/child/zcs_index.aspx",
+        "onClickEventId": "我要逛-健康驿站-婚检孕检",
+        "onClickParams": {
+          "onClickTitle": "婚检孕检",
+          "onClickIcon": "res://life_ic_yljk_yhzxly"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_ghfw",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "挂号服务",
+        "onClickEventId": "我要逛-健康驿站-挂号服务",
+        "onClick": "https://csweb.csx.cn/jimu/preview/31/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickParams": {
+          "onClickTitle": "挂号服务",
+          "onClickIcon": "res://life_ic_ghfw"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_frmzcx",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "发热门诊查询",
+        "onClickEventId": "我要逛-健康驿站-发热门诊查询",
+        "onClick": "https://csweb.csx.cn/jimu/preview/39/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickParams": {
+          "onClickTitle": "发热门诊查询",
+          "onClickIcon": "res://life_ic_frmzcx"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "https://csweb.csx.cn/static/woyaoguang/jiankcai.png",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "健康平台",
+        "onClickEventId": "我要逛-健康驿站-健康平台",
+        "onClick": "https://csweb.csx.cn/esatHealth/",
+        "onClickParams": {
+          "onClickTitle": "发热门诊查询",
+          "onClickIcon": "res://life_ic_frmzcx"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[10,0,0,0]"
+    },
+    "loadType": "-1",
+    "header": {
+      "title": "法律服务",
+      "type": "component-mCardHeader",
+      "style": {
+        "padding": "[0,0,0,0]",
+        "margin": "[-10,0,0,0]"
+      },
+      "titleBold": true,
+      "iconVisible": false,
+      "arrowIconVisible": true,
+      "moreVisible": true,
+      "more": "更多",
+      "descVisible": true,
+      "partitionVisible": true,
+      "onClick": "https://csweb.csx.cn/jimu/preview/65/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+      "titleFontSize": "18",
+      "onClickEventId": "我要逛-法律服务-更多",
+      "onClickEventParams": {
+        "eventLabel": "更多"
+      }
+    },
+    "items": [
+      {
+        "type": "component-leftIconRightTwoText",
+        "iconUrl": "res://life_bg_ghfw",
+        "style": {
+          "margin": "[0,15,0,15]"
+        },
+        "iconVisible": true,
+        "title": "法律服务",
+        "titleColor": "#EC9200",
+        "descColor": "#EC9200",
+        "titleBold": true,
+        "titleFontSize": 15,
+        "isNeedLogin": false,
+        "showRightDivider": false,
+        "desc": "情系职工 | 真情服务",
+        "descFontSize": 12,
+        "onClick": "https://csweb.csx.cn/jimu/preview/65/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/"
+      }
+    ]
+  },
+  {
+    "type": "container-fourColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[15,0,8,0]"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "https://csweb.csx.cn/static/woyaoguang/zhongxiaoqiye.png",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "中小企业法律",
+        "onClickEventId": "我要逛-法律服务-中小企业法律",
+        "onClick": "https://csweb.csx.cn/jimu/preview/85/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickParams": {
+          "onClickTitle": "中小企业法律",
+          "onClickIcon": "res://life_ic_zhzj"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "https://csweb.csx.cn/static/woyaoguang/shiwusuo.png",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "律师事务所",
+        "onClickEventId": "我要逛-法律服务-律师事务所",
+        "onClick": "https://csweb.csx.cn/jimu/preview/71/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickParams": {
+          "onClickTitle": "律师事务所",
+          "onClickIcon": "res://life_ic_dsdt"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "https://csweb.csx.cn/static/woyaoguang/fuwusuo.png",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "法律服务所",
+        "onClickEventId": "我要逛-法律服务-法律服务所",
+        "onClick": "https://csweb.csx.cn/jimu/preview/70/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickParams": {
+          "onClickTitle": "法律服务所",
+          "onClickIcon": "res://life_ic_ghfw_bfjz"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "https://csweb.csx.cn/static/woyaoguang/falvyuanzhufa.png",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "法律援助法",
+        "onClickEventId": "我要逛-法律服务-法律援助法",
+        "onClick": "https://csweb.csx.cn/jimu/preview/66/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickParams": {
+          "onClickTitle": "法律援助法",
+          "onClickIcon": "res://life_ic_flyz"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "https://csweb.csx.cn/static/woyaoguang/banshi.png",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "办事指南",
+        "onClickEventId": "我要逛-法律服务-办事指南",
+        "onClick": "https://csweb.csx.cn/jimu/preview/57/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickParams": {
+          "onClickTitle": "办事指南",
+          "onClickIcon": "res://life_ic_dyzj"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[10,0,0,0]"
+    },
+    "loadType": "-1",
+    "header": {
+      "title": "职工之家",
+      "type": "component-mCardHeader",
+      "style": {
+        "padding": "[0,0,0,0]",
+        "margin": "[-10,0,0,0]"
+      },
+      "titleBold": true,
+      "iconVisible": false,
+      "arrowIconVisible": true,
+      "moreVisible": true,
+      "more": "更多",
+      "descVisible": true,
+      "partitionVisible": true,
+      "onClick": "https://csweb.csx.cn/jimu/preview/10/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+      "titleFontSize": "18",
+      "onClickEventId": "我要逛-职工之家-更多",
+      "onClickEventParams": {
+        "eventLabel": "更多"
+      }
+    },
+    "items": [
+      {
+        "type": "component-leftIconRightTwoText",
+        "iconUrl": "res://life_bg_ghfw",
+        "style": {
+          "margin": "[0,15,0,15]"
+        },
+        "iconVisible": true,
+        "title": "长沙县工会咨询",
+        "titleColor": "#EC9200",
+        "descColor": "#EC9200",
+        "titleBold": true,
+        "titleFontSize": 15,
+        "isNeedLogin": false,
+        "showRightDivider": false,
+        "desc": "情系职工 | 真情服务",
+        "descFontSize": 12,
+        "onClick": ""
+      }
+    ]
+  },
+  {
+    "type": "container-fourColumn",
+    "style": {
+      "bgColor": "#ffffff",
+      "padding": "[15,0,8,0]"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_ghzj",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "工会组建",
+        "onClickEventId": "我要逛-职工之家-工会组建",
+        "onClick": "https://csxzgh.csx.cn/superc/index.html#/pages/parts/web/web?data=%257B%2522url%2522%253A%2522https%253A%252F%252Fcsxzgh.csx.cn%252Fxzghweb-2.do%253Fghrh%2522%257D",
+        "onClickParams": {
+          "onClickTitle": "工会组建",
+          "onClickIcon": "res://life_ic_zhzj"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_dsdt",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "单身地图",
+        "onClickEventId": "我要逛-职工之家-单身地图",
+        "onClick": "https://new.meishuolm.com/map/",
+        "onClickParams": {
+          "onClickTitle": "单身地图",
+          "onClickIcon": "res://life_ic_dsdt"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_ghfw_bfjz",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "帮扶救助",
+        "onClickEventId": "我要逛-职工之家-帮扶救助",
+        "onClick": "https://csxzgh.csx.cn/superc/index.html#/pages/ghfw/zgfw/help-save?name=%E5%B8%AE%E6%89%B6%E6%95%91%E5%8A%A9",
+        "onClickParams": {
+          "onClickTitle": "帮扶救助",
+          "onClickIcon": "res://life_ic_ghfw_bfjz"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_flyz",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "法律援助",
+        "onClickEventId": "我要逛-职工之家-法律援助",
+        "onClick": "https://csxzgh.csx.cn/superc/index.html#/pages/ghfw/zgfw/laws-server?name=%E6%B3%95%E5%BE%8B%E6%8F%B4%E5%8A%A9",
+        "onClickParams": {
+          "onClickTitle": "法律援助",
+          "onClickIcon": "res://life_ic_flyz"
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://life_ic_dyzj",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "gap": 6,
+        "title": "党员之家",
+        "onClickEventId": "我要逛-职工之家-党员之家",
+        "onClick": "http://www.csxdyw.gov.cn/",
+        "onClickParams": {
+          "onClickTitle": "党员之家",
+          "onClickIcon": "res://life_ic_dyzj"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-dividerHorizontal",
+        "color": "#F4F4F4",
+        "height": 6
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "padding": "[15,15,15,15]"
+    },
+    "items": [
+      {
+        "type": "component-image",
+        "style": {
+          "height": 76
+        },
+        "imgUrl": "res://life_bg_zygc",
+        "onClick": "https://xsdcloud.rednet.cn/m/#/index?areaCode=1018001007",
+        "onClickEventId": "我要逛-志愿广场"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "header": {
+      "type": "component-mCardHeader",
+      "style": {
+        "padding": "[0,0,0,0]",
+        "margin": "[0,0,0,0]",
+        "bgColor": "#ffffff"
+      },
+      "title": "特色空间",
+      "titleBold": true,
+      "iconVisible": false,
+      "arrowIconVisible": true,
+      "moreVisible": true,
+      "more": "更多",
+      "descVisible": true,
+      "partitionVisible": true,
+      "onClick": "https://csweb.csx.cn/jimu/preview/42/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+      "titleFontSize": "18",
+      "onClickEventId": "我要逛-特色空间-更多",
+      "onClickEventParams": {
+        "eventLabel": "更多"
+      }
+    }
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "padding": "[0,15,20,15]",
+      "bgColor": "#ffffff",
+      "hGap": 6
+    },
+    "items": [
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://life_bg_jyxt",
+        "imgWidthRatio": 501,
+        "imgHeightRatio": 252,
+        "imgRatioRef": 1,
+        "style": {
+          "padding": "[0,3,5,0]"
+        },
+        "onClick": "https://csweb.csx.cn/jimu/preview/17/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickEventId": "我要逛-特色空间-教育服务",
+        "onClickParams": {
+          "onClickEventLabel": ""
+        }
+      },
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://life_bg_wlly",
+        "imgWidthRatio": 501,
+        "imgHeightRatio": 252,
+        "style": {
+          "padding": "[0,0,5,3]"
+        },
+        "imgRatioRef": 1,
+        "onClick": "https://zxs.hnhide.com:8889",
+        "onClickEventId": "我要逛-特色空间-文旅乐园",
+        "onClickParams": {
+          "onClickEventLabel": ""
+        }
+      },
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://life_bg_csyz",
+        "imgWidthRatio": 501,
+        "imgHeightRatio": 252,
+        "style": {
+          "padding": "[5,3,0,0]"
+        },
+        "imgRatioRef": 1,
+        "onClick": "https://csweb.csx.cn/jimu/preview/35/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickEventId": "我要逛-特色空间-城市驿站",
+        "onClickParams": {
+          "onClickEventLabel": ""
+        }
+      },
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://life_bg_wmzjs",
+        "imgWidthRatio": 501,
+        "imgHeightRatio": 252,
+        "style": {
+          "padding": "[5,0,0,3]"
+        },
+        "imgRatioRef": 1,
+        "onClick": "https://csweb.csx.cn/jimu/preview/34/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "onClickEventId": "我要逛-特色空间-文明实践所",
+        "onClickParams": {
+          "onClickEventLabel": ""
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "padding": "[10,0,0,0]",
+      "bgColor": "#f4f4f4"
+    },
+    "items": [
+      {
+        "type": "component-imgCenter",
+        "imgVisible": true,
+        "imgUrl": "res://commen_bg_cpf"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-dividerHorizontal",
+        "color": "#F4F4F4",
+        "height": 25
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+apply plugin: 'com.android.library'
+
+apply from: 'uploadArchives.gradle'
+
+android {
+    compileSdkVersion 26
+
+
+    defaultConfig {
+        minSdkVersion minSdkVersion
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        //ARouter
+        javaCompileOptions {
+            annotationProcessorOptions {
+                // 数据库与路由的配置
+                arguments = [targetModuleName: project.getName(), moduleName: project.getName()]
+                arguments = [AROUTER_MODULE_NAME: project.getName(), AROUTER_GENERATE_DOC: "enable"]
+            }
+        }
+
+    }
+
+    sourceSets {
+        main {
+            res.srcDirs += "src/main/res-theme"
+        }
+    }
+    buildTypes {
+        release {
+            postprocessing {
+                removeUnusedCode false
+                removeUnusedResources false
+                obfuscate false
+                optimizeCode false
+                proguardFile 'proguard-rules.pro'
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    api LIB_WIDGET
+    api "com.zxs.lib:imaeLoader:1.0.0"
+    api  'com.github.AndroidLee0316:base:support_1.0.0'
+    api 'com.github.AndroidLee0316:zxs_net:support_2.0.0'
+    annotationProcessor "com.alibaba:arouter-compiler:${rootProject.ext.arouterCompiler}"
+    api 'com.github.AndroidLee0316:router:support_1.0.0'
+    api  "com.zxs.lib:PascPhoto:1.0.0"
+}

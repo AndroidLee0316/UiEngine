@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iconView"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/ic_wallet"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/labelLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right">
+
+        <View
+            android:id="@+id/dotView"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:background="@drawable/workspace_icon_label_dot_background" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/workspace_icon_label_text_background"
+            android:gravity="center"
+            android:text="秒查"
+            android:textColor="#ffffff"
+            android:textSize="8dp" />
+
+        <TextView
+            android:id="@+id/numView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/workspace_icon_label_num_background"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#ffffff"
+            android:textSize="8dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

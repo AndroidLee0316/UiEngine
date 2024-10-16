@@ -1,0 +1,8 @@
+<resources>
+    <string name="life_title">生活</string>
+  <string name="life_public_server">公共服务</string>
+  <string name="life_map_address">暂无定位</string>
+  <string name="life_map_find_address">发现周边</string>
+  <string name="life_map_find_address_tip">加油站、洗手间、照相馆等</string>
+  <string name="not_realized_msg">此服务暂未开通，敬请期待</string>
+</resources>

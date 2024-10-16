@@ -1,0 +1,65 @@
+{
+  "type": "component-personalHeader",
+  "style": {
+    "padding": "[0,27,21,27]",
+    "bgImgUrl": "res://bg_personal_header"
+  },
+  "imageItems": [
+    {
+      "style": {
+        "margin": "[0,0,15,0]",
+        "width": -2
+      },
+      "type": "component-roundedImage",
+      "imgWidth": 54,
+      "imgHeight": 54,
+      "imgUrl": "res://img_person_head",
+      "onClick": "event://SimpleClick?eventId=onClickPersonalHeaderImage"
+    }
+  ],
+  "personNameItems": [
+    {
+      "type": "component-singleText",
+      "style": {
+        "margin": "[0,0,0,15]",
+        "width": -2
+      },
+      "title": "王小姐",
+      "titleFontSize": 17,
+      "titleBold": true,
+      "onClick": "event://SimpleClick?eventId=onClickPersonalHeaderPersonName"
+    }
+  ],
+  "authItems": [
+    {
+      "type": "component-twoIconText",
+      "style": {
+        "margin": "[0,0,0,15]",
+        "width": -2
+      },
+      "title": "中级实名认证",
+      "titleFontSize": 13,
+      "titleColor": "#999999",
+      "iconUrl": "res://ic_auth",
+      "iconWidth": 18,
+      "iconHeight": 18,
+      "arrowIconVisible": false,
+      "onClick": "event://SimpleClick?eventId=onClickPersonalHeaderAuth"
+    }
+  ],
+  "scoreItems": [
+    {
+      "type": "component-iconTwoTextScore",
+      "style": {
+        "padding": "[9,15,9,15]",
+        "bgImgUrl": "res://bg_white_rounded"
+      },
+      "title": "文明分",
+      "desc": "750分",
+      "iconWidth": 27,
+      "iconHeight": 27,
+      "iconUrl": "res://ic_score",
+      "onClick": "event://SimpleClick?eventId=onClickPersonalHeaderScore"
+    }
+  ]
+}

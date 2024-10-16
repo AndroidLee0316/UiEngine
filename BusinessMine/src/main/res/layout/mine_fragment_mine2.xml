@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/business_mine_page_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.pasc.lib.widget.tangram.PascRecyclerView
+            android:id="@+id/configurableRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!--顶部标题部分开始-->
+    <LinearLayout
+        android:id="@+id/mine_page_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/real_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black_333333"
+                android:textSize="@dimen/text_size_18"
+                android:textStyle="bold"
+                tools:text="韩梅梅" />
+
+            <ImageView
+                android:id="@+id/personal_center_settings"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/mine_setting_icon"
+                android:contentDescription="@string/app_name" />
+
+            <com.flyco.roundview.RoundTextView
+                android:id="@+id/tv_red_dot"
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:visibility="gone"
+                app:rv_backgroundColor="#FF6658"
+                app:rv_cornerRadius="12dp" />
+
+            <View
+                android:id="@+id/personal_title_line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_line_width"
+                android:layout_alignParentBottom="true"
+                android:background="@color/divider" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!--顶部标题部分结束-->
+
+</FrameLayout>
+
+
+
+
+
+

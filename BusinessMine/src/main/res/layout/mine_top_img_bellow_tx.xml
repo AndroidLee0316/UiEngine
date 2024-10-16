@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_ffffff"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/mine_ic_my_msg" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/style_business_user_item_entry"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:text="@string/business_mine_unread_msg" />
+
+    <ImageView
+        android:id="@+id/iv_red_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-8dp"
+        android:layout_toRightOf="@+id/icon"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/mine_ic_new_msg"
+        android:visibility="visible" />
+</RelativeLayout>
+

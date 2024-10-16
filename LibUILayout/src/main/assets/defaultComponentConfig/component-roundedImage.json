@@ -1,0 +1,9 @@
+{
+  "type": "component-roundedImage",
+  "imgVisible": true,
+  "imgUrl": "res://img_census",
+  "imgWidth": 64,
+  "imgHeight": 64,
+  "imgOval": true,
+  "imgScaleType": "CENTER_CROP"
+}

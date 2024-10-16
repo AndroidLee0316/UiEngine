@@ -1,0 +1,23 @@
+{
+  "type": "component-marqueeNews",
+  "id": "scrollNews",
+  "imgUrl": "res://ic_main_page_news",
+  "bgImgUrl": "res://bg_marquee_news",
+  "interval": 5000,
+  "lineCount": 2,
+  "bgImgVisible": true,
+  "dataSource": [
+    {
+      "title": "2018年绩效考核工作已正式开展，所有9月30日（含）之前入职的同事均需参与年度考核。"
+    },
+    {
+      "title": "Android首页跳转到政民互动--冒烟测试不通过。"
+    },
+    {
+      "title": "本周抽空把各自负责的模块做一次代码检查，邮件反馈下处理结果。"
+    },
+    {
+      "title": "技术需求：代码优化、Hybrid框架优化。"
+    }
+  ]
+}

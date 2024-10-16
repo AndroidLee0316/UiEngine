@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_bg_affair_header"/>
+    <TextView
+        android:id="@+id/tv_zai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在售新房楼盘数"
+        android:visibility="gone"
+        android:textColor="#333333"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07月04日"
+            android:textColor="#333333"
+            android:layout_marginTop="12dp"
+            android:textSize="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23457"
+            android:textColor="#333333"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="@dimen/dp_4"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

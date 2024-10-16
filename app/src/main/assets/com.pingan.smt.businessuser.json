@@ -1,0 +1,90 @@
+{
+  "faceConfig": {
+    "detail": {
+      "detail": "人脸相关配置",
+      "detail_needInit": "是否需要初始化, 0:不需要，1:需要",
+      "detail_FACE_COMPARE": "认证对比",
+      "detail_FACE_COMPARISON": "人脸对比（对比当前人脸 和 实名认证的人脸是否匹配）",
+      "detail_faceComparisonUrl": "人脸登录",
+      "detail_openFaceCertificationLoginUrl": "人脸实名认证之后开通或者覆盖人脸",
+      "detial_verifyOpenFaceUrl": "人脸开通验证码校验",
+      "detail_resetFaceUrl": "重置人脸",
+      "detail_getOpenfaceStateByMobile": "根据手机号获取人脸",
+      "detail_registerFaceUrl": "注册人脸"
+    },
+    "needInit": "1",
+    "faceAndIdComparisonUrl": "/api/platform/face/faceAndIdComparison",
+    "upgradeToFaceAndIdComparisonUrl": "/api/platform/face/upgradeToFaceAndIdComparison",
+    "faceComparisonUrl": "/api/platform/pinganFace/faceComparison",
+    "openFaceCertificationLoginUrl": "/api/platform/pinganFace/openFaceCertificationLogin",
+    "verifyOpenFaceUrl": "/api/platform/user/verifyOpenFace",
+    "resetFaceUrl": "/api/platform/pinganFace/resetFace",
+    "getOpenfaceStateByMobileUrl": "/api/platform/pinganFace/getOpenfaceStateByMobile",
+    "registerFaceUrl": "/api/platform/pinganFace/registerFace",
+    "updateOpenFaceUrl": "/api/platform/pinganFace/updateOpenFace"
+  },
+  "certificationConfig": {
+    "detail": {
+      "detail": "认证",
+      "detail_needInit": "是否需要初始化, 0:不需要，1:需要",
+      "detail_sendVerifyCodeUrl": "实名认证发送短信验证码",
+      "detail_byBankUrl": "银行卡实名认证（认证接口）",
+      "detail_confirmByBankUrl": "银行卡实名认证(接口二)",
+      "detail_queryAuthCountUrl": "查询认证次数是否超过最大允许次数",
+      "detail_queryIsCertedUrl": "查询该身份信息是否被其他用户认证过"
+    },
+    "needInit": "1",
+    "byBankUrl": "/api/platform/byBank",
+    "sendVerifyCodeUrl": "/api/platform/user/sendVerifyCode",
+    "confirmByBankUrl": "/api/platform/confirmByBank",
+    "queryAuthCountUrl": "/api/platform/cert/queryAuthCount",
+    "queryIsCertedUrl": "/api/platform/cert/queryIsCerted"
+  },
+  "loginConfig": {
+    "detail": {
+      "detail": "登录",
+      "detail_needInit": "是否需要初始化, 0:不需要，1:需要",
+      "detail_sendVerifyCodeUrl": "发送验证码",
+      "detail_mobileLoginUrl": "短信验证码登录",
+      "detail_pwdLoginUrl": "密码登录",
+      "detail_pwdResetUrl": "设置登录密码",
+      "detail_pwdUpdateUrl": "修改登录密码",
+      "detail_pwdForgetUrl": "忘记密码",
+      "detail_thirdBindUrl": "绑定三方账号，如微信，QQ",
+      "detail_thirdUnBindUrl": "解绑三方账号，如微信，QQ",
+      "detail_thirdLoginUrl": "三方登录，如微信，QQ",
+      "detail_getUserInfoByMobileUrl": "根据手机号获取用户信息(头像)",
+      "detail_agreementUrl": "用户协议跳转的url",
+      "detail_agreementText": "用户协议显示的文字",
+      "detail_supportWeChat": "支持微信登录",
+      "detail_supportQQ": "支持QQ登录"
+    },
+    "sendVerifyCodeUrl": "/api/platform/user/sendVerifyCode",
+    "mobileLoginUrl": "/api/platform/user/mobileLogin",
+    "pwdLoginUrl": "/api/platform/user/doPwdLogin",
+    "pwdResetUrl": "/api/platform/user/resetPassword",
+    "pwdUpdateUrl": "/api/platform/user/updatePassword",
+    "pwdForgetUrl": "/api/platform/user/forgetPassword",
+    "thirdBindUrl": "/api/platform/thirdUser/bindUserInfo",
+    "thirdUnBindUrl": "/api/platform/thirdUser/unbindUserInfo",
+    "thirdLoginUrl": "/api/platform/thirdUser/bindAccount",
+    "loginByShortTokenUrl": "/platform/env/loginByShortToken",
+    "getUserInfoByMobileUrl": "/api/auth/user/getUserInfoByMobile",
+    "agreementUrl": "https://smt-stg.yun.city.pingan.com/basic/stg/app/feature/provision/?uiparams=%7B%22title%22:%22%22%7D#/detail",
+    "agreementText": "《市民通基线版服务协议》",
+    "supportWeChat": true,
+    "supportQQ": true
+  },
+  "otherConfig": {
+    "detail": {
+      "detail": "其它配置",
+      "detail_needCertMenu": "是否需显示实名认证菜单",
+      "detail_needBankCert": "是否需要显示银行卡认证",
+      "detail_needFaceCert": "是否需要显示人脸认证"
+    },
+    "needInit": "1",
+    "needCertMenu": true,
+    "needBankCert": true,
+    "needFaceCert": true
+  }
+}

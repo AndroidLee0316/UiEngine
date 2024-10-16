@@ -1,0 +1,43 @@
+{
+  "type": "component-personalInfo",
+  "style": {
+    "padding": "[16,16,16,16]",
+    "bgImgUrl": "res://bg_personal_info"
+  },
+  "imageItems": [
+    {
+      "type": "component-roundedImage",
+      "style": {
+        "width": -2
+      },
+      "imgWidth": 54,
+      "imgHeight": 54,
+      "imgUrl": "res://img_census",
+      "onClick": "event://NotValid"
+    }
+  ],
+  "personNameItems": [
+    {
+      "type": "component-singleText",
+      "style": {
+        "width": -2
+      },
+      "title": "王小姐，上午好！",
+      "titleFontSize": 17,
+      "titleBold": false
+    }
+  ],
+  "authItems": [
+    {
+      "type": "component-twoIconText",
+      "style": {
+        "width": -2
+      },
+      "title": "超级实名认证",
+      "titleFontSize": 13,
+      "titleColor": "#999999",
+      "arrowIconVisible": false,
+      "onClick": "event://NotValid"
+    }
+  ]
+}

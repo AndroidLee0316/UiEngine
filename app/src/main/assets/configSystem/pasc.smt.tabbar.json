@@ -1,0 +1,56 @@
+{
+  "backgroundUrl": "#ffffffff",
+  "backgroundType": 1,
+  "configs": [
+    {
+      "tabName": "我要看",
+      "tabIconType": "1",
+      "selectTabNameColor": "#1890FFff",
+      "defaultTabNameColor": "#9DC4E8ff",
+      "selectIcon": "res://workspace_tab_home_selected",
+      "defaultIcon": "res://workspace_tab_home",
+      "belongType": "1",
+      "extension": "//News/news"
+    },
+    {
+      "tabName": "我要办",
+      "tabIconType": "1",
+      "selectTabNameColor": "#1890FFff",
+      "defaultTabNameColor": "#9DC4E8ff",
+      "selectIcon": "res://workspace_tab_affair_selected",
+      "defaultIcon": "res://workspace_tab_affair",
+      "belongType": "1",
+      "extension": "//Affairs/affairs"
+    },
+    {
+      "tabName": "",
+      "tabIconType": "1",
+      "selectTabNameColor": "#1890FFff",
+      "defaultTabNameColor": "#9DC4E8ff",
+      "selectIcon": "res://workspace_tab_affair_selected",
+      "defaultIcon": "res://workspace_tab_affair",
+      "belongType": "1",
+      "extension": "//home/main"
+    },
+    {
+      "tabName": "我要逛",
+      "tabIconType": "1",
+      "selectTabNameColor": "#1890FFff",
+      "defaultTabNameColor": "#9DC4E8ff",
+      "selectIcon": "res://workspace_tab_life_select",
+      "defaultIcon": "res://workspace_tab_life",
+      "belongType": "4",
+      "extension": "https://csweb.csx.cn/inxingsha/index.html#/home"
+    },
+    {
+      "tabName": "我的",
+      "tabIconType": "1",
+      "selectTabNameColor": "#1890FFff",
+      "defaultTabNameColor": "#9DC4E8ff",
+      "selectIcon": "res://workspace_tab_mine_selected",
+      "defaultIcon": "res://workspace_tab_mine",
+      "belongType": "1",
+      "extension": "//Mine/mine"
+    }
+  ]
+}

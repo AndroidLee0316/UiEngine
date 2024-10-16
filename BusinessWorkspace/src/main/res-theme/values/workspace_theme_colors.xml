@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 该文件存放主题相关的资源，包括颜色，样式等 -->
+
+    <!-- 主页搜索提示文本颜色 -->
+    <color name="workspace_search_hint">#C7C7C7</color>
+
+    <color name="workspace_tab_title_normal">@color/pasc_secondary_text</color>
+    <color name="workspace_tab_title_selected">@color/pasc_primary</color>
+
+</resources>

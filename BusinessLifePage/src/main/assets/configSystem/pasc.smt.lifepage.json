@@ -1,0 +1,313 @@
+[
+  {
+    "type": "container-scroll",
+    "style": {
+      "pageWidth": "79",
+      "pageHeight": "92",
+      "infinite":"true"
+    },
+
+    "items": [
+      
+      {
+        "type": "component-iconText",
+        "style": {
+          "margin": [
+            27,
+            0,
+            27,
+            0
+          ]
+        },
+        "iconUrl": "res://ic_life_sjhf",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "title": "手机话费",
+        "titleFontSize": 13,
+        "onClick": "event://GoToPhoneFees",
+        "viewHeight": 92,
+        "onClickParams": {
+          "url": ""
+        }
+      },
+      {
+        "type": "component-iconText",
+        "style": {
+          "margin": [
+            27,
+            0,
+            27,
+            0
+          ]
+        },
+        "iconUrl": "res://ic_life_sjll",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "title": "手机流量",
+        "titleFontSize": 13,
+        "onClick": "event://GoToDataFees",
+        "viewHeight": 92,
+        "onClickParams": {
+          "url": ""
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_life_yk",
+        "style": {
+          "margin": [
+            27,
+            0,
+            27,
+            0
+          ]
+        },
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "title": "油卡充值",
+        "titleFontSize": 13,
+        "onClick": "event://GoToOilFees",
+        "viewHeight": 92,
+        "onClickParams": {
+          "url": ""
+        }
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_life_lyk",
+        "style": {
+          "margin": [
+            27,
+            0,
+            27,
+            0
+          ]
+        },
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "title": "常熟旅游卡",
+        "titleFontSize": 13,
+        "onClick": "router://com.pasc.smt/hybrid/webView/simple",
+        "onClickParams": {
+          "url": "http://m.cs-tours.com/index.php?app=wechat&c=gcard&a=index"
+        },
+        "viewHeight": 92
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_life_yck",
+        "style": {
+          "margin": [
+            27,
+            0,
+            27,
+            0
+          ]
+        },
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "title": "友城卡",
+        "titleFontSize": 13,
+        "onClick": "router://com.pasc.smt/hybrid/webView/simple",
+        "onClickParams": {
+          "url": "http://m.cs-tours.com/index.php?app=wechat&c=gcard&a=fcCard"
+        },
+        "viewHeight": 92
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-dividerHorizontal"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "load": "getNearByInfo",
+    "style": {
+      "padding": "[0,0,0,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-mapContent",
+        "viewHeight": 260,
+        "title": "发现周边",
+        "iconUrl": "res://地图bg",
+        "desc": "加油站、照相馆、洗手间等",
+        "onClick": "router://com.pasc.smt/nearby/map/main",
+        "onClickParams": {
+          "url": ""
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-twoColumn",
+    "style": {
+      "padding": [
+        3.5,
+        0,
+        20,
+        0
+      ],
+      "background-color": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-iconTwoText",
+        "title": "白蚁报治",
+        "isGone": false,
+        "desc": "安全居家 全民有责",
+        "viewHeight": 70,
+        "iconUrl": "",
+        "onClick": "router://com.pasc.smt/hybrid/webView/simple",
+        "onClickParams": {
+          "url": "http://www.jscsfc.com/zjwxsite/webservice/MC_RepairIndex"
+        }
+      },
+      {
+        "type": "component-iconTwoText",
+        "title": "市政设施报修",
+        "isGone": true,
+        "desc": "公共设施 全民保护",
+        "viewHeight": 70,
+        "iconUrl": "",
+        "onClick": "router://com.pasc.smt/hybrid/webView/simple",
+        "onClickParams": {
+          "url": "http://www.jscsfc.com/zjwxsite/webservice/FacilitiesRepairReport?uiparams=%7b%22title%22%3a%22%e5%b8%82%e6%94%bf%e8%ae%be%e6%96%bd%e6%8a%a5%e4%bf%ae%22%7d"
+        }
+      },
+      {
+        "type": "component-iconTwoText",
+        "title": "自来水报修",
+        "isGone": false,
+        "desc": "用水异常 在线申报",
+        "viewHeight": 50,
+        "iconUrl": "",
+        "onClick": "router://com.pasc.smt/hybrid/webView/simple",
+        "onClickParams": {
+          "url": "http://www.cssf.cc/ZaiXianFuWu/WangShangBaoXiu.aspx?code=001VmPth0PKGgC1Cinsh09sLth0VmPtB&state=&wecha_id=oR3aFuE26xUlDXmbAsAxZGaQl2uU"
+        }
+      },
+      {
+        "type": "component-iconTwoText",
+        "title": "智能法务咨询",
+        "isGone": true,
+        "desc": "专业咨询 触手可得",
+        "viewHeight": 50,
+        "iconUrl": "",
+        "onClick": "router://com.pasc.smt/hybrid/webView/simple",
+        "onClickParams": {
+          "url": "https://ai.12348.gov.cn/"
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-dividerHorizontal"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "loadType": "-1",
+    "load": "getHouseInfo",
+    "items": [
+      {
+        "type": "component-dataBoardHouse",
+        "viewHeight": 203,
+        "title": "房产服务",
+        "iconUrl": "",
+        "desc": "更多",
+        "onClick": "",
+        "onClickParams": {
+          "url": ""
+        }
+      }
+    ]
+  },
+  {
+    "type": "container-fourColumn",
+    "style": {
+      "vGap": 10,
+      "hGap": 10,
+      "padding": "[19,10,20,10]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_life_yykf",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "space": 6,
+        "title": "预约看房",
+        "titleFontSize": 13,
+        "onClick": "router://com.pasc.smt/hybrid/webView/simple",
+        "onClickParams": {
+          "url": "http://s.cs090.com/1246859/wap.html"
+        },
+        "viewHeight": 55
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_life_fdjsq",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "space": 6,
+        "title": "房贷计算器",
+        "isHidden": true,
+        "titleFontSize": 13,
+        "onClick": "router://com.pasc.smt/hybrid/webView/noToolbar",
+        "onClickParams": {
+          "url": "https://m.pinganfang.com/tools/fangdai.html?hfcmpn=675"
+        },
+        "viewHeight": 55
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_life_sjjsq",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "space": 6,
+        "isHidden": true,
+        "title": "贷款额度评估",
+        "titleFontSize": 11,
+        "onClick": "router://com.pasc.smt/hybrid/webView/noToolbar",
+        "onClickParams": {
+          "url": "https://m.pinganfang.com/tools/shenjia.html?hfcmpn=675"
+        },
+        "viewHeight": 55
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://ic_life_jysf",
+        "iconWidth": 30,
+        "iconHeight": 30,
+        "space": 6,
+        "title": "二手房税费",
+        "titleFontSize": 13,
+        "onClick": "router://com.pasc.smt/hybrid/webView/simple",
+        "onClickParams": {
+          "url": "http://www.jscsfc.com/zjwxsite/webservice/Tax"
+        },
+        "viewHeight": 55
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-dividerHorizontal"
+      }
+    ]
+  }
+]

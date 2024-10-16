@@ -1,0 +1,26 @@
+[
+  {
+    "tabBarIndex" : 0,
+    "query" : {
+      "id" : "10001",
+      "jmDomain" : "http://smt-base-h5-dev.yun.city.pingan.com/"
+    },
+    "configUrl": "http://smt-base-h5-dev.yun.city.pingan.com/"
+  },
+  {
+    "tabBarIndex" : 1,
+    "query" : {
+      "id" : "10058",
+      "jmDomain" : "http://smt-base-h5-dev.yun.city.pingan.com/"
+    },
+    "configUrl": "http://smt-base-h5-dev.yun.city.pingan.com/"
+  },
+  {
+    "tabBarIndex" : 2,
+    "query" : {
+      "id" : "10049",
+      "jmDomain" : "http://smt-base-h5-dev.yun.city.pingan.com/"
+    },
+    "configUrl": "http://smt-base-h5-dev.yun.city.pingan.com/"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "type": "component-twoIconTwoText",
+  "style": {
+    "padding": "[16,16,16,16]"
+  },
+  "title": "市教育局",
+  "titleColor": "#333333",
+  "titleFontSize": 15,
+  "titleBold": false,
+  "desc": "学籍查询、总学生报名系统等18项服务",
+  "descColor": "#999999",
+  "descFontSize": 13,
+  "descBold": false,
+  "lineGap": 4,
+  "iconVisible": true,
+  "iconUrl": "res://ic_circle_orange_education",
+  "iconWidth": 24,
+  "iconHeight": 24,
+  "iconMargin": "[0,12,0,0]",
+  "arrowIconVisible": true,
+  "arrowIconUrl": "res://ic_arrow_salt_city",
+  "arrowIconWidth": 12,
+  "arrowIconHeight": 12,
+  "arrowIconMargin": "[0,0,0,0]"
+}

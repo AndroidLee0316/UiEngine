@@ -1,0 +1,131 @@
+{
+  "paAccountPassConfig": {
+    "detail": {
+      "detail": "平安一账通配置(H5)",
+      "detail_needInit": "是否需要初始化, 0:不需要，1:需要",
+      "detail_toolBarColor": "标题栏颜色",
+      "detail_toolBarVisibility": "h5界面是否显示标题栏, 0:GONE, 1:VISIBLE",
+      "detail_statusBarColor": "状态栏颜色",
+      "detail_statusBarVisibility": "h5界面是否显示状态栏, 0:GONE, 1:VISIBLE, 2:FOLLOWING",
+      "detail_diagnose": "智能自诊",
+      "detail_drugsAssistant": "药品助手",
+      "detail_diseaseAssistant": "疾病助手"
+    },
+    "needInit": "1",
+    "diagnoseProduct": "https://city.pingan.com.cn/static/public/health-app/healthdiagnose/index.html",
+    "diagnoseBeta": "https://test1-city.pingan.com.cn/static/public/health-app/healthdiagnose/index.html",
+    "drugsAssistantProduct": "https://city.pingan.com.cn/static/public/health-app/medical/index.html",
+    "drugsAssistantBeta": "https://test-mhis-siapp.pingan.com.cn/static/public/health-app/medical/index.html",
+    "diseaseAssistantProduct": "https://test-mhis-siapp.pingan.com.cn/static/public/health-app/disease/index.html",
+    "diseaseAssistantBeta": "https://test-mhis-siapp.pingan.com.cn/static/public/health-app/disease/index.html",
+    "statusBarColor": "#4b89dc",
+    "statusBarVisibility": "0",
+    "toolBarColor": "#4b89dc",
+    "toolBarVisibility": "0"
+  },
+  "paSafeHouseConfig": {
+    "detail": {
+      "detail": "平安好房(H5)",
+      "detail_needInit": "是否需要初始化, 0:不需要，1:需要",
+      "detail_toolBarColor": "标题栏颜色",
+      "detail_toolBarVisibility": "h5界面是否显示标题栏, 0:GONE, 1:VISIBLE",
+      "detail_statusBarColor": "状态栏颜色",
+      "detail_statusBarVisibility": "h5界面是否显示状态栏, 0:GONE, 1:VISIBLE, 2:FOLLOWING",
+      "detail_newHouseUrl": "新房",
+      "detail_fangDaiUrl": "房贷计算器"
+    },
+    "needInit": "1",
+    "newHouseUrl": "https://xf.m.pinganfang.com/nantong?hfcmpn=602",
+    "fangDaiUrl": "https://m.pinganfang.com/tools/fangdai.html?hfcmpn=602",
+    "statusBarColor": "#4b89dc",
+    "statusBarVisibility": "0",
+    "toolBarColor": "#4b89dc",
+    "toolBarVisibility": "0"
+  },
+  "pafConfig": {
+    "detial": {
+      "detail": "平安壹钱包(H5)",
+      "detail_needInit": "是否需要初始化, 0:不需要，1:需要",
+      "detail_toolBarColor": "标题栏颜色",
+      "detail_toolBarVisibility": "h5界面是否显示标题栏, 0:GONE, 1:VISIBLE",
+      "detail_statusBarColor": "状态栏颜色",
+      "detail_statusBarVisibility": "h5界面是否显示状态栏, 0:GONE, 1:VISIBLE, 2:FOLLOWING",
+      "detail_MERCHANT_CRYPT_KEY": "",
+      "detail_MERCHANT_NO": "",
+      "detail_PRODUCT_ID": "插件框ID（产品编号）",
+      "detail_CITY_ID": "平安付提供对城市ID",
+      "detail_CITY_NAME": "城市名称",
+      "detail_WX_APP_ID": "微信ID（微信支付用到，暂未支持）",
+      "detail_APP_ID": "商户应用ID 由平安付分配",
+      "detail_FRONT_TEXT": "跟后端  ios 统一约定的拼接前置字符串",
+      "degail_pafType": "水费/电费/话费/燃气费/流量/油费/所有"
+    },
+    "needInit": "1",
+    "MERCHANT_CRYPT_KEY": "MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBANEsi1ui690eP/XydraLOcNWIkpkEi51ZZXT29736QMtUaeNvdA8l5ZoiRftYOwLbsUozI2XvbyZ/kFJpzL1mWRDO2DlEJ5cgtDXVw0UWu2Cf7Jgx8QRhMxKPABOeoIZmImzH6hbzGpMrZQ+kLfWIBS6K9X2b1ijPqFW60x0HXG1AgMBAAECgYA7EMMBS04jEEmrX54aCdJz0Dy6mOtxZwEaf8qUeZi4pvFpyOKSjKmZdUdRFFzMCqZq0gyA5xpSyYE8Wln2T9fSLymVmgEPjX6eSNPugbWLK8Z5cu5mFyNcB6teT4wbFN+dvnwIsOWrI5v0/eVGClABFTJAMmznJ0Nvg9/Dbs/kgQJBAPU10Zd7MFOvN3BW/MN2M7ur7Q5QqElNOeaWUzDHwJ0IRs7He3O+SrEBSZue3GZaWmrtPK3H7NtgUEyAGX5AoNECQQDaYMtDMxSw5j/ogU3aCV80jutKAFlRumtPQ9/tVMNo4gIDHOWm3hDfKiOZz6JkwqpGH60ANRSSr1PmYQb9c9ulAkA8u5+1zSUjFPq+ME1afCRED0kfioqj3STCH+lq446pVitze6Tv/emx/Yelq6sbDrXmVev5ftMDYs+AoxmtU4SBAkAvYS7Ynp2Pn/UfseY9NylT0upTvO2kIMklgnl0GZ7oA5kiKcPdx3JrqM3ekkEOkXm2CytSzzFufeG7KzQEC34NAkBJm0nnpwYz8KpQ+ZZO2/Zbp8rB1+92I/8MHdXEpXY5kjBLCIYgsp/AeGTtMQirFiDPh0NU3ULr7nFZWdnlrJ1p",
+    "MERCHANT_NO": "900000112834",
+    "PRODUCT_ID": "P0000002",
+    "CITY_ID": "440300",
+    "CITY_NAME": "深圳市",
+    "WX_APP_ID": "wx2de523c5c43ddf26",
+    "APP_ID": "A000000000000052",
+    "FRONT_TEXT": "smt_yqb_",
+    "ENVIRONMENT": "STG1",
+    "SUB_APP_ID": "wx2de523c5c43ddf26",
+    "HOST_MERCHANT_NO": "2000010003888016",
+    "pafType": [
+      "LW",
+      "LE",
+      "P",
+      "LG",
+      "F",
+      "O",
+      "L"
+    ],
+    "statusBarColor": "#4b89dc",
+    "statusBarVisibility": "0",
+    "toolBarColor": "#4b89dc",
+    "toolBarVisibility": "0"
+  },
+  "paGoodDoctorConfig": {
+    "detail": {
+      "detail": "平安好医生(H5)",
+      "detail_needInit": "是否需要初始化, 0:不需要，1:需要",
+      "detail_toolBarColor": "标题栏颜色",
+      "detail_toolBarVisibility": "h5界面是否显示标题栏, 0:GONE, 1:VISIBLE",
+      "detail_statusBarColor": "状态栏颜色",
+      "detail_statusBarVisibility": "h5界面是否显示状态栏, 0:GONE, 1:VISIBLE, 2:FOLLOWING",
+      "detail_appId": "",
+      "detail_failRedirect": "",
+      "detail_redirectCode": "",
+      "detail_healthFailUrlProduct": "错误页地址(已转码),也可更换为我们自己的错误页地址",
+      "detail_healthFailUrlBeta": "错误页地址(已转码),也可更换为我们自己的错误页地址",
+      "detail_healthHostUrlProduct": "主机地址Product",
+      "detail_healthHostUrlBeta": "主机地址Beta"
+    },
+    "needInit": "1",
+    "appId": "9224221",
+    "failRedirect": "true",
+    "redirectCode": "0120001",
+    "healthFailUrlProduct": "https://www.jk.cn/ylx-portal/error.html?type=network&biz=SMT",
+    "healthFailUrlBeta": "https://www.test.pajk.cn/ylx-portal/error.html?type=network&biz=NTSMT",
+    "healthHostUrlProduct": "https://www.jk.cn/",
+    "healthHostUrlBeta": "https://test.pajk.cn/",
+    "statusBarColor": "#4b89dc",
+    "statusBarVisibility": "0",
+    "toolBarColor": "#4b89dc",
+    "toolBarVisibility": "0"
+  },
+  "paNiceCarOwnerConfig": {
+    "detail": {
+      "detail": "平安好车主(H5)",
+      "detail_needInit": "是否需要初始化, 0:不需要，1:需要",
+      "detail_channel": "好车主渠道号",
+      "detail_getCodeUrl": "获取好车主Code",
+      "detail_pluginName": "插件名:车价评估(chejiapinggu)、年检代办(nianjiandaiban)",
+      "detial_channelType": "2=查违章，3=车价评估，100=年检代办，107=驾照查分"
+    },
+    "needInit": "1",
+    "channel": "34",
+    "getCodeUrl": "/api/platform/hcz/getCode"
+  }
+}

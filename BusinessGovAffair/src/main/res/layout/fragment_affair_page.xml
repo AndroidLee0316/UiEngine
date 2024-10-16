@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ctv_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44.0"
+        android:background="@color/bg_toolbar_color"
+        android:gravity="center"
+        android:text="@string/affair_title"
+        android:textColor="@color/gray_333333"
+        android:textSize="@dimen/text_size_18" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ctv_title">
+
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_ffffff"
+            app:layout_behavior="com.pasc.business.affair.widget.AffairBehavior">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+
+                <RelativeLayout
+                    android:id="@+id/rl_lobby"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_affair_header"
+                    android:paddingBottom="@dimen/dp_15.0">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/dp_15.0"
+                        android:layout_marginTop="@dimen/dp_7.0"
+                        android:scaleType="center"
+                        android:src="@drawable/ic_affair_heards" />
+
+                    <TextView
+                        android:id="@+id/header_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_15.0"
+                        android:layout_marginTop="@dimen/dp_32.0"
+                        android:text="@string/affair_header_title_lobby"
+                        android:textColor="@color/red_D43921"
+                        android:textSize="21sp" />
+
+                    <TextView
+                        android:id="@+id/header_hint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/header_title"
+                        android:layout_marginLeft="@dimen/dp_15.0"
+                        android:layout_marginTop="@dimen/dp_3.0"
+                        android:text="@string/affair_header_hint"
+                        android:textColor="#88D43921"
+                        android:textSize="@dimen/text_size_11" />
+
+                    <TextView
+                        android:id="@+id/tv_lobby"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_30.0"
+                        android:layout_below="@id/header_hint"
+                        android:layout_marginLeft="@dimen/dp_15.0"
+                        android:layout_marginTop="@dimen/dp_15.0"
+                        android:background="@drawable/bg_affair_txt"
+                        android:drawablePadding="@dimen/dp_4"
+                        android:drawableRight="@drawable/icon_goto_red"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/dp_20.0"
+                        android:paddingRight="@dimen/dp_20.0"
+                        android:text="@string/affair_go_lobbys"
+                        android:textColor="@color/red_d43921"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/dp_15.0"
+                    android:paddingTop="@dimen/dp_20.0">
+
+                    <LinearLayout
+                        android:id="@+id/ll_traffic"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/icon"
+                            android:layout_width="@dimen/dp_22.0"
+                            android:layout_height="@dimen/dp_22.0"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/dp_15.0"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/ic_lobby_tlj" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+
+                            android:orientation="vertical"
+                            android:paddingLeft="@dimen/dp_15.0">
+
+                            <TextView
+                                android:id="@+id/title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/affair_traffic"
+                                android:textColor="@color/black_333333"
+                                android:textSize="@dimen/text_size_14" />
+
+                            <TextView
+                                android:id="@+id/intro"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dp_2.0"
+                                android:text="@string/affair_traffic_describle"
+                                android:textColor="@color/gray_999999"
+                                android:textSize="@dimen/text_size_12" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="@dimen/dp_22.0"
+                        android:layout_marginBottom="@dimen/dp_3.0"
+                        android:layout_marginTop="@dimen/dp_3.0"
+
+                        android:background="@color/gray_e6e6e6" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_reside"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/dp_22.0"
+                            android:layout_height="@dimen/dp_22.0"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/dp_15.0"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/ic_lobby_zjj" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+
+                            android:orientation="vertical"
+                            android:paddingLeft="@dimen/dp_15.0">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/affair_reside"
+                                android:textColor="@color/black_333333"
+                                android:textSize="@dimen/text_size_14" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dp_2.0"
+                                android:text="@string/affair_reside_describle"
+                                android:textColor="@color/gray_999999"
+                                android:textSize="@dimen/text_size_12" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/dp_20.0"
+                    android:paddingTop="@dimen/dp_5.0">
+
+                    <LinearLayout
+                        android:id="@+id/ll_renshe"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/dp_22.0"
+                            android:layout_height="@dimen/dp_22.0"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/dp_15.0"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/ic_lobby_rsj" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+
+                            android:orientation="vertical"
+                            android:paddingLeft="@dimen/dp_15.0">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/affair_person_society"
+                                android:textColor="@color/black_333333"
+                                android:textSize="@dimen/text_size_14" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dp_2.0"
+                                android:text="@string/affair_person_society_describle"
+                                android:textColor="@color/gray_999999"
+                                android:textSize="@dimen/text_size_12" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="@dimen/dp_22.0"
+                        android:layout_marginBottom="@dimen/dp_3.0"
+                        android:layout_marginTop="@dimen/dp_3.0"
+
+                        android:background="@color/gray_e6e6e6" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_security"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="@dimen/dp_22.0"
+                            android:layout_height="@dimen/dp_22.0"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="@dimen/dp_15.0"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/ic_lobby_gaj" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+
+                            android:orientation="vertical"
+                            android:paddingLeft="@dimen/dp_15.0">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/affair_public_security"
+                                android:textColor="@color/black_333333"
+                                android:textSize="@dimen/text_size_14" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dp_2.0"
+                                android:text="@string/affair_public_security_describle"
+                                android:textColor="@color/gray_999999"
+                                android:textSize="@dimen/text_size_12" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_10.0"
+                    android:background="@color/color_divili" />
+
+
+                <TextView
+                    android:id="@+id/module_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_60.0"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dp_15.0"
+                    android:text="@string/affair_citizen_voice"
+                    android:textColor="@color/gray_333333"
+                    android:textSize="@dimen/text_size_18" />
+
+
+                <LinearLayout
+                    android:id="@+id/ll_affairs_function"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_12.0"
+                    android:layout_marginRight="@dimen/dp_12.0"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/dp_10.0">
+
+                    <LinearLayout
+                        android:id="@+id/ll_online"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/dp_2.0"
+                            android:src="@drawable/icon_g_consult" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/dp_18.0"
+                            android:gravity="bottom"
+                            android:text="@string/affair_online_consult"
+                            android:textColor="@color/black_333333"
+                            android:textSize="@dimen/text_size_15" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dp_30.0"
+
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/affair_online_consult_describle"
+                            android:textColor="@color/gray_999999"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="22dp"
+                        android:layout_marginTop="@dimen/dp_5.0"
+                        android:background="@color/gray_e6e6e6" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_suggest"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/dp_2.0"
+                            android:src="@drawable/icon_g_opinion" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/dp_18.0"
+                            android:gravity="bottom"
+                            android:text="@string/affair_suggest"
+                            android:textColor="@color/black_333333"
+                            android:textSize="@dimen/text_size_14" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dp_30.0"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/affair_suggest_desrcible"
+                            android:textColor="@color/gray_999999"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="22dp"
+                        android:layout_marginTop="@dimen/dp_5.0"
+                        android:background="@color/gray_e6e6e6" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_complaint"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/dp_2.0"
+                            android:src="@drawable/icon_g_complain" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/dp_18.0"
+                            android:gravity="bottom"
+                            android:text="@string/affair_complaint"
+                            android:textColor="@color/black_333333"
+                            android:textSize="@dimen/text_size_14" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/dp_30.0"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/affair_complaint_describle"
+                            android:textColor="@color/gray_999999"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll_myzj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_15.0"
+                    android:layout_marginRight="@dimen/dp_15.0"
+                    android:layout_marginTop="@dimen/dp_10.0"
+                    android:background="@drawable/bg_affair_people"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dp_15.0"
+                        android:text="@string/affair_popular_will"
+                        android:textColor="@color/black_333333"
+                        android:textSize="@dimen/text_size_15" />
+
+                    <View
+                        android:layout_width="1px"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/dp_20.0"
+                        android:layout_marginLeft="@dimen/dp_15.0"
+                        android:layout_marginTop="@dimen/dp_20.0"
+                        android:background="@color/gray_e0e0e0"></View>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="@dimen/dp_15.0"
+                        android:text="@string/affair_popular_will_describle"
+                        android:textColor="@color/gray_999999"
+                        android:textSize="@dimen/text_size_12" />
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_10.0"
+                    android:layout_marginTop="@dimen/dp_15.0"
+                    android:background="@color/color_divili" />
+            </LinearLayout>
+
+            <com.pasc.business.affair.widget.tablayout.TabLayout
+                android:id="@+id/top_tab"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_44.0"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="@color/red_D43921"
+                app:tabIndicatorHeight="3dp"
+                app:tabLineOffset="15dp"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/red_D43921"
+                app:tabTextColor="@color/gray_666666" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/gray_e6e6e6" />
+            <!--<com.flyco.tablayout.SlidingTabLayout-->
+            <!--android:id="@+id/top_tab"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="44dp"-->
+            <!--android:background="@color/white_ffffff"-->
+            <!--app:tl_indicator_color="@color/red_D43921"-->
+            <!--app:tl_indicator_corner_radius="@dimen/dp_2.0"-->
+            <!--app:tl_indicator_height="3dp"-->
+            <!--app:tl_indicator_width="@dimen/dp_30.0"-->
+            <!--app:tl_textSelectColor="@color/red_D43921"-->
+            <!--app:tl_textUnselectColor="@color/gray_666666"-->
+            <!--app:tl_textsize="@dimen/text_size_16" />-->
+
+        </android.support.design.widget.AppBarLayout>
+
+        <com.pasc.lib.widget.banner.view.BannerViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/default_bg"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

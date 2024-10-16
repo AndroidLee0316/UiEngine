@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange_FF6658">#ff6658</color>
+    <color name="blue_38b0ff">#38b0ff</color>
+    <color name="blue_7fa2ff">#7ff2ff</color>
+    <color name="gray_798698">#798698</color>
+    <color name="black_2b3244">#2b3244</color>
+    <color name="black_3C4058">#3C4058</color>
+
+    <color name="item_activated_color">#77CEEE</color>
+
+    <color name="divider">#d5d5d5</color>
+    <color name="orange_ff7875">#FF7875</color>
+    <color name="gray_eeeeee">#eeeeee</color>
+    <color name="gray_6a6a6a">#6a6a6a</color>
+    <color name="gray_f2f2f2">#f2f2f2</color>
+    <color name="black_333333">#333333</color>
+    <color name="blue_4d73f4">#4d73f4</color>
+    <color name="white_ffffff">#ffffff</color>
+    <color name="black_666666">#666666</color>
+    <color name="black_5f5f5f">#5f5f5f</color>
+    <color name="gray_999999">#999999</color>
+
+    <color name="user_theme_color">@color/pasc_primary</color>
+    <color name="red_ff4d4f">#FF4D4F</color>
+    <color name="setting_item_left_color">@color/black_2e332f</color>
+    <color name="setting_item_right_color">@color/black_666666</color>
+    <color name="meprofile_item_left_color">@color/black_2e332f</color>
+    <color name="meprofile_item_right_color">@color/black_666666</color>
+    <color name="about_bg_color">@color/white_ffffff</color>
+    <color name="blue_27a5f9">#27a5f9</color>
+    <color name="blue_e7f5ff">#e7f5ff</color>
+    <color name="business_mine_page_bg">@color/white</color>
+    <color name="business_mine_recyclerview_bg">@color/transparent</color>
+    <color name="addr_container_color">#ffffff</color>
+    <color name="mine_add_addr_color">#ffffff</color>
+    <color name="dialog_left_btn">@color/pasc_clickable</color>
+    <color name="dialog_right_btn">@color/pasc_clickable</color>
+    <color name="theme_color">@color/pasc_primary</color>
+    <color name="add_addr_btn_color">@color/black_333333</color>
+    <color name="bottom_dialog_bg">@color/white</color>
+    <color name="gray_969696">#969696</color>
+    <color name="black_222222">#222222</color>
+    <color name="mine_dialog_cancel_color">@color/theme_color</color>
+    <color name="mine_dialog_confirm_color">@color/theme_color</color>
+
+</resources>

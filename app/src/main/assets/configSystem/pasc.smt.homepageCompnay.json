@@ -1,0 +1,155 @@
+[
+  {
+    "id": "bannerContainer",
+    "type": "container-oneColumn",
+    "load": "getBanner",
+    "loadType": "-1",
+    "items": [
+      {
+        "id": "banner",
+        "ratio": 1.36,
+        "shelterVisible": false,
+        "imgDefaultRes": "res://home_bg_header",
+        "indicatorPosition": "bottomCenter",
+        "indicatorPadding": "[0,0,20,0]",
+        "type": "component-banner",
+        "dataSource": []
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "style": {
+      "margin": "[-10,0,0,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-ratioImage",
+        "imgVisible": true,
+        "imgUrl": "res://main_bg_favorite_service",
+        "imgHeight": 10
+      }
+    ]
+  },
+  {
+    "id": "favoriteServices",
+    "type": "container-fourColumn",
+    "load": "getServices",
+    "loadType": "-1",
+    "style": {
+      "vGap": 16,
+      "padding": "[-50,0,26,0]",
+      "bgColor": "#ffffff"
+    },
+    "items": [
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://home_ic_zwyy",
+        "iconWidth": 48,
+        "iconHeight": 48,
+        "gap": 6,
+        "title": "政务大厅预约",
+        "onClick": "http://xzspj.csx.cn/hshall/selfticket/index.jsp",
+        "identifier": "businessHall"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://home_ic_sqcx",
+        "iconWidth": 48,
+        "iconHeight": 48,
+        "gap": 6,
+        "title": "不动产服务",
+        "onClick": "http://csxgtj.0731lssm.com/html/fwdt_c.html",
+        "onClickEventId": "home_common_police",
+        "identifier": "emrgency"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://home_ic_gjj",
+        "iconWidth": 48,
+        "iconHeight": 48,
+        "gap": 6,
+        "title": "用地选址",
+        "onClick": "http://csxgzfw.zhongzhi.net",
+        "onClickEventId": "home_common_nearby",
+        "identifier": "nearBy"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://home_ic_jzzbl",
+        "iconWidth": 48,
+        "iconHeight": 48,
+        "gap": 6,
+        "title": "社区活动",
+        "onClick": "",
+        "identifier": "fund"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://home_ic_ghfw",
+        "iconWidth": 48,
+        "iconHeight": 48,
+        "gap": 6,
+        "title": "医疗服务",
+        "onClick": "http://changsha.stg.yun.city.pingan.com/jimusys/jimu/10017/?uiparams=%7B%22isHide%22:true,%22isWebImmersive%22:true%7D#/",
+        "identifier": "hospitalRegistration"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://home_ic_jtcx",
+        "iconWidth": 48,
+        "iconHeight": 48,
+        "gap": 6,
+        "title": "来返长沙县备案",
+        "onClick": "https://bp.csxjkxs.com/index.html",
+        "identifier": "violation"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://home_ic_fyfw",
+        "iconWidth": 48,
+        "iconHeight": 48,
+        "gap": 6,
+        "title": "行程码",
+        "onClick": "https://xc.caict.ac.cn/#/result?t=1657155445834",
+        "identifier": "foodScan"
+      },
+      {
+        "type": "component-iconText",
+        "iconUrl": "res://home_ic_all",
+        "iconWidth": 48,
+        "iconHeight": 48,
+        "gap": 6,
+        "title": "全部",
+        "onClick": "event://SimpleClick?eventId=allService",
+        "identifier": "allServices"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "items": [
+      {
+        "type": "component-horizontalDivider",
+        "height": 6,
+        "color": "#f7f7f7"
+      }
+    ]
+  },
+  {
+    "type": "container-oneColumn",
+    "id": "nxNews",
+    "load": "initNews",
+    "loadType": "-1",
+    "items": [
+      {
+        "id": "nxNews",
+        "type": "component-nxNews",
+        "style": {
+          "bgColor": "#ffffff"
+        }
+      }
+    ]
+  }
+]

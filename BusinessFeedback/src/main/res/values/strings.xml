@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">feedback</string>
+    <string name="business_mine_take_photo">拍照</string>
+    <string name="business_mine_select_pic">从相册选择</string>
+    <string name="business_mine_feedback_photo_num">(%1$s/4)</string>
+    <string name="business_mine_feedback">意见反馈</string>
+    <string name="business_mine_submit_success">提交成功</string>
+    <string name="business_mine_done">返回(%1$ss)</string>
+    <string name="business_mine_feedback_tips">感谢您的反馈，我们将尽快为您处理</string>
+    <string name="feedback_tips">已收到您的反馈，我们会尽快回复</string>
+    <string name="feedback_done">完成</string>
+    <string name="business_mine_feedback_dialog_tips">该功能只针对App产品意见反馈，民生、政务等问题反馈请拨打12345热线</string>
+
+</resources>

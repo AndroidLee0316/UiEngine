@@ -1,0 +1,32 @@
+{
+  "type": "component-iconTwoText",
+  "style": {
+    "padding": "[8,8,8,8]"
+  },
+  "iconVisible": true,
+  "iconUrl": "res://ic_wallet",
+  "iconWidth": 42,
+  "iconHeight": 42,
+  "iconPosition": "right",
+  "iconMargin": "[0,0,0,0]",
+  "title": "购房",
+  "titleColor": "#333333",
+  "titleFontSize": 14,
+  "titleBold": false,
+  "descVisible": true,
+  "desc": "购房资格证明等",
+  "descColor": "#969696",
+  "descFontSize": 12,
+  "descBold": false,
+  "lineGap": 2,
+  "textLayoutPadding": "[0,0,0,0]",
+  "textLayoutGravity": "left",
+  "labelVisible": false,
+  "labelType": "dot",
+  "label": "0",
+  "labelMargin": "[0,0,0,0]",
+  "divider": false,
+  "dividerColor": "#e8e8e8",
+  "dividerLeft": false,
+  "dividerLeftLength": -1
+}

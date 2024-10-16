@@ -1,0 +1,17 @@
+{
+  "type": "component-iconTwoText",
+  "style": {
+    "padding": "[12,12,12,12]",
+    "bgColor": "#f9f9f9"
+  },
+  "title": "青年驿站",
+  "titleFontSize": 15,
+  "desc": "来深青年之家",
+  "iconPosition": "top",
+  "textLayoutPadding": "[6,0,0,0]",
+  "textLayoutGravity": "center",
+  "iconUrl": "res://ic_service_all",
+  "iconHeight": 30,
+  "iconWidth": 30,
+  "onClick": "event://NotValid"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="12dp">
+
+    <TextView
+        android:id="@+id/tv_matter_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/rtv_is_can_done_online"
+        android:ellipsize="end"
+        android:paddingRight="15dp"
+        android:textSize="@dimen/text_size_17"
+        android:singleLine="true"
+        tools:text="事业单位注销登记"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/tv_matter_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_matter_name"
+        android:layout_toLeftOf="@+id/rtv_is_can_done_online"
+        android:ellipsize="end"
+        android:paddingRight="15dp"
+        android:paddingTop="4dp"
+        android:singleLine="true"
+        android:textSize="@dimen/text_size_13"
+        tools:text="南通市事业单位登记管理局"
+        android:textColor="#969696" />
+
+    <com.pasc.lib.widget.roundview.RoundTextView
+        android:id="@+id/rtv_is_can_done_online"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="在线申办"
+        android:visibility="gone"
+        android:textColor="#4d73f4"
+        app:rv_cornerRadius="3dp"
+        app:rv_strokeColor="#4d73f4"
+        app:rv_strokeWidth="0.5dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/tv_matter_department"
+        android:layout_marginTop="12dp"
+        android:background="#e8e8e8" />
+
+
+</RelativeLayout>

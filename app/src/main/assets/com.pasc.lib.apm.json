@@ -1,0 +1,21 @@
+{
+  "trace_switch": true,
+  "fps_switch":true,
+  "frame_switch":true,
+  "memory_switch": true,
+  "cpu_switch": true,
+  "cpu_high": 0.8,
+  "memory_high": 0.8,
+  "anr_switch": true,
+  "crash_switch": true,
+  "net_switch": true,
+  "collect_density": 1,
+  "valid_day":3,
+  "app_start_switch":true,
+  "app_start_hot_ms":500,
+  "app_start_cold_ms":1000,
+  "memory_interval_time": 30000,
+  "single_drop_frame":18,
+  "continue_drop_frame":5,
+  "continue_drop_frame_count":5
+}
